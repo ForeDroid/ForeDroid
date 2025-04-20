@@ -1,0 +1,4 @@
+<com.baseapp.MessageReceiver: java.util.Map retrieveMessages(android.content.Intent)> -> <android.telephony.SmsMessage: java.lang.String getMessageBody()>
+<com.baseapp.MessageReceiver: void onReceive(android.content.Context,android.content.Intent)> -> <com.baseapp.MessageReceiver: java.util.Map retrieveMessages(android.content.Intent)>
+<dummyMainClass: com.baseapp.MessageReceiver dummyMainMethod_com_baseapp_MessageReceiver(android.content.Intent)> -> <com.baseapp.MessageReceiver: void onReceive(android.content.Context,android.content.Intent)>
+<dummyMainClass: void dummyMainMethod(java.lang.String[])> -> <dummyMainClass: com.baseapp.MessageReceiver dummyMainMethod_com_baseapp_MessageReceiver(android.content.Intent)>

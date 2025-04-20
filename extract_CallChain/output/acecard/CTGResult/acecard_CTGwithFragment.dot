@@ -1,0 +1,31 @@
+digraph G {
+subgraph cluster_legend{ 
+bgcolor=mintcream;
+_Activity[color = red];
+_Service[color = royalblue];
+_Provider[color = violet];
+_Reciever[color = peru];
+_Fragment[color = teal];
+_Main[style=filled, fillcolor=orange, color = mintcream];
+_Exported[style=filled, fillcolor=lightpink, color = mintcream];
+_Main -> _Exported -> _Activity -> _Service -> _Reciever -> _Provider -> _Fragment; 
+}
+subgraph cluster_component{ 
+DeviceAdminChecker[color = red];
+Main[style=filled, fillcolor=orange, color = red];
+MainService[color = royalblue];
+TorService[color = royalblue];
+USSDService[style=filled, fillcolor=pink, color = royalblue];
+MyDeviceAdminReceiver[style=filled, fillcolor=pink, color = peru];
+MessageReceiver[style=filled, fillcolor=pink, color = peru];
+ServiceStarter[style=filled, fillcolor=pink, color = peru];
+SDCardServiceStarter[style=filled, fillcolor=pink, color = peru];
+MainService->DeviceAdminChecker;
+MainService->TorService;
+Main->MainService;
+ServiceStarter->MainService;
+ServiceStarter->USSDService;
+SDCardServiceStarter->MainService;
+SDCardServiceStarter->USSDService;
+}
+}

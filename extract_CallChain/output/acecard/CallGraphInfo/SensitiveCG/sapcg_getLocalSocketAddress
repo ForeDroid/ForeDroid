@@ -1,0 +1,2 @@
+<ch.boye.httpclientandroidlib.impl.SocketHttpClientConnection: java.lang.String toString()> -> <java.net.Socket: java.net.SocketAddress getLocalSocketAddress()>
+<ch.boye.httpclientandroidlib.impl.SocketHttpServerConnection: java.lang.String toString()> -> <java.net.Socket: java.net.SocketAddress getLocalSocketAddress()>

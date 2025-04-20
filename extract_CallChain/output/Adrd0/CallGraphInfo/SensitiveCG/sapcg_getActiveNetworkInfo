@@ -1,0 +1,3 @@
+<com.xxx.yyy.MyService: void onStart(android.content.Intent,int)> -> <android.net.ConnectivityManager: android.net.NetworkInfo getActiveNetworkInfo()>
+<dummyMainClass: com.xxx.yyy.MyService dummyMainMethod_com_xxx_yyy_MyService(android.content.Intent)> -> <com.xxx.yyy.MyService: void onStart(android.content.Intent,int)>
+<dummyMainClass: void dummyMainMethod(java.lang.String[])> -> <dummyMainClass: com.xxx.yyy.MyService dummyMainMethod_com_xxx_yyy_MyService(android.content.Intent)>

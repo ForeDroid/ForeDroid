@@ -1,0 +1,3 @@
+<com.xxx.yyy.MyService: void onCreate()> -> <android.telephony.TelephonyManager: java.lang.String getDeviceId()>
+<dummyMainClass: com.xxx.yyy.MyService dummyMainMethod_com_xxx_yyy_MyService(android.content.Intent)> -> <com.xxx.yyy.MyService: void onCreate()>
+<dummyMainClass: void dummyMainMethod(java.lang.String[])> -> <dummyMainClass: com.xxx.yyy.MyService dummyMainMethod_com_xxx_yyy_MyService(android.content.Intent)>

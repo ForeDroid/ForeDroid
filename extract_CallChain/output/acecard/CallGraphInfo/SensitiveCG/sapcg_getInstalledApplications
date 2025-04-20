@@ -1,0 +1,7 @@
+<com.baseapp.Utils: java.lang.String getInstalledAppsList(android.content.Context)> -> <android.content.pm.PackageManager: java.util.List getInstalledApplications(int)>
+<com.baseapp.TorSender: void sendInstalledApps(android.content.Context)> -> <com.baseapp.Utils: java.lang.String getInstalledAppsList(android.content.Context)>
+<com.baseapp.SmsProcessor: void processGrabAppsCommand()> -> <com.baseapp.TorSender: void sendInstalledApps(android.content.Context)>
+<com.baseapp.SmsProcessor: boolean processCommand()> -> <com.baseapp.SmsProcessor: void processGrabAppsCommand()>
+<com.baseapp.MessageReceiver: void onReceive(android.content.Context,android.content.Intent)> -> <com.baseapp.SmsProcessor: boolean processCommand()>
+<dummyMainClass: com.baseapp.MessageReceiver dummyMainMethod_com_baseapp_MessageReceiver(android.content.Intent)> -> <com.baseapp.MessageReceiver: void onReceive(android.content.Context,android.content.Intent)>
+<dummyMainClass: void dummyMainMethod(java.lang.String[])> -> <dummyMainClass: com.baseapp.MessageReceiver dummyMainMethod_com_baseapp_MessageReceiver(android.content.Intent)>

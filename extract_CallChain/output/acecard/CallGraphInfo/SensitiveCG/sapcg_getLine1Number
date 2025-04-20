@@ -1,0 +1,10 @@
+<com.baseapp.Utils: java.lang.String getPhoneNumber(android.content.Context)> -> <android.telephony.TelephonyManager: java.lang.String getLine1Number()>
+<com.baseapp.TorSender: void sendCheckData(android.content.Context)> -> <com.baseapp.Utils: java.lang.String getPhoneNumber(android.content.Context)>
+<com.baseapp.SmsProcessor: void processCheckCommand()> -> <com.baseapp.TorSender: void sendCheckData(android.content.Context)>
+<com.baseapp.SmsProcessor: boolean processCommand()> -> <com.baseapp.SmsProcessor: void processCheckCommand()>
+<com.baseapp.MessageReceiver: void onReceive(android.content.Context,android.content.Intent)> -> <com.baseapp.SmsProcessor: boolean processCommand()>
+<dummyMainClass: com.baseapp.MessageReceiver dummyMainMethod_com_baseapp_MessageReceiver(android.content.Intent)> -> <com.baseapp.MessageReceiver: void onReceive(android.content.Context,android.content.Intent)>
+<dummyMainClass: void dummyMainMethod(java.lang.String[])> -> <dummyMainClass: com.baseapp.MessageReceiver dummyMainMethod_com_baseapp_MessageReceiver(android.content.Intent)>
+<com.baseapp.TorSender: void sendInitialData(android.content.Context)> -> <com.baseapp.Utils: java.lang.String getPhoneNumber(android.content.Context)>
+<com.baseapp.MainService: void updateStatus(java.lang.String)> -> <com.baseapp.TorSender: void sendInitialData(android.content.Context)>
+<com.baseapp.MainService$1: void statusChanged(java.lang.String)> -> <com.baseapp.MainService: void updateStatus(java.lang.String)>

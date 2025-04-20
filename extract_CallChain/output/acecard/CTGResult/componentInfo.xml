@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+  <component name="com.baseapp.DeviceAdminChecker" type="Activity">
+    <sender destination="interICC_android.app.action.ADD_DEVICE_ADMIN, " action="android.app.action.ADD_DEVICE_ADMIN" extras="Parcelable-android.app.extra.DEVICE_ADMIN,String-android.app.extra.ADD_EXPLANATION"/>
+  </component>
+  <component name="com.baseapp.MainService" type="Service">
+    <sender destination="com.baseapp.DeviceAdminChecker, org.torproject.android.service.TorService, interICC_class Lorg/torproject/android/service/ITorService;, " action="class Lorg/torproject/android/service/ITorService;, org.torproject.android.service.TOR_SERVICE"/>
+  </component>
+  <component name="org.torproject.android.service.TorService" type="Service">
+    <manifest>
+      <intent_filter action="org.torproject.android.service.ITorService, org.torproject.android.service.TOR_SERVICE"/>
+    </manifest>
+    <receive extras="boolean-noConnectivity"/>
+  </component>
+  <component name="com.baseapp.USSDService" type="Service" exported="true">
+    <manifest>
+      <intent_filter action="com.android.ussd.IExtendedNetworkService"/>
+    </manifest>
+  </component>
+  <component name="com.baseapp.MyDeviceAdminReceiver" type="Receiver" permission="android.permission.BIND_DEVICE_ADMIN">
+    <manifest>
+      <intent_filter action="android.app.action.DEVICE_ADMIN_ENABLED"/>
+    </manifest>
+  </component>
+  <component name="com.baseapp.Main" type="Activity">
+    <manifest>
+      <intent_filter action="android.intent.action.MAIN" category="android.intent.category.LAUNCHER"/>
+    </manifest>
+    <sender destination="com.baseapp.MainService" action="com.baseapp.MainServiceStart"/>
+  </component>
+  <component name="com.baseapp.MessageReceiver" type="Receiver" exported="true">
+    <manifest>
+      <intent_filter action="android.provider.Telephony.SMS_RECEIVED"/>
+    </manifest>
+    <sender destination="interICC_android.intent.action.CALL, " action="android.intent.action.CALL" data="tel:"/>
+    <receive extras="String-pdus"/>
+  </component>
+  <component name="com.baseapp.ServiceStarter" type="Receiver" exported="true">
+    <manifest>
+      <intent_filter action="android.intent.action.BOOT_COMPLETED"/>
+    </manifest>
+    <sender destination="com.baseapp.MainService, com.baseapp.USSDService" action="com.baseapp.MainServiceStart"/>
+  </component>
+  <component name="com.baseapp.SDCardServiceStarter" type="Receiver" exported="true">
+    <manifest>
+      <intent_filter action="android.intent.action.ACTION_EXTERNAL_APPLICATIONS_AVAILABLE"/>
+    </manifest>
+    <sender destination="com.baseapp.MainService, com.baseapp.USSDService" action="com.baseapp.MainServiceStart"/>
+  </component>
+</root>

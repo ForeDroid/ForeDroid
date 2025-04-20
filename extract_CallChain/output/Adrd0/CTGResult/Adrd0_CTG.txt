@@ -1,0 +1,72 @@
+
+com.xxx.yyy.MyBoolService -> com.xxx.yyy.MyAlarmReceiver
+
+com.ophone.MiniPlayer.LogoActivity -> com.ophone.MiniPlayer.MainActivity
+com.ophone.MiniPlayer.LogoActivity -> com.xxx.yyy.MyService
+
+com.ophone.MiniPlayer.MusicActivity -> com.ophone.MiniPlayer.lyricsactivity
+com.ophone.MiniPlayer.MusicActivity -> com.ophone.MiniPlayer.MusicFeedActivity
+com.ophone.MiniPlayer.MusicActivity -> com.ophone.MiniPlayer.lyricsactivity
+com.ophone.MiniPlayer.MusicActivity -> com.ophone.MiniPlayer.PlayingListActivity
+
+com.xxx.yyy.MyService -> com.xxx.yyy.MyAlarmReceiver
+
+com.ophone.MiniPlayer.MusicFeedActivity -> com.ophone.MiniPlayer.lyricsactivity
+com.ophone.MiniPlayer.MusicFeedActivity -> com.ophone.MiniPlayer.OnlineMusicActivity
+com.ophone.MiniPlayer.MusicFeedActivity -> com.ophone.MiniPlayer.PlayingListActivity
+com.ophone.MiniPlayer.MusicFeedActivity -> com.ophone.MiniPlayer.MusicActivity
+
+com.ophone.MiniPlayer.OnlineMusicActivity -> com.ophone.MiniPlayer.PlayingListActivity
+com.ophone.MiniPlayer.OnlineMusicActivity -> com.ophone.MiniPlayer.MainActivity
+com.ophone.MiniPlayer.OnlineMusicActivity -> com.ophone.MiniPlayer.MusicActivity
+com.ophone.MiniPlayer.OnlineMusicActivity -> com.ophone.MiniPlayer.lyricsactivity
+com.ophone.MiniPlayer.OnlineMusicActivity -> com.ophone.MiniPlayer.lyricsactivity
+
+com.ophone.MiniPlayer.MyPlayerService -> com.ophone.MiniPlayer.lyricsactivity
+
+com.ophone.MiniPlayer.MyPlayer -> com.ophone.MiniPlayer.MyPlayerService
+com.ophone.MiniPlayer.MyPlayer -> com.ophone.MiniPlayer.PlayingListActivity
+com.ophone.MiniPlayer.MyPlayer -> com.ophone.MiniPlayer.PlayingListActivity
+com.ophone.MiniPlayer.MyPlayer -> com.ophone.MiniPlayer.MainActivity
+com.ophone.MiniPlayer.MyPlayer -> com.ophone.MiniPlayer.MusicActivity
+com.ophone.MiniPlayer.MyPlayer -> com.ophone.MiniPlayer.MusicFeedActivity
+
+com.xxx.yyy.MyAlarmReceiver -> com.xxx.yyy.MyService
+
+com.ophone.MiniPlayer.MainActivity -> com.ophone.MiniPlayer.PlayingListActivity
+com.ophone.MiniPlayer.MainActivity -> com.ophone.MiniPlayer.Search
+com.ophone.MiniPlayer.MainActivity -> com.ophone.MiniPlayer.lyricsactivity
+com.ophone.MiniPlayer.MainActivity -> com.ophone.MiniPlayer.MyPlayerService
+com.ophone.MiniPlayer.MainActivity -> com.ophone.MiniPlayer.PlayingListActivity
+com.ophone.MiniPlayer.MainActivity -> com.ophone.MiniPlayer.MyPlayerService
+com.ophone.MiniPlayer.MainActivity -> com.ophone.MiniPlayer.lyricsactivity
+com.ophone.MiniPlayer.MainActivity -> com.ophone.MiniPlayer.MusicActivity
+com.ophone.MiniPlayer.MainActivity -> com.ophone.MiniPlayer.MusicFeedActivity
+com.ophone.MiniPlayer.MainActivity -> com.ophone.MiniPlayer.MusicActivity
+com.ophone.MiniPlayer.MainActivity -> com.ophone.MiniPlayer.MusicFeedActivity
+
+com.ophone.MiniPlayer.Search -> com.ophone.MiniPlayer.MusicActivity
+com.ophone.MiniPlayer.Search -> com.ophone.MiniPlayer.MainActivity
+com.ophone.MiniPlayer.Search -> com.ophone.MiniPlayer.MusicFeedActivity
+com.ophone.MiniPlayer.Search -> com.ophone.MiniPlayer.OnlineMusicActivity
+com.ophone.MiniPlayer.Search -> com.ophone.MiniPlayer.PlayingListActivity
+com.ophone.MiniPlayer.Search -> com.ophone.MiniPlayer.MusicFeedActivity
+com.ophone.MiniPlayer.Search -> com.ophone.MiniPlayer.PlayingListActivity
+com.ophone.MiniPlayer.Search -> com.ophone.MiniPlayer.lyricsactivity
+com.ophone.MiniPlayer.Search -> com.ophone.MiniPlayer.MusicActivity
+com.ophone.MiniPlayer.Search -> com.ophone.MiniPlayer.lyricsactivity
+com.ophone.MiniPlayer.Search -> com.ophone.MiniPlayer.MyPlayer
+com.ophone.MiniPlayer.Search -> com.ophone.MiniPlayer.Search
+
+com.ophone.MiniPlayer.PlayingListActivity -> com.ophone.MiniPlayer.lyricsactivity
+com.ophone.MiniPlayer.PlayingListActivity -> com.ophone.MiniPlayer.MusicFeedActivity
+com.ophone.MiniPlayer.PlayingListActivity -> com.ophone.MiniPlayer.MyPlayerService
+com.ophone.MiniPlayer.PlayingListActivity -> com.ophone.MiniPlayer.MusicActivity
+com.ophone.MiniPlayer.PlayingListActivity -> com.ophone.MiniPlayer.lyricsactivity
+
+com.ophone.MiniPlayer.lyricsactivity -> com.ophone.MiniPlayer.MainActivity
+com.ophone.MiniPlayer.lyricsactivity -> com.ophone.MiniPlayer.MusicFeedActivity
+com.ophone.MiniPlayer.lyricsactivity -> com.ophone.MiniPlayer.MusicActivity
+com.ophone.MiniPlayer.lyricsactivity -> com.ophone.MiniPlayer.PlayingListActivity
+com.ophone.MiniPlayer.lyricsactivity -> com.ophone.MiniPlayer.MyPlayerService
+

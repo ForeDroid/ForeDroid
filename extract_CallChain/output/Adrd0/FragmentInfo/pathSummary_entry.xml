@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+  <methodSummary source="&lt;com.ophone.MiniPlayer.MusicFeedActivity: void onCreate(android.os.Bundle)&gt;">
+    <pathSummary>
+      <method/>
+      <methodtrace value="void onCreate(android.os.Bundle)"/>
+      <node type="setContentView" method="MusicFeedActivity onCreate" unit="virtualinvoke r0.&lt;com.ophone.MiniPlayer.MusicFeedActivity: void setContentView(int)&gt;(2130903041)">
+        <nodeInfo nodeId="1045219117" predsStr="273128585" succsStr="" context=""/>
+        <baseNodePointTo value="1045219117" context=""/>
+        <nodeSetPointToMe value="1045219117," context=""/>
+      </node>
+    </pathSummary>
+  </methodSummary>
+  <methodSummary source="&lt;com.ophone.MiniPlayer.PlayingListActivity: void onCreate(android.os.Bundle)&gt;">
+    <pathSummary>
+      <method/>
+      <methodtrace value="void onCreate(android.os.Bundle)"/>
+      <node type="setContentView" method="PlayingListActivity onCreate" unit="virtualinvoke r0.&lt;com.ophone.MiniPlayer.PlayingListActivity: void setContentView(int)&gt;(2130903054)">
+        <nodeInfo nodeId="967965242" predsStr="1096081344" succsStr="1089006034" context=""/>
+        <baseNodePointTo value="967965242" context=""/>
+        <nodeSetPointToMe value="967965242," context=""/>
+      </node>
+    </pathSummary>
+  </methodSummary>
+  <methodSummary source="&lt;com.ophone.MiniPlayer.OnlineMusicActivity: void onCreate(android.os.Bundle)&gt;">
+    <pathSummary>
+      <method/>
+      <methodtrace value="void onCreate(android.os.Bundle)"/>
+      <node type="setContentView" method="OnlineMusicActivity onCreate" unit="virtualinvoke r0.&lt;com.ophone.MiniPlayer.OnlineMusicActivity: void setContentView(int)&gt;(2130903050)">
+        <nodeInfo nodeId="1427662215" predsStr="219811762" succsStr="" context=""/>
+        <baseNodePointTo value="1427662215" context=""/>
+        <nodeSetPointToMe value="1427662215," context=""/>
+      </node>
+    </pathSummary>
+  </methodSummary>
+  <methodSummary source="&lt;com.ophone.MiniPlayer.MyPlayer: void onCreate(android.os.Bundle)&gt;">
+    <pathSummary>
+      <method/>
+      <methodtrace value="void onCreate(android.os.Bundle)"/>
+      <node type="setContentView" method="MyPlayer onCreate" unit="virtualinvoke r0.&lt;com.ophone.MiniPlayer.MyPlayer: void setContentView(int)&gt;(2130903048)">
+        <nodeInfo nodeId="1484668423" predsStr="281643359" succsStr="1885615947" context=""/>
+        <baseNodePointTo value="1484668423" context=""/>
+        <nodeSetPointToMe value="1484668423," context=""/>
+      </node>
+    </pathSummary>
+  </methodSummary>
+  <methodSummary source="&lt;com.ophone.MiniPlayer.MusicActivity: void onCreate(android.os.Bundle)&gt;">
+    <pathSummary>
+      <method/>
+      <methodtrace value="void onCreate(android.os.Bundle)"/>
+      <node type="setContentView" method="MusicActivity onCreate" unit="virtualinvoke r0.&lt;com.ophone.MiniPlayer.MusicActivity: void setContentView(int)&gt;(2130903050)">
+        <nodeInfo nodeId="1384822548" predsStr="1863861492" succsStr="969990458" context=""/>
+        <baseNodePointTo value="1384822548" context=""/>
+        <nodeSetPointToMe value="1384822548," context=""/>
+      </node>
+    </pathSummary>
+  </methodSummary>
+  <methodSummary source="&lt;com.ophone.MiniPlayer.Search: void onCreate(android.os.Bundle)&gt;">
+    <pathSummary>
+      <method/>
+      <methodtrace value="void onCreate(android.os.Bundle)"/>
+      <node type="setContentView" method="Search onCreate" unit="virtualinvoke r0.&lt;com.ophone.MiniPlayer.Search: void setContentView(int)&gt;(2130903058)">
+        <nodeInfo nodeId="235295197" predsStr="804744955" succsStr="" context=""/>
+        <baseNodePointTo value="235295197" context=""/>
+        <nodeSetPointToMe value="235295197," context=""/>
+      </node>
+    </pathSummary>
+  </methodSummary>
+  <methodSummary source="&lt;com.ophone.MiniPlayer.lyricsactivity: void onCreate(android.os.Bundle)&gt;">
+    <pathSummary>
+      <method/>
+      <methodtrace value="void onCreate(android.os.Bundle)"/>
+      <node type="setContentView" method="lyricsactivity onCreate" unit="virtualinvoke r0.&lt;com.ophone.MiniPlayer.lyricsactivity: void setContentView(int)&gt;(2130903056)">
+        <nodeInfo nodeId="1972705867" predsStr="691435201" succsStr="986609133" context=""/>
+        <baseNodePointTo value="1972705867" context=""/>
+        <nodeSetPointToMe value="1972705867," context=""/>
+      </node>
+    </pathSummary>
+  </methodSummary>
+  <methodSummary source="&lt;com.ophone.MiniPlayer.MainActivity: void onCreate(android.os.Bundle)&gt;">
+    <pathSummary>
+      <method/>
+      <methodtrace value="void onCreate(android.os.Bundle)"/>
+      <node type="setContentView" method="MainActivity onCreate" unit="virtualinvoke r0.&lt;com.ophone.MiniPlayer.MainActivity: void setContentView(int)&gt;(2130903047)">
+        <nodeInfo nodeId="636750583" predsStr="1290159737" succsStr="" context=""/>
+        <baseNodePointTo value="636750583" context=""/>
+        <nodeSetPointToMe value="636750583," context=""/>
+      </node>
+    </pathSummary>
+  </methodSummary>
+  <methodSummary source="&lt;com.ophone.MiniPlayer.LogoActivity: void onCreate(android.os.Bundle)&gt;">
+    <pathSummary>
+      <method/>
+      <methodtrace value="void onCreate(android.os.Bundle)"/>
+      <node type="setContentView" method="LogoActivity onCreate" unit="virtualinvoke r0.&lt;com.ophone.MiniPlayer.LogoActivity: void setContentView(int)&gt;(2130903046)">
+        <nodeInfo nodeId="179486721" predsStr="1861576254" succsStr="820918025" context=""/>
+        <baseNodePointTo value="179486721" context=""/>
+        <nodeSetPointToMe value="179486721," context=""/>
+      </node>
+    </pathSummary>
+  </methodSummary>
+</root>

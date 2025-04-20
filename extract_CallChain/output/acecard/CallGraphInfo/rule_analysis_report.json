@@ -1,0 +1,410 @@
+[ {
+  "findings" : [ [ {
+    "sapcg_file" : "results/output/acecard/CallGraphInfo/SensitiveCG/sapcg_getDeviceId",
+    "sensitiveAPI" : "<android.telephony.TelephonyManager: java.lang.String getDeviceId()>"
+  } ], [ {
+    "call_chain" : [ "<com.baseapp.MessageReceiver: void onReceive(android.content.Context,android.content.Intent)>", "<com.baseapp.TorSender: void sendListenedIncomingSMS(android.content.Context,java.lang.String,java.lang.String)>", "<com.baseapp.Utils: java.lang.String getCutIMEI(android.content.Context)>", "<com.baseapp.Utils: java.lang.String getIMEI(android.content.Context)>", "<android.telephony.TelephonyManager: java.lang.String getDeviceId()>" ],
+    "entry_point" : {
+      "entry_point" : "com.baseapp.MessageReceiver",
+      "actions" : [ "android.provider.Telephony.SMS_RECEIVED" ]
+    }
+  }, {
+    "call_chain" : [ "<com.baseapp.MessageReceiver: void onReceive(android.content.Context,android.content.Intent)>", "<com.baseapp.TorSender: void sendListenedIncomingSMS(android.content.Context,java.lang.String,java.lang.String)>", "<com.baseapp.Utils: java.lang.String getCutIMEI(android.content.Context)>", "<com.baseapp.Utils: java.lang.String getIMEI(android.content.Context)>", "<android.telephony.TelephonyManager: java.lang.String getDeviceId()>" ],
+    "entry_point" : {
+      "entry_point" : "com.baseapp.MessageReceiver",
+      "actions" : [ "android.provider.Telephony.SMS_RECEIVED" ]
+    }
+  }, {
+    "call_chain" : [ "<com.baseapp.MessageReceiver: void onReceive(android.content.Context,android.content.Intent)>", "<com.baseapp.TorSender: void sendListenedIncomingSMS(android.content.Context,java.lang.String,java.lang.String)>", "<com.baseapp.Utils: java.lang.String getCutIMEI(android.content.Context)>", "<com.baseapp.Utils: java.lang.String getIMEI(android.content.Context)>", "<android.telephony.TelephonyManager: java.lang.String getDeviceId()>" ],
+    "entry_point" : {
+      "entry_point" : "com.baseapp.MessageReceiver",
+      "actions" : [ "android.provider.Telephony.SMS_RECEIVED" ]
+    }
+  }, {
+    "call_chain" : [ "<com.baseapp.MessageReceiver: void onReceive(android.content.Context,android.content.Intent)>", "<com.baseapp.TorSender: void sendListenedIncomingSMS(android.content.Context,java.lang.String,java.lang.String)>", "<com.baseapp.Utils: java.lang.String getCutIMEI(android.content.Context)>", "<com.baseapp.Utils: java.lang.String getIMEI(android.content.Context)>", "<android.telephony.TelephonyManager: java.lang.String getDeviceId()>" ],
+    "entry_point" : {
+      "entry_point" : "com.baseapp.MessageReceiver",
+      "actions" : [ "android.provider.Telephony.SMS_RECEIVED" ]
+    }
+  }, {
+    "call_chain" : [ "<com.baseapp.MessageReceiver: void onReceive(android.content.Context,android.content.Intent)>", "<com.baseapp.TorSender: void sendListenedIncomingSMS(android.content.Context,java.lang.String,java.lang.String)>", "<com.baseapp.Utils: java.lang.String getCutIMEI(android.content.Context)>", "<com.baseapp.Utils: java.lang.String getIMEI(android.content.Context)>", "<android.telephony.TelephonyManager: java.lang.String getDeviceId()>" ],
+    "entry_point" : {
+      "entry_point" : "com.baseapp.MessageReceiver",
+      "actions" : [ "android.provider.Telephony.SMS_RECEIVED" ]
+    }
+  }, {
+    "call_chain" : [ "<com.baseapp.MessageReceiver: void onReceive(android.content.Context,android.content.Intent)>", "<com.baseapp.TorSender: void sendListenedIncomingSMS(android.content.Context,java.lang.String,java.lang.String)>", "<com.baseapp.Utils: java.lang.String getCutIMEI(android.content.Context)>", "<com.baseapp.Utils: java.lang.String getIMEI(android.content.Context)>", "<android.telephony.TelephonyManager: java.lang.String getDeviceId()>" ],
+    "entry_point" : {
+      "entry_point" : "com.baseapp.MessageReceiver",
+      "actions" : [ "android.provider.Telephony.SMS_RECEIVED" ]
+    }
+  }, {
+    "call_chain" : [ "<com.baseapp.MessageReceiver: void onReceive(android.content.Context,android.content.Intent)>", "<com.baseapp.TorSender: void sendListenedIncomingSMS(android.content.Context,java.lang.String,java.lang.String)>", "<com.baseapp.Utils: java.lang.String getCutIMEI(android.content.Context)>", "<com.baseapp.Utils: java.lang.String getIMEI(android.content.Context)>", "<android.telephony.TelephonyManager: java.lang.String getDeviceId()>" ],
+    "entry_point" : {
+      "entry_point" : "com.baseapp.MessageReceiver",
+      "actions" : [ "android.provider.Telephony.SMS_RECEIVED" ]
+    }
+  } ] ],
+  "rule" : {
+    "or_predicates" : [ "Landroid/telephony/TelephonyManager/getDeviceId", "Landroid/telephony/TelephonyManager/getImei" ],
+    "tags" : [ "read_imei", "telephony", "pii", "fingerprinting" ],
+    "title" : "The application probably gets the IMEI of the phone.",
+    "description" : "",
+    "name" : "readImei"
+  }
+}, {
+  "findings" : [ [ {
+    "sapcg_file" : "results/output/acecard/CallGraphInfo/SensitiveCG/sapcg_getLine1Number",
+    "sensitiveAPI" : "<android.telephony.TelephonyManager: java.lang.String getLine1Number()>"
+  } ], [ {
+    "call_chain" : [ "<com.baseapp.MessageReceiver: void onReceive(android.content.Context,android.content.Intent)>", "<com.baseapp.SmsProcessor: boolean processCommand()>", "<com.baseapp.SmsProcessor: void processCheckCommand()>", "<com.baseapp.TorSender: void sendCheckData(android.content.Context)>", "<com.baseapp.Utils: java.lang.String getPhoneNumber(android.content.Context)>", "<android.telephony.TelephonyManager: java.lang.String getLine1Number()>" ],
+    "entry_point" : {
+      "entry_point" : "com.baseapp.MessageReceiver",
+      "actions" : [ "android.provider.Telephony.SMS_RECEIVED" ]
+    }
+  } ] ],
+  "rule" : {
+    "or_predicates" : [ "Landroid/telephony/TelephonyManager/getLine1Number" ],
+    "tags" : [ "read_phone_number", "telephony", "pii", "fingerprinting" ],
+    "title" : "The application probably gets the phone number associated to the SIM card.",
+    "description" : "",
+    "name" : "readPhoneNumber"
+  }
+}, {
+  "findings" : [ [ {
+    "sapcg_file" : "results/output/acecard/CallGraphInfo/SensitiveCG/sapcg_getMessageBody",
+    "sensitiveAPI" : "<android.telephony.SmsMessage: java.lang.String getMessageBody()>"
+  } ], [ {
+    "call_chain" : [ "<com.baseapp.MessageReceiver: void onReceive(android.content.Context,android.content.Intent)>", "<com.baseapp.MessageReceiver: java.util.Map retrieveMessages(android.content.Intent)>", "<android.telephony.SmsMessage: java.lang.String getMessageBody()>" ],
+    "entry_point" : {
+      "entry_point" : "com.baseapp.MessageReceiver",
+      "actions" : [ "android.provider.Telephony.SMS_RECEIVED" ]
+    }
+  } ] ],
+  "rule" : {
+    "or_predicates" : [ "Landroid/telephony/SmsMessage/getMessageBody", "Landroid/telephony/SmsMessage/createFromPdu", "Landroid/telephony/SmsMessage/getDisplayMessageBody", "Landroid/telephony/SmsMessage/getDisplayOriginatingAddress", "Landroid/telephony/SmsManager/downloadMultimediaMessage", "Landroid/provider/Telephony$Sms$Intents/getMessagesFromIntent" ],
+    "tags" : [ "read_sms", "telephony" ],
+    "title" : "The application probably reads SMS/MMS messages.",
+    "description" : "",
+    "name" : "readSms"
+  }
+}, {
+  "findings" : [ [ {
+    "sapcg_file" : "results/output/acecard/CallGraphInfo/SensitiveCG/sapcg_createFromPdu",
+    "sensitiveAPI" : "<android.telephony.SmsMessage: android.telephony.SmsMessage createFromPdu(byte[])>"
+  } ], [ {
+    "call_chain" : [ "<com.baseapp.MessageReceiver: void onReceive(android.content.Context,android.content.Intent)>", "<com.baseapp.MessageReceiver: java.util.Map retrieveMessages(android.content.Intent)>", "<android.telephony.SmsMessage: android.telephony.SmsMessage createFromPdu(byte[])>" ],
+    "entry_point" : {
+      "entry_point" : "com.baseapp.MessageReceiver",
+      "actions" : [ "android.provider.Telephony.SMS_RECEIVED" ]
+    }
+  } ] ],
+  "rule" : {
+    "or_predicates" : [ "Landroid/telephony/SmsMessage/getMessageBody", "Landroid/telephony/SmsMessage/createFromPdu", "Landroid/telephony/SmsMessage/getDisplayMessageBody", "Landroid/telephony/SmsMessage/getDisplayOriginatingAddress", "Landroid/telephony/SmsManager/downloadMultimediaMessage", "Landroid/provider/Telephony$Sms$Intents/getMessagesFromIntent" ],
+    "tags" : [ "read_sms", "telephony" ],
+    "title" : "The application probably reads SMS/MMS messages.",
+    "description" : "",
+    "name" : "readSms"
+  }
+}, {
+  "findings" : [ [ {
+    "sapcg_file" : "results/output/acecard/CallGraphInfo/SensitiveCG/sapcg_sendTextMessage",
+    "sensitiveAPI" : "<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>"
+  } ], [ {
+    "call_chain" : [ "<com.baseapp.MessageReceiver: void onReceive(android.content.Context,android.content.Intent)>", "<com.baseapp.TorSender: void sendListenedIncomingSMS(android.content.Context,java.lang.String,java.lang.String)>", "<com.baseapp.Utils: boolean sendMessage(java.lang.String,java.lang.String)>", "<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>" ],
+    "entry_point" : {
+      "entry_point" : "com.baseapp.MessageReceiver",
+      "actions" : [ "android.provider.Telephony.SMS_RECEIVED" ]
+    }
+  }, {
+    "call_chain" : [ "<com.baseapp.MessageReceiver: void onReceive(android.content.Context,android.content.Intent)>", "<com.baseapp.TorSender: void sendListenedIncomingSMS(android.content.Context,java.lang.String,java.lang.String)>", "<com.baseapp.Utils: boolean sendMessage(java.lang.String,java.lang.String)>", "<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>" ],
+    "entry_point" : {
+      "entry_point" : "com.baseapp.MessageReceiver",
+      "actions" : [ "android.provider.Telephony.SMS_RECEIVED" ]
+    }
+  }, {
+    "call_chain" : [ "<com.baseapp.MessageReceiver: void onReceive(android.content.Context,android.content.Intent)>", "<com.baseapp.TorSender: void sendListenedIncomingSMS(android.content.Context,java.lang.String,java.lang.String)>", "<com.baseapp.Utils: boolean sendMessage(java.lang.String,java.lang.String)>", "<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>" ],
+    "entry_point" : {
+      "entry_point" : "com.baseapp.MessageReceiver",
+      "actions" : [ "android.provider.Telephony.SMS_RECEIVED" ]
+    }
+  }, {
+    "call_chain" : [ "<com.baseapp.MessageReceiver: void onReceive(android.content.Context,android.content.Intent)>", "<com.baseapp.TorSender: void sendListenedIncomingSMS(android.content.Context,java.lang.String,java.lang.String)>", "<com.baseapp.Utils: boolean sendMessage(java.lang.String,java.lang.String)>", "<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>" ],
+    "entry_point" : {
+      "entry_point" : "com.baseapp.MessageReceiver",
+      "actions" : [ "android.provider.Telephony.SMS_RECEIVED" ]
+    }
+  }, {
+    "call_chain" : [ "<com.baseapp.MessageReceiver: void onReceive(android.content.Context,android.content.Intent)>", "<com.baseapp.TorSender: void sendListenedIncomingSMS(android.content.Context,java.lang.String,java.lang.String)>", "<com.baseapp.Utils: boolean sendMessage(java.lang.String,java.lang.String)>", "<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>" ],
+    "entry_point" : {
+      "entry_point" : "com.baseapp.MessageReceiver",
+      "actions" : [ "android.provider.Telephony.SMS_RECEIVED" ]
+    }
+  }, {
+    "call_chain" : [ "<com.baseapp.MessageReceiver: void onReceive(android.content.Context,android.content.Intent)>", "<com.baseapp.TorSender: void sendListenedIncomingSMS(android.content.Context,java.lang.String,java.lang.String)>", "<com.baseapp.Utils: boolean sendMessage(java.lang.String,java.lang.String)>", "<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>" ],
+    "entry_point" : {
+      "entry_point" : "com.baseapp.MessageReceiver",
+      "actions" : [ "android.provider.Telephony.SMS_RECEIVED" ]
+    }
+  }, {
+    "call_chain" : [ "<com.baseapp.MessageReceiver: void onReceive(android.content.Context,android.content.Intent)>", "<com.baseapp.TorSender: void sendListenedIncomingSMS(android.content.Context,java.lang.String,java.lang.String)>", "<com.baseapp.Utils: boolean sendMessage(java.lang.String,java.lang.String)>", "<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>" ],
+    "entry_point" : {
+      "entry_point" : "com.baseapp.MessageReceiver",
+      "actions" : [ "android.provider.Telephony.SMS_RECEIVED" ]
+    }
+  }, {
+    "call_chain" : [ "<com.baseapp.MessageReceiver: void onReceive(android.content.Context,android.content.Intent)>", "<com.baseapp.TorSender: void sendListenedIncomingSMS(android.content.Context,java.lang.String,java.lang.String)>", "<com.baseapp.Utils: boolean sendMessage(java.lang.String,java.lang.String)>", "<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>" ],
+    "entry_point" : {
+      "entry_point" : "com.baseapp.MessageReceiver",
+      "actions" : [ "android.provider.Telephony.SMS_RECEIVED" ]
+    }
+  } ] ],
+  "rule" : {
+    "or_predicates" : [ "Landroid/telephony/SmsManager/divideMessage", "Landroid/telephony/SmsManager/sendMultipartTextMessage", "Landroid/telephony/SmsManager/sendTextMessage", "Landroid/telephony/SmsManager/sendMultimediaMessage" ],
+    "tags" : [ "send_sms", "telephony" ],
+    "title" : "The application probably sends SMS/MMS messages.",
+    "description" : "",
+    "name" : "sendSms"
+  }
+}, {
+  "findings" : [ [ {
+    "sapcg_file" : "results/output/acecard/CallGraphInfo/SensitiveCG/sapcg_getInstalledApplications",
+    "sensitiveAPI" : "<android.content.pm.PackageManager: java.util.List getInstalledApplications(int)>"
+  } ], [ {
+    "call_chain" : [ "<com.baseapp.MessageReceiver: void onReceive(android.content.Context,android.content.Intent)>", "<com.baseapp.SmsProcessor: boolean processCommand()>", "<com.baseapp.SmsProcessor: void processGrabAppsCommand()>", "<com.baseapp.TorSender: void sendInstalledApps(android.content.Context)>", "<com.baseapp.Utils: java.lang.String getInstalledAppsList(android.content.Context)>", "<android.content.pm.PackageManager: java.util.List getInstalledApplications(int)>" ],
+    "entry_point" : {
+      "entry_point" : "com.baseapp.MessageReceiver",
+      "actions" : [ "android.provider.Telephony.SMS_RECEIVED" ]
+    }
+  } ] ],
+  "rule" : {
+    "or_predicates" : [ "Landroid/content/pm/PackageManager/getInstalledApplications", "Landroid/content/pm/PackageManager/getInstalledPackages" ],
+    "tags" : [ "list_installed_packages" ],
+    "title" : "The application probably lists all installed applications.",
+    "description" : "",
+    "name" : "listInstalledPackages"
+  }
+}, {
+  "findings" : [ [ {
+    "sapcg_file" : "results/output/acecard/CallGraphInfo/SensitiveCG/sapcg_exec",
+    "sensitiveAPI" : "<java.lang.Runtime: java.lang.Process exec(java.lang.String)>"
+  } ], [ {
+    "call_chain" : [ "<org.torproject.android.service.TorService: void onStart(android.content.Intent,int)>", "<org.torproject.android.service.TorService$3: void run()>", "<org.torproject.android.service.TorService: boolean checkTorBinaries(boolean)>", "<org.torproject.android.service.TorBinaryInstaller: boolean assertIpTablesBinaries(android.content.Context,boolean)>", "<org.torproject.android.service.TorBinaryInstaller: void copyRawFile(android.content.Context,int,java.io.File,java.lang.String,boolean)>", "<java.lang.Runtime: java.lang.Process exec(java.lang.String)>" ],
+    "entry_point" : {
+      "origin_call_chain" : [ "<com.baseapp.Main: void onCreate(android.os.Bundle)>", "<com.baseapp.MainService: void onCreate()>" ],
+      "origin_entry_point" : "com.baseapp.Main",
+      "entry_point" : "org.torproject.android.service.TorService",
+      "actions" : [ "org.torproject.android.service.ITorService", "org.torproject.android.service.TOR_SERVICE" ],
+      "origin_actions" : [ "android.intent.action.MAIN" ]
+    }
+  }, {
+    "call_chain" : [ "<org.torproject.android.service.TorService: void onStart(android.content.Intent,int)>", "<org.torproject.android.service.TorService$3: void run()>", "<org.torproject.android.service.TorService: boolean checkTorBinaries(boolean)>", "<org.torproject.android.service.TorBinaryInstaller: boolean assertIpTablesBinaries(android.content.Context,boolean)>", "<org.torproject.android.service.TorBinaryInstaller: void copyRawFile(android.content.Context,int,java.io.File,java.lang.String,boolean)>", "<java.lang.Runtime: java.lang.Process exec(java.lang.String)>" ],
+    "entry_point" : {
+      "origin_call_chain" : [ "<com.baseapp.Main: void onCreate(android.os.Bundle)>", "<com.baseapp.MainService: void onCreate()>" ],
+      "origin_entry_point" : "com.baseapp.Main",
+      "entry_point" : "org.torproject.android.service.TorService",
+      "actions" : [ "org.torproject.android.service.ITorService", "org.torproject.android.service.TOR_SERVICE" ],
+      "origin_actions" : [ "android.intent.action.MAIN" ]
+    }
+  }, {
+    "call_chain" : [ "<org.torproject.android.service.TorService: void onStart(android.content.Intent,int)>", "<org.torproject.android.service.TorService$3: void run()>", "<org.torproject.android.service.TorService: boolean checkTorBinaries(boolean)>", "<org.torproject.android.service.TorBinaryInstaller: boolean assertIpTablesBinaries(android.content.Context,boolean)>", "<org.torproject.android.service.TorBinaryInstaller: void copyRawFile(android.content.Context,int,java.io.File,java.lang.String,boolean)>", "<java.lang.Runtime: java.lang.Process exec(java.lang.String)>" ],
+    "entry_point" : {
+      "origin_call_chain" : [ "<com.baseapp.Main: void onCreate(android.os.Bundle)>", "<com.baseapp.MainService: void onCreate()>" ],
+      "origin_entry_point" : "com.baseapp.Main",
+      "entry_point" : "org.torproject.android.service.TorService",
+      "actions" : [ "org.torproject.android.service.ITorService", "org.torproject.android.service.TOR_SERVICE" ],
+      "origin_actions" : [ "android.intent.action.MAIN" ]
+    }
+  }, {
+    "call_chain" : [ "<org.torproject.android.service.TorService: void onStart(android.content.Intent,int)>", "<org.torproject.android.service.TorService$3: void run()>", "<org.torproject.android.service.TorService: boolean checkTorBinaries(boolean)>", "<org.torproject.android.service.TorBinaryInstaller: boolean assertIpTablesBinaries(android.content.Context,boolean)>", "<org.torproject.android.service.TorBinaryInstaller: void copyRawFile(android.content.Context,int,java.io.File,java.lang.String,boolean)>", "<java.lang.Runtime: java.lang.Process exec(java.lang.String)>" ],
+    "entry_point" : {
+      "origin_call_chain" : [ "<com.baseapp.Main: void onCreate(android.os.Bundle)>", "<com.baseapp.MainService: void onCreate()>" ],
+      "origin_entry_point" : "com.baseapp.Main",
+      "entry_point" : "org.torproject.android.service.TorService",
+      "actions" : [ "org.torproject.android.service.ITorService", "org.torproject.android.service.TOR_SERVICE" ],
+      "origin_actions" : [ "android.intent.action.MAIN" ]
+    }
+  }, {
+    "call_chain" : [ "<org.torproject.android.service.TorService: void onStart(android.content.Intent,int)>", "<org.torproject.android.service.TorService$3: void run()>", "<org.torproject.android.service.TorService: boolean checkTorBinaries(boolean)>", "<org.torproject.android.service.TorBinaryInstaller: boolean assertIpTablesBinaries(android.content.Context,boolean)>", "<org.torproject.android.service.TorBinaryInstaller: void copyRawFile(android.content.Context,int,java.io.File,java.lang.String,boolean)>", "<java.lang.Runtime: java.lang.Process exec(java.lang.String)>" ],
+    "entry_point" : {
+      "origin_call_chain" : [ "<com.baseapp.Main: void onCreate(android.os.Bundle)>", "<com.baseapp.MainService: void onCreate()>" ],
+      "origin_entry_point" : "com.baseapp.Main",
+      "entry_point" : "org.torproject.android.service.TorService",
+      "actions" : [ "org.torproject.android.service.ITorService", "org.torproject.android.service.TOR_SERVICE" ],
+      "origin_actions" : [ "android.intent.action.MAIN" ]
+    }
+  }, {
+    "call_chain" : [ "<org.torproject.android.service.TorService: void onStart(android.content.Intent,int)>", "<org.torproject.android.service.TorService$3: void run()>", "<org.torproject.android.service.TorService: boolean checkTorBinaries(boolean)>", "<org.torproject.android.service.TorBinaryInstaller: boolean assertIpTablesBinaries(android.content.Context,boolean)>", "<org.torproject.android.service.TorBinaryInstaller: void copyRawFile(android.content.Context,int,java.io.File,java.lang.String,boolean)>", "<java.lang.Runtime: java.lang.Process exec(java.lang.String)>" ],
+    "entry_point" : {
+      "origin_call_chain" : [ "<com.baseapp.Main: void onCreate(android.os.Bundle)>", "<com.baseapp.MainService: void onCreate()>" ],
+      "origin_entry_point" : "com.baseapp.Main",
+      "entry_point" : "org.torproject.android.service.TorService",
+      "actions" : [ "org.torproject.android.service.ITorService", "org.torproject.android.service.TOR_SERVICE" ],
+      "origin_actions" : [ "android.intent.action.MAIN" ]
+    }
+  }, {
+    "call_chain" : [ "<org.torproject.android.service.TorService: void onStart(android.content.Intent,int)>", "<org.torproject.android.service.TorService$3: void run()>", "<org.torproject.android.service.TorService: boolean checkTorBinaries(boolean)>", "<org.torproject.android.service.TorBinaryInstaller: boolean assertIpTablesBinaries(android.content.Context,boolean)>", "<org.torproject.android.service.TorBinaryInstaller: void copyRawFile(android.content.Context,int,java.io.File,java.lang.String,boolean)>", "<java.lang.Runtime: java.lang.Process exec(java.lang.String)>" ],
+    "entry_point" : {
+      "origin_call_chain" : [ "<com.baseapp.Main: void onCreate(android.os.Bundle)>", "<com.baseapp.MainService: void onCreate()>" ],
+      "origin_entry_point" : "com.baseapp.Main",
+      "entry_point" : "org.torproject.android.service.TorService",
+      "actions" : [ "org.torproject.android.service.ITorService", "org.torproject.android.service.TOR_SERVICE" ],
+      "origin_actions" : [ "android.intent.action.MAIN" ]
+    }
+  }, {
+    "call_chain" : [ "<org.torproject.android.service.TorService: void onStart(android.content.Intent,int)>", "<org.torproject.android.service.TorService$3: void run()>", "<org.torproject.android.service.TorService: boolean checkTorBinaries(boolean)>", "<org.torproject.android.service.TorBinaryInstaller: boolean assertIpTablesBinaries(android.content.Context,boolean)>", "<org.torproject.android.service.TorBinaryInstaller: void copyRawFile(android.content.Context,int,java.io.File,java.lang.String,boolean)>", "<java.lang.Runtime: java.lang.Process exec(java.lang.String)>" ],
+    "entry_point" : {
+      "origin_call_chain" : [ "<com.baseapp.Main: void onCreate(android.os.Bundle)>", "<com.baseapp.MainService: void onCreate()>" ],
+      "origin_entry_point" : "com.baseapp.Main",
+      "entry_point" : "org.torproject.android.service.TorService",
+      "actions" : [ "org.torproject.android.service.ITorService", "org.torproject.android.service.TOR_SERVICE" ],
+      "origin_actions" : [ "android.intent.action.MAIN" ]
+    }
+  }, {
+    "call_chain" : [ "<org.torproject.android.service.TorService: void onStart(android.content.Intent,int)>", "<org.torproject.android.service.TorService$3: void run()>", "<org.torproject.android.service.TorService: boolean checkTorBinaries(boolean)>", "<org.torproject.android.service.TorBinaryInstaller: boolean assertIpTablesBinaries(android.content.Context,boolean)>", "<org.torproject.android.service.TorBinaryInstaller: void copyRawFile(android.content.Context,int,java.io.File,java.lang.String,boolean)>", "<java.lang.Runtime: java.lang.Process exec(java.lang.String)>" ],
+    "entry_point" : {
+      "origin_call_chain" : [ "<com.baseapp.Main: void onCreate(android.os.Bundle)>", "<com.baseapp.MainService: void onCreate()>" ],
+      "origin_entry_point" : "com.baseapp.Main",
+      "entry_point" : "org.torproject.android.service.TorService",
+      "actions" : [ "org.torproject.android.service.ITorService", "org.torproject.android.service.TOR_SERVICE" ],
+      "origin_actions" : [ "android.intent.action.MAIN" ]
+    }
+  }, {
+    "call_chain" : [ "<org.torproject.android.service.TorService: void onStart(android.content.Intent,int)>", "<org.torproject.android.service.TorService$3: void run()>", "<org.torproject.android.service.TorService: boolean checkTorBinaries(boolean)>", "<org.torproject.android.service.TorBinaryInstaller: boolean assertIpTablesBinaries(android.content.Context,boolean)>", "<org.torproject.android.service.TorBinaryInstaller: void copyRawFile(android.content.Context,int,java.io.File,java.lang.String,boolean)>", "<java.lang.Runtime: java.lang.Process exec(java.lang.String)>" ],
+    "entry_point" : {
+      "origin_call_chain" : [ "<com.baseapp.Main: void onCreate(android.os.Bundle)>", "<com.baseapp.MainService: void onCreate()>" ],
+      "origin_entry_point" : "com.baseapp.Main",
+      "entry_point" : "org.torproject.android.service.TorService",
+      "actions" : [ "org.torproject.android.service.ITorService", "org.torproject.android.service.TOR_SERVICE" ],
+      "origin_actions" : [ "android.intent.action.MAIN" ]
+    }
+  }, {
+    "call_chain" : [ "<org.torproject.android.service.TorService: void onStart(android.content.Intent,int)>", "<org.torproject.android.service.TorService$3: void run()>", "<org.torproject.android.service.TorService: boolean checkTorBinaries(boolean)>", "<org.torproject.android.service.TorBinaryInstaller: boolean assertIpTablesBinaries(android.content.Context,boolean)>", "<org.torproject.android.service.TorBinaryInstaller: void copyRawFile(android.content.Context,int,java.io.File,java.lang.String,boolean)>", "<java.lang.Runtime: java.lang.Process exec(java.lang.String)>" ],
+    "entry_point" : {
+      "origin_call_chain" : [ "<com.baseapp.Main: void onCreate(android.os.Bundle)>", "<com.baseapp.MainService: void onCreate()>" ],
+      "origin_entry_point" : "com.baseapp.Main",
+      "entry_point" : "org.torproject.android.service.TorService",
+      "actions" : [ "org.torproject.android.service.ITorService", "org.torproject.android.service.TOR_SERVICE" ],
+      "origin_actions" : [ "android.intent.action.MAIN" ]
+    }
+  }, {
+    "call_chain" : [ "<org.torproject.android.service.TorService: void onStart(android.content.Intent,int)>", "<org.torproject.android.service.TorService$3: void run()>", "<org.torproject.android.service.TorService: boolean checkTorBinaries(boolean)>", "<org.torproject.android.service.TorBinaryInstaller: boolean assertIpTablesBinaries(android.content.Context,boolean)>", "<org.torproject.android.service.TorBinaryInstaller: void copyRawFile(android.content.Context,int,java.io.File,java.lang.String,boolean)>", "<java.lang.Runtime: java.lang.Process exec(java.lang.String)>" ],
+    "entry_point" : {
+      "origin_call_chain" : [ "<com.baseapp.Main: void onCreate(android.os.Bundle)>", "<com.baseapp.MainService: void onCreate()>" ],
+      "origin_entry_point" : "com.baseapp.Main",
+      "entry_point" : "org.torproject.android.service.TorService",
+      "actions" : [ "org.torproject.android.service.ITorService", "org.torproject.android.service.TOR_SERVICE" ],
+      "origin_actions" : [ "android.intent.action.MAIN" ]
+    }
+  }, {
+    "call_chain" : [ "<org.torproject.android.service.TorService: void onStart(android.content.Intent,int)>", "<org.torproject.android.service.TorService$3: void run()>", "<org.torproject.android.service.TorService: boolean checkTorBinaries(boolean)>", "<org.torproject.android.service.TorBinaryInstaller: boolean assertIpTablesBinaries(android.content.Context,boolean)>", "<org.torproject.android.service.TorBinaryInstaller: void copyRawFile(android.content.Context,int,java.io.File,java.lang.String,boolean)>", "<java.lang.Runtime: java.lang.Process exec(java.lang.String)>" ],
+    "entry_point" : {
+      "origin_call_chain" : [ "<com.baseapp.Main: void onCreate(android.os.Bundle)>", "<com.baseapp.MainService: void onCreate()>" ],
+      "origin_entry_point" : "com.baseapp.Main",
+      "entry_point" : "org.torproject.android.service.TorService",
+      "actions" : [ "org.torproject.android.service.ITorService", "org.torproject.android.service.TOR_SERVICE" ],
+      "origin_actions" : [ "android.intent.action.MAIN" ]
+    }
+  }, {
+    "call_chain" : [ "<org.torproject.android.service.TorService$2: void onReceive(android.content.Context,android.content.Intent)>", "<org.torproject.android.service.TorService: void setTorProfile(int)>", "<java.lang.Thread: void run()>", "<org.torproject.android.service.TorService: void run()>", "<org.torproject.android.service.TorService: void stopTor()>", "<org.torproject.android.service.TorService: void killTorProcess()>", "<org.torproject.android.service.TorServiceUtils: int doShellCommand(java.lang.String[],java.lang.StringBuilder,boolean,boolean)>", "<java.lang.Runtime: java.lang.Process exec(java.lang.String)>" ]
+  }, {
+    "call_chain" : [ "<org.torproject.android.service.TorService$2: void onReceive(android.content.Context,android.content.Intent)>", "<org.torproject.android.service.TorService: void setTorProfile(int)>", "<java.lang.Thread: void run()>", "<org.torproject.android.service.TorService: void run()>", "<org.torproject.android.service.TorService: void stopTor()>", "<org.torproject.android.service.TorService: void killTorProcess()>", "<org.torproject.android.service.TorServiceUtils: int doShellCommand(java.lang.String[],java.lang.StringBuilder,boolean,boolean)>", "<java.lang.Runtime: java.lang.Process exec(java.lang.String)>" ]
+  }, {
+    "call_chain" : [ "<org.torproject.android.service.TorService$2: void onReceive(android.content.Context,android.content.Intent)>", "<org.torproject.android.service.TorService: void setTorProfile(int)>", "<java.lang.Thread: void run()>", "<org.torproject.android.service.TorService: void run()>", "<org.torproject.android.service.TorService: void stopTor()>", "<org.torproject.android.service.TorService: void killTorProcess()>", "<org.torproject.android.service.TorServiceUtils: int doShellCommand(java.lang.String[],java.lang.StringBuilder,boolean,boolean)>", "<java.lang.Runtime: java.lang.Process exec(java.lang.String)>" ]
+  }, {
+    "call_chain" : [ "<org.torproject.android.service.TorService$2: void onReceive(android.content.Context,android.content.Intent)>", "<org.torproject.android.service.TorService: void setTorProfile(int)>", "<java.lang.Thread: void run()>", "<org.torproject.android.service.TorService: void run()>", "<org.torproject.android.service.TorService: void stopTor()>", "<org.torproject.android.service.TorService: void killTorProcess()>", "<org.torproject.android.service.TorServiceUtils: int doShellCommand(java.lang.String[],java.lang.StringBuilder,boolean,boolean)>", "<java.lang.Runtime: java.lang.Process exec(java.lang.String)>" ]
+  }, {
+    "call_chain" : [ "<org.torproject.android.service.TorService$2: void onReceive(android.content.Context,android.content.Intent)>", "<org.torproject.android.service.TorService: void setTorProfile(int)>", "<java.lang.Thread: void run()>", "<org.torproject.android.service.TorService: void run()>", "<org.torproject.android.service.TorService: void stopTor()>", "<org.torproject.android.service.TorService: void killTorProcess()>", "<org.torproject.android.service.TorServiceUtils: int doShellCommand(java.lang.String[],java.lang.StringBuilder,boolean,boolean)>", "<java.lang.Runtime: java.lang.Process exec(java.lang.String)>" ]
+  }, {
+    "call_chain" : [ "<org.torproject.android.service.TorService$2: void onReceive(android.content.Context,android.content.Intent)>", "<org.torproject.android.service.TorService: void setTorProfile(int)>", "<java.lang.Thread: void run()>", "<org.torproject.android.service.TorService: void run()>", "<org.torproject.android.service.TorService: void stopTor()>", "<org.torproject.android.service.TorService: void killTorProcess()>", "<org.torproject.android.service.TorServiceUtils: int doShellCommand(java.lang.String[],java.lang.StringBuilder,boolean,boolean)>", "<java.lang.Runtime: java.lang.Process exec(java.lang.String)>" ]
+  }, {
+    "call_chain" : [ "<org.torproject.android.service.TorService$2: void onReceive(android.content.Context,android.content.Intent)>", "<org.torproject.android.service.TorService: void setTorProfile(int)>", "<java.lang.Thread: void run()>", "<org.torproject.android.service.TorService: void run()>", "<org.torproject.android.service.TorService: void stopTor()>", "<org.torproject.android.service.TorService: void killTorProcess()>", "<org.torproject.android.service.TorServiceUtils: int doShellCommand(java.lang.String[],java.lang.StringBuilder,boolean,boolean)>", "<java.lang.Runtime: java.lang.Process exec(java.lang.String)>" ]
+  }, {
+    "call_chain" : [ "<org.torproject.android.service.TorService$2: void onReceive(android.content.Context,android.content.Intent)>", "<org.torproject.android.service.TorService: void setTorProfile(int)>", "<java.lang.Thread: void run()>", "<org.torproject.android.service.TorService: void run()>", "<org.torproject.android.service.TorService: void stopTor()>", "<org.torproject.android.service.TorService: void killTorProcess()>", "<org.torproject.android.service.TorServiceUtils: int doShellCommand(java.lang.String[],java.lang.StringBuilder,boolean,boolean)>", "<java.lang.Runtime: java.lang.Process exec(java.lang.String)>" ]
+  }, {
+    "call_chain" : [ "<org.torproject.android.service.TorService$2: void onReceive(android.content.Context,android.content.Intent)>", "<org.torproject.android.service.TorService: void setTorProfile(int)>", "<java.lang.Thread: void run()>", "<org.torproject.android.service.TorService: void run()>", "<org.torproject.android.service.TorService: void stopTor()>", "<org.torproject.android.service.TorService: void killTorProcess()>", "<org.torproject.android.service.TorServiceUtils: int doShellCommand(java.lang.String[],java.lang.StringBuilder,boolean,boolean)>", "<java.lang.Runtime: java.lang.Process exec(java.lang.String)>" ]
+  } ] ],
+  "rule" : {
+    "or_predicates" : [ "Ljava/lang/Runtime/exec" ],
+    "tags" : [ "exec_command", "system" ],
+    "title" : "The application probably executes OS commands.",
+    "description" : "",
+    "name" : "execCommand"
+  }
+}, {
+  "findings" : [ [ {
+    "sapcg_file" : "results/output/acecard/CallGraphInfo/SensitiveCG/sapcg_exec",
+    "sensitiveAPI" : "<java.lang.Runtime: java.lang.Process exec(java.lang.String[])>"
+  } ], [ {
+    "call_chain" : [ "<org.torproject.android.service.TorService: void onStart(android.content.Intent,int)>", "<org.torproject.android.service.TorService: void setTorProfile(int)>", "<java.lang.Thread: void run()>", "<org.torproject.android.service.TorService: void run()>", "<org.torproject.android.service.TorService: boolean findExistingProc()>", "<org.torproject.android.service.TorServiceUtils: int findProcessId(java.lang.String)>", "<org.torproject.android.service.TorServiceUtils: int findProcessIdWithPidOf(java.lang.String)>", "<java.lang.Runtime: java.lang.Process exec(java.lang.String[])>" ],
+    "entry_point" : {
+      "origin_call_chain" : [ "<com.baseapp.Main: void onCreate(android.os.Bundle)>", "<com.baseapp.MainService: void onCreate()>" ],
+      "origin_entry_point" : "com.baseapp.Main",
+      "entry_point" : "org.torproject.android.service.TorService",
+      "actions" : [ "org.torproject.android.service.ITorService", "org.torproject.android.service.TOR_SERVICE" ],
+      "origin_actions" : [ "android.intent.action.MAIN" ]
+    }
+  }, {
+    "call_chain" : [ "<org.torproject.android.service.TorService: void onStart(android.content.Intent,int)>", "<org.torproject.android.service.TorService: void setTorProfile(int)>", "<java.lang.Thread: void run()>", "<org.torproject.android.service.TorService: void run()>", "<org.torproject.android.service.TorService: boolean findExistingProc()>", "<org.torproject.android.service.TorServiceUtils: int findProcessId(java.lang.String)>", "<org.torproject.android.service.TorServiceUtils: int findProcessIdWithPidOf(java.lang.String)>", "<java.lang.Runtime: java.lang.Process exec(java.lang.String[])>" ],
+    "entry_point" : {
+      "origin_call_chain" : [ "<com.baseapp.Main: void onCreate(android.os.Bundle)>", "<com.baseapp.MainService: void onCreate()>" ],
+      "origin_entry_point" : "com.baseapp.Main",
+      "entry_point" : "org.torproject.android.service.TorService",
+      "actions" : [ "org.torproject.android.service.ITorService", "org.torproject.android.service.TOR_SERVICE" ],
+      "origin_actions" : [ "android.intent.action.MAIN" ]
+    }
+  }, {
+    "call_chain" : [ "<org.torproject.android.service.TorService: void onStart(android.content.Intent,int)>", "<org.torproject.android.service.TorService: void setTorProfile(int)>", "<java.lang.Thread: void run()>", "<org.torproject.android.service.TorService: void run()>", "<org.torproject.android.service.TorService: boolean findExistingProc()>", "<org.torproject.android.service.TorServiceUtils: int findProcessId(java.lang.String)>", "<org.torproject.android.service.TorServiceUtils: int findProcessIdWithPidOf(java.lang.String)>", "<java.lang.Runtime: java.lang.Process exec(java.lang.String[])>" ],
+    "entry_point" : {
+      "origin_call_chain" : [ "<com.baseapp.Main: void onCreate(android.os.Bundle)>", "<com.baseapp.MainService: void onCreate()>" ],
+      "origin_entry_point" : "com.baseapp.Main",
+      "entry_point" : "org.torproject.android.service.TorService",
+      "actions" : [ "org.torproject.android.service.ITorService", "org.torproject.android.service.TOR_SERVICE" ],
+      "origin_actions" : [ "android.intent.action.MAIN" ]
+    }
+  }, {
+    "call_chain" : [ "<org.torproject.android.service.TorService: void onStart(android.content.Intent,int)>", "<org.torproject.android.service.TorService: void setTorProfile(int)>", "<java.lang.Thread: void run()>", "<org.torproject.android.service.TorService: void run()>", "<org.torproject.android.service.TorService: boolean findExistingProc()>", "<org.torproject.android.service.TorServiceUtils: int findProcessId(java.lang.String)>", "<org.torproject.android.service.TorServiceUtils: int findProcessIdWithPidOf(java.lang.String)>", "<java.lang.Runtime: java.lang.Process exec(java.lang.String[])>" ],
+    "entry_point" : {
+      "origin_call_chain" : [ "<com.baseapp.Main: void onCreate(android.os.Bundle)>", "<com.baseapp.MainService: void onCreate()>" ],
+      "origin_entry_point" : "com.baseapp.Main",
+      "entry_point" : "org.torproject.android.service.TorService",
+      "actions" : [ "org.torproject.android.service.ITorService", "org.torproject.android.service.TOR_SERVICE" ],
+      "origin_actions" : [ "android.intent.action.MAIN" ]
+    }
+  }, {
+    "call_chain" : [ "<org.torproject.android.service.TorService: void onStart(android.content.Intent,int)>", "<org.torproject.android.service.TorService: void setTorProfile(int)>", "<java.lang.Thread: void run()>", "<org.torproject.android.service.TorService: void run()>", "<org.torproject.android.service.TorService: boolean findExistingProc()>", "<org.torproject.android.service.TorServiceUtils: int findProcessId(java.lang.String)>", "<org.torproject.android.service.TorServiceUtils: int findProcessIdWithPidOf(java.lang.String)>", "<java.lang.Runtime: java.lang.Process exec(java.lang.String[])>" ],
+    "entry_point" : {
+      "origin_call_chain" : [ "<com.baseapp.Main: void onCreate(android.os.Bundle)>", "<com.baseapp.MainService: void onCreate()>" ],
+      "origin_entry_point" : "com.baseapp.Main",
+      "entry_point" : "org.torproject.android.service.TorService",
+      "actions" : [ "org.torproject.android.service.ITorService", "org.torproject.android.service.TOR_SERVICE" ],
+      "origin_actions" : [ "android.intent.action.MAIN" ]
+    }
+  }, {
+    "call_chain" : [ "<org.torproject.android.service.TorService: void onStart(android.content.Intent,int)>", "<org.torproject.android.service.TorService: void setTorProfile(int)>", "<java.lang.Thread: void run()>", "<org.torproject.android.service.TorService: void run()>", "<org.torproject.android.service.TorService: boolean findExistingProc()>", "<org.torproject.android.service.TorServiceUtils: int findProcessId(java.lang.String)>", "<org.torproject.android.service.TorServiceUtils: int findProcessIdWithPidOf(java.lang.String)>", "<java.lang.Runtime: java.lang.Process exec(java.lang.String[])>" ],
+    "entry_point" : {
+      "origin_call_chain" : [ "<com.baseapp.Main: void onCreate(android.os.Bundle)>", "<com.baseapp.MainService: void onCreate()>" ],
+      "origin_entry_point" : "com.baseapp.Main",
+      "entry_point" : "org.torproject.android.service.TorService",
+      "actions" : [ "org.torproject.android.service.ITorService", "org.torproject.android.service.TOR_SERVICE" ],
+      "origin_actions" : [ "android.intent.action.MAIN" ]
+    }
+  }, {
+    "call_chain" : [ "<org.torproject.android.service.TorService$2: void onReceive(android.content.Context,android.content.Intent)>", "<org.torproject.android.service.TorService: void setTorProfile(int)>", "<java.lang.Thread: void run()>", "<org.torproject.android.service.TorService: void run()>", "<org.torproject.android.service.TorService: boolean findExistingProc()>", "<org.torproject.android.service.TorServiceUtils: int findProcessId(java.lang.String)>", "<org.torproject.android.service.TorServiceUtils: int findProcessIdWithPidOf(java.lang.String)>", "<java.lang.Runtime: java.lang.Process exec(java.lang.String[])>" ]
+  }, {
+    "call_chain" : [ "<org.torproject.android.service.TorService$2: void onReceive(android.content.Context,android.content.Intent)>", "<org.torproject.android.service.TorService: void setTorProfile(int)>", "<java.lang.Thread: void run()>", "<org.torproject.android.service.TorService: void run()>", "<org.torproject.android.service.TorService: boolean findExistingProc()>", "<org.torproject.android.service.TorServiceUtils: int findProcessId(java.lang.String)>", "<org.torproject.android.service.TorServiceUtils: int findProcessIdWithPidOf(java.lang.String)>", "<java.lang.Runtime: java.lang.Process exec(java.lang.String[])>" ]
+  }, {
+    "call_chain" : [ "<org.torproject.android.service.TorService$2: void onReceive(android.content.Context,android.content.Intent)>", "<org.torproject.android.service.TorService: void setTorProfile(int)>", "<java.lang.Thread: void run()>", "<org.torproject.android.service.TorService: void run()>", "<org.torproject.android.service.TorService: boolean findExistingProc()>", "<org.torproject.android.service.TorServiceUtils: int findProcessId(java.lang.String)>", "<org.torproject.android.service.TorServiceUtils: int findProcessIdWithPidOf(java.lang.String)>", "<java.lang.Runtime: java.lang.Process exec(java.lang.String[])>" ]
+  }, {
+    "call_chain" : [ "<org.torproject.android.service.TorService$2: void onReceive(android.content.Context,android.content.Intent)>", "<org.torproject.android.service.TorService: void setTorProfile(int)>", "<java.lang.Thread: void run()>", "<org.torproject.android.service.TorService: void run()>", "<org.torproject.android.service.TorService: boolean findExistingProc()>", "<org.torproject.android.service.TorServiceUtils: int findProcessId(java.lang.String)>", "<org.torproject.android.service.TorServiceUtils: int findProcessIdWithPidOf(java.lang.String)>", "<java.lang.Runtime: java.lang.Process exec(java.lang.String[])>" ]
+  }, {
+    "call_chain" : [ "<org.torproject.android.service.TorService$2: void onReceive(android.content.Context,android.content.Intent)>", "<org.torproject.android.service.TorService: void setTorProfile(int)>", "<java.lang.Thread: void run()>", "<org.torproject.android.service.TorService: void run()>", "<org.torproject.android.service.TorService: boolean findExistingProc()>", "<org.torproject.android.service.TorServiceUtils: int findProcessId(java.lang.String)>", "<org.torproject.android.service.TorServiceUtils: int findProcessIdWithPidOf(java.lang.String)>", "<java.lang.Runtime: java.lang.Process exec(java.lang.String[])>" ]
+  } ] ],
+  "rule" : {
+    "or_predicates" : [ "Ljava/lang/Runtime/exec" ],
+    "tags" : [ "exec_command", "system" ],
+    "title" : "The application probably executes OS commands.",
+    "description" : "",
+    "name" : "execCommand"
+  }
+} ]

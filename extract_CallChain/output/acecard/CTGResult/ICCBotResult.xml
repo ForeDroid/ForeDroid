@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+  <Component source="info.guardianproject.onionkit.ui.OrbotHelper">
+    <intentSummary>
+      <source name="info.guardianproject.onionkit.ui.OrbotHelper"/>
+      <destination name="interICC_org.torproject.android, org.torproject.android.REQUEST_HS_PORT, "/>
+      <sendICCInfo action="org.torproject.android, org.torproject.android.REQUEST_HS_PORT" extras="int-hs_port">
+        <info unit="virtualinvoke $r1.&lt;android.app.Activity: void startActivityForResult(android.content.Intent,int)&gt;(r2, 9999)" methodSig="&lt;info.guardianproject.onionkit.ui.OrbotHelper: void requestHiddenServiceOnPort(android.app.Activity,int)&gt;" instructionId="7"/>
+      </sendICCInfo>
+      <method value="&lt;info.guardianproject.onionkit.ui.OrbotHelper: void requestHiddenServiceOnPort(android.app.Activity,int)&gt;"/>
+      <methodtrace value="&lt;info.guardianproject.onionkit.ui.OrbotHelper: void requestHiddenServiceOnPort(android.app.Activity,int)&gt;,"/>
+      <nodes>
+        <node method="&lt;info.guardianproject.onionkit.ui.OrbotHelper: void requestHiddenServiceOnPort(android.app.Activity,int)&gt;"/>
+        <node method="OrbotHelper requestHiddenServiceOnPort" type="CreateMethod" unit="r2 = new android.content.Intent"/>
+        <node method="OrbotHelper requestHiddenServiceOnPort" type="SetAttribute" unit="specialinvoke r2.&lt;android.content.Intent: void &lt;init&gt;(java.lang.String)&gt;(&quot;org.torproject.android&quot;)"/>
+        <node method="OrbotHelper requestHiddenServiceOnPort" type="SetAttribute" unit="virtualinvoke r2.&lt;android.content.Intent: android.content.Intent setAction(java.lang.String)&gt;(&quot;org.torproject.android.REQUEST_HS_PORT&quot;)"/>
+        <node method="OrbotHelper requestHiddenServiceOnPort" type="SetIntentExtra" unit="virtualinvoke r2.&lt;android.content.Intent: android.content.Intent putExtra(java.lang.String,int)&gt;(&quot;hs_port&quot;, $i0)"/>
+        <node method="OrbotHelper requestHiddenServiceOnPort" type="SendIntent2ICC" unit="virtualinvoke $r1.&lt;android.app.Activity: void startActivityForResult(android.content.Intent,int)&gt;(r2, 9999)"/>
+      </nodes>
+    </intentSummary>
+  </Component>
+  <Component source="info.guardianproject.onionkit.ui.OrbotHelper">
+    <intentSummary>
+      <source name="info.guardianproject.onionkit.ui.OrbotHelper"/>
+      <destination name="interICC_android.intent.action.VIEW, "/>
+      <sendICCInfo action="android.intent.action.VIEW" data="new java.lang.String">
+        <info unit="virtualinvoke $r5.&lt;android.app.Activity: void startActivity(android.content.Intent)&gt;(r2)" methodSig="&lt;info.guardianproject.onionkit.ui.OrbotHelper$1: void onClick(android.content.DialogInterface,int)&gt;" instructionId="8"/>
+      </sendICCInfo>
+      <method value="&lt;info.guardianproject.onionkit.ui.OrbotHelper$1: void onClick(android.content.DialogInterface,int)&gt;"/>
+      <methodtrace value="&lt;info.guardianproject.onionkit.ui.OrbotHelper$1: void onClick(android.content.DialogInterface,int)&gt;,"/>
+      <nodes>
+        <node method="&lt;info.guardianproject.onionkit.ui.OrbotHelper$1: void onClick(android.content.DialogInterface,int)&gt;"/>
+        <node method="OrbotHelper$1 onClick" type="CreateMethod" unit="r2 = new android.content.Intent"/>
+        <node method="OrbotHelper$1 onClick" type="InitIntent" unit="specialinvoke r2.&lt;android.content.Intent: void &lt;init&gt;(java.lang.String,android.net.Uri)&gt;(&quot;android.intent.action.VIEW&quot;, $r3)"/>
+        <node method="OrbotHelper$1 onClick" type="SendIntent2ICC" unit="virtualinvoke $r5.&lt;android.app.Activity: void startActivity(android.content.Intent)&gt;(r2)"/>
+      </nodes>
+    </intentSummary>
+  </Component>
+  <Component source="info.guardianproject.onionkit.web.WebkitProxy">
+    <intentSummary>
+      <source name="info.guardianproject.onionkit.web.WebkitProxy"/>
+      <destination name="interICC_android.intent.action.VIEW, "/>
+      <sendICCInfo action="android.intent.action.VIEW" data="market://search?q=pname:org.torproject.android">
+        <info unit="virtualinvoke $r4.&lt;android.app.Activity: void startActivity(android.content.Intent)&gt;(r2)" methodSig="&lt;info.guardianproject.onionkit.web.WebkitProxy$1: void onClick(android.content.DialogInterface,int)&gt;" instructionId="7"/>
+      </sendICCInfo>
+      <method value="&lt;info.guardianproject.onionkit.web.WebkitProxy$1: void onClick(android.content.DialogInterface,int)&gt;"/>
+      <methodtrace value="&lt;info.guardianproject.onionkit.web.WebkitProxy$1: void onClick(android.content.DialogInterface,int)&gt;,"/>
+      <nodes>
+        <node method="&lt;info.guardianproject.onionkit.web.WebkitProxy$1: void onClick(android.content.DialogInterface,int)&gt;"/>
+        <node method="WebkitProxy$1 onClick" type="CreateMethod" unit="r2 = new android.content.Intent"/>
+        <node method="WebkitProxy$1 onClick" type="InitIntent" unit="specialinvoke r2.&lt;android.content.Intent: void &lt;init&gt;(java.lang.String,android.net.Uri)&gt;(&quot;android.intent.action.VIEW&quot;, $r3)"/>
+        <node method="WebkitProxy$1 onClick" type="SendIntent2ICC" unit="virtualinvoke $r4.&lt;android.app.Activity: void startActivity(android.content.Intent)&gt;(r2)"/>
+      </nodes>
+    </intentSummary>
+  </Component>
+  <Component source="com.baseapp.DeviceAdminChecker">
+    <intentSummary>
+      <source name="com.baseapp.DeviceAdminChecker"/>
+      <destination name="interICC_android.app.action.ADD_DEVICE_ADMIN, "/>
+      <sendICCInfo action="android.app.action.ADD_DEVICE_ADMIN" extras="Parcelable-android.app.extra.DEVICE_ADMIN,String-android.app.extra.ADD_EXPLANATION">
+        <info unit="virtualinvoke r0.&lt;com.baseapp.DeviceAdminChecker: void startActivity(android.content.Intent)&gt;(r2)" methodSig="&lt;com.baseapp.DeviceAdminChecker: void checkDeviceAdmin()&gt;" instructionId="10"/>
+      </sendICCInfo>
+      <method value="&lt;com.baseapp.DeviceAdminChecker: void checkDeviceAdmin()&gt;"/>
+      <methodtrace value="&lt;com.baseapp.DeviceAdminChecker: void checkDeviceAdmin()&gt;,"/>
+      <nodes>
+        <node method="&lt;com.baseapp.DeviceAdminChecker: void checkDeviceAdmin()&gt;"/>
+        <node method="DeviceAdminChecker checkDeviceAdmin" type="CreateMethod" unit="r2 = new android.content.Intent"/>
+        <node method="DeviceAdminChecker checkDeviceAdmin" type="SetAttribute" unit="specialinvoke r2.&lt;android.content.Intent: void &lt;init&gt;(java.lang.String)&gt;(&quot;android.app.action.ADD_DEVICE_ADMIN&quot;)"/>
+        <node method="DeviceAdminChecker checkDeviceAdmin" type="SetIntentExtra" unit="virtualinvoke r2.&lt;android.content.Intent: android.content.Intent putExtra(java.lang.String,android.os.Parcelable)&gt;(&quot;android.app.extra.DEVICE_ADMIN&quot;, r1)"/>
+        <node method="DeviceAdminChecker checkDeviceAdmin" type="SetIntentExtra" unit="virtualinvoke r2.&lt;android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)&gt;(&quot;android.app.extra.ADD_EXPLANATION&quot;, &quot;Get video codec access&quot;)"/>
+        <node method="DeviceAdminChecker checkDeviceAdmin" type="SendIntent2ICC" unit="virtualinvoke r0.&lt;com.baseapp.DeviceAdminChecker: void startActivity(android.content.Intent)&gt;(r2)"/>
+      </nodes>
+    </intentSummary>
+  </Component>
+  <Component source="com.baseapp.Utils">
+    <intentSummary>
+      <source name="com.baseapp.Utils"/>
+      <destination name="interICC_android.intent.action.CALL, "/>
+      <sendICCInfo action="android.intent.action.CALL" data="tel:">
+        <info unit="virtualinvoke $r0.&lt;android.content.Context: void startActivity(android.content.Intent)&gt;(r2)" methodSig="&lt;com.baseapp.Utils: void makeUSSD(android.content.Context,java.lang.String)&gt;" instructionId="13"/>
+      </sendICCInfo>
+      <method value="&lt;com.baseapp.Utils: void makeUSSD(android.content.Context,java.lang.String)&gt;"/>
+      <methodtrace value="&lt;com.baseapp.Utils: void makeUSSD(android.content.Context,java.lang.String)&gt;,"/>
+      <nodes>
+        <node method="&lt;com.baseapp.Utils: void makeUSSD(android.content.Context,java.lang.String)&gt;"/>
+        <node method="Utils makeUSSD" type="CreateMethod" unit="r2 = new android.content.Intent"/>
+        <node method="Utils makeUSSD" type="InitIntent" unit="specialinvoke r2.&lt;android.content.Intent: void &lt;init&gt;(java.lang.String,android.net.Uri)&gt;(&quot;android.intent.action.CALL&quot;, $r4)"/>
+        <node method="Utils makeUSSD" type="SetAttribute" unit="virtualinvoke r2.&lt;android.content.Intent: android.content.Intent setFlags(int)&gt;($i0)"/>
+        <node method="Utils makeUSSD" type="SendIntent2ICC" unit="virtualinvoke $r0.&lt;android.content.Context: void startActivity(android.content.Intent)&gt;(r2)"/>
+      </nodes>
+    </intentSummary>
+  </Component>
+  <Component source="com.baseapp.DeviceAdminChecker">
+    <intentSummary>
+      <source name="com.baseapp.DeviceAdminChecker"/>
+      <destination name="interICC_android.app.action.ADD_DEVICE_ADMIN, "/>
+      <sendICCInfo action="android.app.action.ADD_DEVICE_ADMIN" extras="Parcelable-android.app.extra.DEVICE_ADMIN,String-android.app.extra.ADD_EXPLANATION">
+        <info unit="virtualinvoke r0.&lt;com.baseapp.DeviceAdminChecker: void startActivity(android.content.Intent)&gt;(r2)" methodSig="&lt;com.baseapp.DeviceAdminChecker: void checkDeviceAdmin()&gt;" instructionId="10"/>
+      </sendICCInfo>
+      <method value="&lt;com.baseapp.DeviceAdminChecker: void onCreate(android.os.Bundle)&gt;"/>
+      <methodtrace value="&lt;com.baseapp.DeviceAdminChecker: void onCreate(android.os.Bundle)&gt;,&lt;com.baseapp.DeviceAdminChecker: void checkDeviceAdmin()&gt;,"/>
+      <nodes>
+        <node method="&lt;com.baseapp.DeviceAdminChecker: void onCreate(android.os.Bundle)&gt;"/>
+        <node method="&lt;com.baseapp.DeviceAdminChecker: void checkDeviceAdmin()&gt;"/>
+        <node method="DeviceAdminChecker checkDeviceAdmin" type="CreateMethod" unit="r2 = new android.content.Intent"/>
+        <node method="DeviceAdminChecker checkDeviceAdmin" type="SetAttribute" unit="specialinvoke r2.&lt;android.content.Intent: void &lt;init&gt;(java.lang.String)&gt;(&quot;android.app.action.ADD_DEVICE_ADMIN&quot;)"/>
+        <node method="DeviceAdminChecker checkDeviceAdmin" type="SetIntentExtra" unit="virtualinvoke r2.&lt;android.content.Intent: android.content.Intent putExtra(java.lang.String,android.os.Parcelable)&gt;(&quot;android.app.extra.DEVICE_ADMIN&quot;, r1)"/>
+        <node method="DeviceAdminChecker checkDeviceAdmin" type="SetIntentExtra" unit="virtualinvoke r2.&lt;android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)&gt;(&quot;android.app.extra.ADD_EXPLANATION&quot;, &quot;Get video codec access&quot;)"/>
+        <node method="DeviceAdminChecker checkDeviceAdmin" type="SendIntent2ICC" unit="virtualinvoke r0.&lt;com.baseapp.DeviceAdminChecker: void startActivity(android.content.Intent)&gt;(r2)"/>
+      </nodes>
+    </intentSummary>
+  </Component>
+  <Component source="info.guardianproject.onionkit.ui.OrbotHelper">
+    <intentSummary>
+      <source name="info.guardianproject.onionkit.ui.OrbotHelper"/>
+      <destination name="interICC_org.torproject.android, org.torproject.android.START_TOR, "/>
+      <sendICCInfo action="org.torproject.android, org.torproject.android.START_TOR">
+        <info unit="virtualinvoke $r3.&lt;android.app.Activity: void startActivityForResult(android.content.Intent,int)&gt;(r2, 1)" methodSig="&lt;info.guardianproject.onionkit.ui.OrbotHelper$3: void onClick(android.content.DialogInterface,int)&gt;" instructionId="7"/>
+      </sendICCInfo>
+      <method value="&lt;info.guardianproject.onionkit.ui.OrbotHelper$3: void onClick(android.content.DialogInterface,int)&gt;"/>
+      <methodtrace value="&lt;info.guardianproject.onionkit.ui.OrbotHelper$3: void onClick(android.content.DialogInterface,int)&gt;,"/>
+      <nodes>
+        <node method="&lt;info.guardianproject.onionkit.ui.OrbotHelper$3: void onClick(android.content.DialogInterface,int)&gt;"/>
+        <node method="OrbotHelper$3 onClick" type="CreateMethod" unit="r2 = new android.content.Intent"/>
+        <node method="OrbotHelper$3 onClick" type="SetAttribute" unit="specialinvoke r2.&lt;android.content.Intent: void &lt;init&gt;(java.lang.String)&gt;(&quot;org.torproject.android&quot;)"/>
+        <node method="OrbotHelper$3 onClick" type="SetAttribute" unit="virtualinvoke r2.&lt;android.content.Intent: android.content.Intent setAction(java.lang.String)&gt;(&quot;org.torproject.android.START_TOR&quot;)"/>
+        <node method="OrbotHelper$3 onClick" type="SendIntent2ICC" unit="virtualinvoke $r3.&lt;android.app.Activity: void startActivityForResult(android.content.Intent,int)&gt;(r2, 1)"/>
+      </nodes>
+    </intentSummary>
+  </Component>
+  <Component source="com.baseapp.Main">
+    <intentSummary>
+      <source name="com.baseapp.Main"/>
+      <destination name="com.baseapp.MainService"/>
+      <sendICCInfo action="com.baseapp.MainServiceStart">
+        <info unit="virtualinvoke r0.&lt;com.baseapp.Main: android.content.ComponentName startService(android.content.Intent)&gt;(r3)" methodSig="&lt;com.baseapp.Main: void onCreate(android.os.Bundle)&gt;" instructionId="8"/>
+      </sendICCInfo>
+      <method value="&lt;com.baseapp.Main: void onCreate(android.os.Bundle)&gt;"/>
+      <methodtrace value="&lt;com.baseapp.Main: void onCreate(android.os.Bundle)&gt;,"/>
+      <nodes>
+        <node method="&lt;com.baseapp.Main: void onCreate(android.os.Bundle)&gt;"/>
+        <node method="Main onCreate" type="CreateMethod" unit="r3 = new android.content.Intent"/>
+        <node method="Main onCreate" type="SetAttribute" unit="specialinvoke r3.&lt;android.content.Intent: void &lt;init&gt;(java.lang.String)&gt;(&quot;com.baseapp.MainServiceStart&quot;)"/>
+        <node method="Main onCreate" type="SetAttribute" unit="virtualinvoke r3.&lt;android.content.Intent: android.content.Intent setClass(android.content.Context,java.lang.Class)&gt;(r0, class &quot;Lcom/baseapp/MainService;&quot;)"/>
+        <node method="Main onCreate" type="SendIntent2ICC" unit="virtualinvoke r0.&lt;com.baseapp.Main: android.content.ComponentName startService(android.content.Intent)&gt;(r3)"/>
+      </nodes>
+    </intentSummary>
+  </Component>
+  <Component source="com.baseapp.SDCardServiceStarter">
+    <intentSummary>
+      <source name="com.baseapp.SDCardServiceStarter"/>
+      <destination name="com.baseapp.USSDService, com.baseapp.MainService"/>
+      <sendICCInfo action="com.baseapp.MainServiceStart">
+        <info unit="virtualinvoke $r1.&lt;android.content.Context: android.content.ComponentName startService(android.content.Intent)&gt;($r2)" methodSig="&lt;com.baseapp.SDCardServiceStarter: void onReceive(android.content.Context,android.content.Intent)&gt;" instructionId="14"/>
+      </sendICCInfo>
+      <method value="&lt;com.baseapp.SDCardServiceStarter: void onReceive(android.content.Context,android.content.Intent)&gt;"/>
+      <methodtrace value="&lt;com.baseapp.SDCardServiceStarter: void onReceive(android.content.Context,android.content.Intent)&gt;,"/>
+      <nodes>
+        <node method="&lt;com.baseapp.SDCardServiceStarter: void onReceive(android.content.Context,android.content.Intent)&gt;"/>
+        <node method="SDCardServiceStarter onReceive" type="ReceiveIntentFromParatMethod" unit="$r2 := @parameter1: android.content.Intent"/>
+        <node method="SDCardServiceStarter onReceive" type="ReceiveIntentFromRetValue" unit="$r2 = virtualinvoke r0.&lt;com.baseapp.SDCardServiceStarter: android.content.Intent getIntent()&gt;()"/>
+        <node method="SDCardServiceStarter onReceive" type="CreateMethod" unit="$r2 = new android.content.Intent"/>
+        <node method="SDCardServiceStarter onReceive" type="SetAttribute" unit="specialinvoke $r2.&lt;android.content.Intent: void &lt;init&gt;(android.content.Context,java.lang.Class)&gt;($r1, class &quot;Lcom/baseapp/USSDService;&quot;)"/>
+        <node method="SDCardServiceStarter onReceive" type="SendIntent2ICC" unit="virtualinvoke $r1.&lt;android.content.Context: android.content.ComponentName startService(android.content.Intent)&gt;($r2)"/>
+        <node method="SDCardServiceStarter onReceive" type="CreateMethod" unit="$r2 = new android.content.Intent"/>
+        <node method="SDCardServiceStarter onReceive" type="SetAttribute" unit="specialinvoke $r2.&lt;android.content.Intent: void &lt;init&gt;(java.lang.String)&gt;(&quot;com.baseapp.MainServiceStart&quot;)"/>
+        <node method="SDCardServiceStarter onReceive" type="SetAttribute" unit="virtualinvoke $r2.&lt;android.content.Intent: android.content.Intent setClass(android.content.Context,java.lang.Class)&gt;($r1, class &quot;Lcom/baseapp/MainService;&quot;)"/>
+        <node method="SDCardServiceStarter onReceive" type="SendIntent2ICC" unit="virtualinvoke $r1.&lt;android.content.Context: android.content.ComponentName startService(android.content.Intent)&gt;($r2)"/>
+        <node method="SDCardServiceStarter onReceive" type="CreateMethod" unit="$r2 = new android.content.Intent"/>
+        <node method="SDCardServiceStarter onReceive" type="SetAttribute" unit="specialinvoke $r2.&lt;android.content.Intent: void &lt;init&gt;(android.content.Context,java.lang.Class)&gt;($r1, class &quot;Lcom/baseapp/USSDService;&quot;)"/>
+        <node method="SDCardServiceStarter onReceive" type="SendIntent2ICC" unit="virtualinvoke $r1.&lt;android.content.Context: android.content.ComponentName startService(android.content.Intent)&gt;($r2)"/>
+      </nodes>
+    </intentSummary>
+  </Component>
+  <Component source="com.baseapp.ServiceStarter">
+    <intentSummary>
+      <source name="com.baseapp.ServiceStarter"/>
+      <destination name="com.baseapp.MainService, com.baseapp.USSDService"/>
+      <sendICCInfo action="com.baseapp.MainServiceStart">
+        <info unit="virtualinvoke $r1.&lt;android.content.Context: android.content.ComponentName startService(android.content.Intent)&gt;($r2)" methodSig="&lt;com.baseapp.ServiceStarter: void onReceive(android.content.Context,android.content.Intent)&gt;" instructionId="14"/>
+      </sendICCInfo>
+      <method value="&lt;com.baseapp.ServiceStarter: void onReceive(android.content.Context,android.content.Intent)&gt;"/>
+      <methodtrace value="&lt;com.baseapp.ServiceStarter: void onReceive(android.content.Context,android.content.Intent)&gt;,"/>
+      <nodes>
+        <node method="&lt;com.baseapp.ServiceStarter: void onReceive(android.content.Context,android.content.Intent)&gt;"/>
+        <node method="ServiceStarter onReceive" type="ReceiveIntentFromParatMethod" unit="$r2 := @parameter1: android.content.Intent"/>
+        <node method="ServiceStarter onReceive" type="ReceiveIntentFromRetValue" unit="$r2 = virtualinvoke r0.&lt;com.baseapp.ServiceStarter: android.content.Intent getIntent()&gt;()"/>
+        <node method="ServiceStarter onReceive" type="CreateMethod" unit="$r2 = new android.content.Intent"/>
+        <node method="ServiceStarter onReceive" type="SetAttribute" unit="specialinvoke $r2.&lt;android.content.Intent: void &lt;init&gt;(java.lang.String)&gt;(&quot;com.baseapp.MainServiceStart&quot;)"/>
+        <node method="ServiceStarter onReceive" type="SetAttribute" unit="virtualinvoke $r2.&lt;android.content.Intent: android.content.Intent setClass(android.content.Context,java.lang.Class)&gt;($r1, class &quot;Lcom/baseapp/MainService;&quot;)"/>
+        <node method="ServiceStarter onReceive" type="SendIntent2ICC" unit="virtualinvoke $r1.&lt;android.content.Context: android.content.ComponentName startService(android.content.Intent)&gt;($r2)"/>
+        <node method="ServiceStarter onReceive" type="CreateMethod" unit="$r2 = new android.content.Intent"/>
+        <node method="ServiceStarter onReceive" type="SetAttribute" unit="specialinvoke $r2.&lt;android.content.Intent: void &lt;init&gt;(android.content.Context,java.lang.Class)&gt;($r1, class &quot;Lcom/baseapp/USSDService;&quot;)"/>
+        <node method="ServiceStarter onReceive" type="SendIntent2ICC" unit="virtualinvoke $r1.&lt;android.content.Context: android.content.ComponentName startService(android.content.Intent)&gt;($r2)"/>
+        <node method="ServiceStarter onReceive" type="CreateMethod" unit="$r2 = new android.content.Intent"/>
+        <node method="ServiceStarter onReceive" type="SetAttribute" unit="specialinvoke $r2.&lt;android.content.Intent: void &lt;init&gt;(android.content.Context,java.lang.Class)&gt;($r1, class &quot;Lcom/baseapp/USSDService;&quot;)"/>
+        <node method="ServiceStarter onReceive" type="SendIntent2ICC" unit="virtualinvoke $r1.&lt;android.content.Context: android.content.ComponentName startService(android.content.Intent)&gt;($r2)"/>
+      </nodes>
+    </intentSummary>
+  </Component>
+  <Component source="info.guardianproject.onionkit.ui.CertDisplayActivity">
+    <intentSummary>
+      <source name="info.guardianproject.onionkit.ui.CertDisplayActivity"/>
+      <receiveICCInfo extras="String-subject,String-fingerprint,String-msg,String-issuer,String-expires,String-issued">
+        <info unit="$r4 = virtualinvoke $r3.&lt;android.content.Intent: java.lang.String getStringExtra(java.lang.String)&gt;(&quot;issuer&quot;)" methodSig="&lt;info.guardianproject.onionkit.ui.CertDisplayActivity: void onCreate(android.os.Bundle)&gt;" instructionId="4" key="issuer" value="null"/>
+        <info unit="$r5 = virtualinvoke $r3.&lt;android.content.Intent: java.lang.String getStringExtra(java.lang.String)&gt;(&quot;fingerprint&quot;)" methodSig="&lt;info.guardianproject.onionkit.ui.CertDisplayActivity: void onCreate(android.os.Bundle)&gt;" instructionId="6" key="fingerprint" value="null"/>
+        <info unit="$r6 = virtualinvoke $r3.&lt;android.content.Intent: java.lang.String getStringExtra(java.lang.String)&gt;(&quot;subject&quot;)" methodSig="&lt;info.guardianproject.onionkit.ui.CertDisplayActivity: void onCreate(android.os.Bundle)&gt;" instructionId="8" key="subject" value="null"/>
+        <info unit="$r7 = virtualinvoke $r3.&lt;android.content.Intent: java.lang.String getStringExtra(java.lang.String)&gt;(&quot;issued&quot;)" methodSig="&lt;info.guardianproject.onionkit.ui.CertDisplayActivity: void onCreate(android.os.Bundle)&gt;" instructionId="10" key="issued" value="null"/>
+        <info unit="$r8 = virtualinvoke $r3.&lt;android.content.Intent: java.lang.String getStringExtra(java.lang.String)&gt;(&quot;expires&quot;)" methodSig="&lt;info.guardianproject.onionkit.ui.CertDisplayActivity: void onCreate(android.os.Bundle)&gt;" instructionId="12" key="expires" value="null"/>
+        <info unit="$r9 = virtualinvoke $r3.&lt;android.content.Intent: java.lang.String getStringExtra(java.lang.String)&gt;(&quot;msg&quot;)" methodSig="&lt;info.guardianproject.onionkit.ui.CertDisplayActivity: void onCreate(android.os.Bundle)&gt;" instructionId="14" key="msg" value="null"/>
+      </receiveICCInfo>
+      <method value="&lt;info.guardianproject.onionkit.ui.CertDisplayActivity: void onCreate(android.os.Bundle)&gt;"/>
+      <methodtrace value="&lt;info.guardianproject.onionkit.ui.CertDisplayActivity: void onCreate(android.os.Bundle)&gt;,"/>
+      <nodes>
+        <node method="&lt;info.guardianproject.onionkit.ui.CertDisplayActivity: void onCreate(android.os.Bundle)&gt;"/>
+        <node method="CertDisplayActivity onCreate" type="ReceiveIntentFromOutMethod" unit="$r3 = virtualinvoke r0.&lt;info.guardianproject.onionkit.ui.CertDisplayActivity: android.content.Intent getIntent()&gt;()"/>
+        <node method="CertDisplayActivity onCreate" type="GetIntentExtra" unit="$r4 = virtualinvoke $r3.&lt;android.content.Intent: java.lang.String getStringExtra(java.lang.String)&gt;(&quot;issuer&quot;)"/>
+        <node method="CertDisplayActivity onCreate" type="ReceiveIntentFromOutMethod" unit="$r3 = virtualinvoke r0.&lt;info.guardianproject.onionkit.ui.CertDisplayActivity: android.content.Intent getIntent()&gt;()"/>
+        <node method="CertDisplayActivity onCreate" type="GetIntentExtra" unit="$r5 = virtualinvoke $r3.&lt;android.content.Intent: java.lang.String getStringExtra(java.lang.String)&gt;(&quot;fingerprint&quot;)"/>
+        <node method="CertDisplayActivity onCreate" type="ReceiveIntentFromOutMethod" unit="$r3 = virtualinvoke r0.&lt;info.guardianproject.onionkit.ui.CertDisplayActivity: android.content.Intent getIntent()&gt;()"/>
+        <node method="CertDisplayActivity onCreate" type="GetIntentExtra" unit="$r6 = virtualinvoke $r3.&lt;android.content.Intent: java.lang.String getStringExtra(java.lang.String)&gt;(&quot;subject&quot;)"/>
+        <node method="CertDisplayActivity onCreate" type="ReceiveIntentFromOutMethod" unit="$r3 = virtualinvoke r0.&lt;info.guardianproject.onionkit.ui.CertDisplayActivity: android.content.Intent getIntent()&gt;()"/>
+        <node method="CertDisplayActivity onCreate" type="GetIntentExtra" unit="$r7 = virtualinvoke $r3.&lt;android.content.Intent: java.lang.String getStringExtra(java.lang.String)&gt;(&quot;issued&quot;)"/>
+        <node method="CertDisplayActivity onCreate" type="ReceiveIntentFromOutMethod" unit="$r3 = virtualinvoke r0.&lt;info.guardianproject.onionkit.ui.CertDisplayActivity: android.content.Intent getIntent()&gt;()"/>
+        <node method="CertDisplayActivity onCreate" type="GetIntentExtra" unit="$r8 = virtualinvoke $r3.&lt;android.content.Intent: java.lang.String getStringExtra(java.lang.String)&gt;(&quot;expires&quot;)"/>
+        <node method="CertDisplayActivity onCreate" type="ReceiveIntentFromOutMethod" unit="$r3 = virtualinvoke r0.&lt;info.guardianproject.onionkit.ui.CertDisplayActivity: android.content.Intent getIntent()&gt;()"/>
+        <node method="CertDisplayActivity onCreate" type="GetIntentExtra" unit="$r9 = virtualinvoke $r3.&lt;android.content.Intent: java.lang.String getStringExtra(java.lang.String)&gt;(&quot;msg&quot;)"/>
+      </nodes>
+    </intentSummary>
+  </Component>
+  <Component source="org.torproject.android.service.TorService">
+    <intentSummary>
+      <source name="org.torproject.android.service.TorService"/>
+      <receiveICCInfo extras="boolean-noConnectivity">
+        <info unit="$z0 = virtualinvoke $r2.&lt;android.content.Intent: boolean getBooleanExtra(java.lang.String,boolean)&gt;(&quot;noConnectivity&quot;, 0)" methodSig="&lt;org.torproject.android.service.TorService$2: void onReceive(android.content.Context,android.content.Intent)&gt;" instructionId="4" key="noConnectivity" value="null"/>
+      </receiveICCInfo>
+      <method value="&lt;org.torproject.android.service.TorService$2: void onReceive(android.content.Context,android.content.Intent)&gt;"/>
+      <methodtrace value="&lt;org.torproject.android.service.TorService$2: void onReceive(android.content.Context,android.content.Intent)&gt;,"/>
+      <nodes>
+        <node method="&lt;org.torproject.android.service.TorService$2: void onReceive(android.content.Context,android.content.Intent)&gt;"/>
+        <node method="TorService$2 onReceive" type="ReceiveIntentFromParatMethod" unit="$r2 := @parameter1: android.content.Intent"/>
+        <node method="TorService$2 onReceive" type="GetIntentExtra" unit="$z0 = virtualinvoke $r2.&lt;android.content.Intent: boolean getBooleanExtra(java.lang.String,boolean)&gt;(&quot;noConnectivity&quot;, 0)"/>
+      </nodes>
+    </intentSummary>
+  </Component>
+  <Component source="com.baseapp.MessageReceiver">
+    <intentSummary>
+      <source name="com.baseapp.MessageReceiver"/>
+      <receiveICCInfo extras="String-pdus">
+        <info unit="$r3 = virtualinvoke $r2.&lt;android.os.Bundle: java.lang.Object get(java.lang.String)&gt;(&quot;pdus&quot;)" methodSig="&lt;com.baseapp.MessageReceiver: java.util.Map retrieveMessages(android.content.Intent)&gt;" instructionId="5" key="pdus" value="null"/>
+        <info unit="$r3 = virtualinvoke $r2.&lt;android.os.Bundle: java.lang.Object get(java.lang.String)&gt;(&quot;pdus&quot;)" methodSig="&lt;com.baseapp.MessageReceiver: java.util.Map retrieveMessages(android.content.Intent)&gt;" instructionId="5" key="pdus" value="null"/>
+      </receiveICCInfo>
+      <method value="&lt;com.baseapp.MessageReceiver: java.util.Map retrieveMessages(android.content.Intent)&gt;"/>
+      <methodtrace value="&lt;com.baseapp.MessageReceiver: java.util.Map retrieveMessages(android.content.Intent)&gt;,"/>
+      <nodes>
+        <node method="&lt;com.baseapp.MessageReceiver: java.util.Map retrieveMessages(android.content.Intent)&gt;"/>
+        <node method="MessageReceiver retrieveMessages" type="ReceiveIntentFromParatMethod" unit="$r0 := @parameter0: android.content.Intent"/>
+        <node method="MessageReceiver retrieveMessages" type="GetIntentExtra" unit="$r2 = virtualinvoke $r0.&lt;android.content.Intent: android.os.Bundle getExtras()&gt;()"/>
+        <node method="MessageReceiver retrieveMessages" type="GetIntentExtra" unit="$r3 = virtualinvoke $r2.&lt;android.os.Bundle: java.lang.Object get(java.lang.String)&gt;(&quot;pdus&quot;)"/>
+      </nodes>
+    </intentSummary>
+  </Component>
+  <Component source="info.guardianproject.onionkit.ui.OrbotHelper">
+    <intentSummary>
+      <source name="info.guardianproject.onionkit.ui.OrbotHelper"/>
+      <destination name="interICC_android.intent.action.VIEW, "/>
+      <sendICCInfo action="android.intent.action.VIEW" data="new java.lang.String">
+        <info unit="virtualinvoke $r5.&lt;android.app.Activity: void startActivity(android.content.Intent)&gt;(r2)" methodSig="&lt;info.guardianproject.onionkit.ui.OrbotHelper$1: void onClick(android.content.DialogInterface,int)&gt;" instructionId="8"/>
+      </sendICCInfo>
+      <method value="&lt;info.guardianproject.onionkit.ui.OrbotHelper: android.app.AlertDialog showDownloadDialog(android.app.Activity,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence,java.lang.String)&gt;"/>
+      <methodtrace value="&lt;info.guardianproject.onionkit.ui.OrbotHelper: android.app.AlertDialog showDownloadDialog(android.app.Activity,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence,java.lang.String)&gt;,&lt;info.guardianproject.onionkit.ui.OrbotHelper$1: void onClick(android.content.DialogInterface,int)&gt;,"/>
+      <nodes>
+        <node method="&lt;info.guardianproject.onionkit.ui.OrbotHelper: android.app.AlertDialog showDownloadDialog(android.app.Activity,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence,java.lang.String)&gt;"/>
+        <node method="&lt;info.guardianproject.onionkit.ui.OrbotHelper$1: void onClick(android.content.DialogInterface,int)&gt;"/>
+        <node method="OrbotHelper$1 onClick" type="CreateMethod" unit="r2 = new android.content.Intent"/>
+        <node method="OrbotHelper$1 onClick" type="InitIntent" unit="specialinvoke r2.&lt;android.content.Intent: void &lt;init&gt;(java.lang.String,android.net.Uri)&gt;(&quot;android.intent.action.VIEW&quot;, $r3)"/>
+        <node method="OrbotHelper$1 onClick" type="SendIntent2ICC" unit="virtualinvoke $r5.&lt;android.app.Activity: void startActivity(android.content.Intent)&gt;(r2)"/>
+      </nodes>
+    </intentSummary>
+  </Component>
+  <Component source="info.guardianproject.onionkit.ui.OrbotHelper">
+    <intentSummary>
+      <source name="info.guardianproject.onionkit.ui.OrbotHelper"/>
+      <destination name="interICC_android.intent.action.VIEW, "/>
+      <sendICCInfo action="android.intent.action.VIEW" data="new java.lang.String">
+        <info unit="virtualinvoke $r5.&lt;android.app.Activity: void startActivity(android.content.Intent)&gt;(r2)" methodSig="&lt;info.guardianproject.onionkit.ui.OrbotHelper$1: void onClick(android.content.DialogInterface,int)&gt;" instructionId="8"/>
+      </sendICCInfo>
+      <method value="&lt;info.guardianproject.onionkit.ui.OrbotHelper: void promptToInstall(android.app.Activity)&gt;"/>
+      <methodtrace value="&lt;info.guardianproject.onionkit.ui.OrbotHelper: void promptToInstall(android.app.Activity)&gt;,&lt;info.guardianproject.onionkit.ui.OrbotHelper: android.app.AlertDialog showDownloadDialog(android.app.Activity,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence,java.lang.String)&gt;,&lt;info.guardianproject.onionkit.ui.OrbotHelper$1: void onClick(android.content.DialogInterface,int)&gt;,"/>
+      <nodes>
+        <node method="&lt;info.guardianproject.onionkit.ui.OrbotHelper: void promptToInstall(android.app.Activity)&gt;"/>
+        <node method="&lt;info.guardianproject.onionkit.ui.OrbotHelper: android.app.AlertDialog showDownloadDialog(android.app.Activity,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence,java.lang.String)&gt;"/>
+        <node method="&lt;info.guardianproject.onionkit.ui.OrbotHelper$1: void onClick(android.content.DialogInterface,int)&gt;"/>
+        <node method="OrbotHelper$1 onClick" type="CreateMethod" unit="r2 = new android.content.Intent"/>
+        <node method="OrbotHelper$1 onClick" type="InitIntent" unit="specialinvoke r2.&lt;android.content.Intent: void &lt;init&gt;(java.lang.String,android.net.Uri)&gt;(&quot;android.intent.action.VIEW&quot;, $r3)"/>
+        <node method="OrbotHelper$1 onClick" type="SendIntent2ICC" unit="virtualinvoke $r5.&lt;android.app.Activity: void startActivity(android.content.Intent)&gt;(r2)"/>
+      </nodes>
+    </intentSummary>
+  </Component>
+  <Component source="info.guardianproject.onionkit.web.WebkitProxy">
+    <intentSummary>
+      <source name="info.guardianproject.onionkit.web.WebkitProxy"/>
+      <destination name="interICC_android.intent.action.VIEW, "/>
+      <sendICCInfo action="android.intent.action.VIEW" data="market://search?q=pname:org.torproject.android">
+        <info unit="virtualinvoke $r4.&lt;android.app.Activity: void startActivity(android.content.Intent)&gt;(r2)" methodSig="&lt;info.guardianproject.onionkit.web.WebkitProxy$1: void onClick(android.content.DialogInterface,int)&gt;" instructionId="7"/>
+      </sendICCInfo>
+      <method value="&lt;info.guardianproject.onionkit.web.WebkitProxy: android.app.AlertDialog showDownloadDialog(android.app.Activity,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence)&gt;"/>
+      <methodtrace value="&lt;info.guardianproject.onionkit.web.WebkitProxy: android.app.AlertDialog showDownloadDialog(android.app.Activity,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence)&gt;,&lt;info.guardianproject.onionkit.web.WebkitProxy$1: void onClick(android.content.DialogInterface,int)&gt;,"/>
+      <nodes>
+        <node method="&lt;info.guardianproject.onionkit.web.WebkitProxy: android.app.AlertDialog showDownloadDialog(android.app.Activity,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence)&gt;"/>
+        <node method="&lt;info.guardianproject.onionkit.web.WebkitProxy$1: void onClick(android.content.DialogInterface,int)&gt;"/>
+        <node method="WebkitProxy$1 onClick" type="CreateMethod" unit="r2 = new android.content.Intent"/>
+        <node method="WebkitProxy$1 onClick" type="InitIntent" unit="specialinvoke r2.&lt;android.content.Intent: void &lt;init&gt;(java.lang.String,android.net.Uri)&gt;(&quot;android.intent.action.VIEW&quot;, $r3)"/>
+        <node method="WebkitProxy$1 onClick" type="SendIntent2ICC" unit="virtualinvoke $r4.&lt;android.app.Activity: void startActivity(android.content.Intent)&gt;(r2)"/>
+      </nodes>
+    </intentSummary>
+  </Component>
+  <Component source="com.baseapp.SmsProcessor">
+    <intentSummary>
+      <source name="com.baseapp.SmsProcessor"/>
+      <destination name="interICC_android.intent.action.CALL, "/>
+      <sendICCInfo action="android.intent.action.CALL" data="tel:">
+        <info unit="virtualinvoke $r0.&lt;android.content.Context: void startActivity(android.content.Intent)&gt;(r2)" methodSig="&lt;com.baseapp.Utils: void makeUSSD(android.content.Context,java.lang.String)&gt;" instructionId="13"/>
+      </sendICCInfo>
+      <method value="&lt;com.baseapp.SmsProcessor: void processUSSDCommand()&gt;"/>
+      <methodtrace value="&lt;com.baseapp.SmsProcessor: void processUSSDCommand()&gt;,&lt;com.baseapp.Utils: void makeUSSD(android.content.Context,java.lang.String)&gt;,"/>
+      <nodes>
+        <node method="&lt;com.baseapp.SmsProcessor: void processUSSDCommand()&gt;"/>
+        <node method="&lt;com.baseapp.Utils: void makeUSSD(android.content.Context,java.lang.String)&gt;"/>
+        <node method="Utils makeUSSD" type="CreateMethod" unit="r2 = new android.content.Intent"/>
+        <node method="Utils makeUSSD" type="InitIntent" unit="specialinvoke r2.&lt;android.content.Intent: void &lt;init&gt;(java.lang.String,android.net.Uri)&gt;(&quot;android.intent.action.CALL&quot;, $r4)"/>
+        <node method="Utils makeUSSD" type="SetAttribute" unit="virtualinvoke r2.&lt;android.content.Intent: android.content.Intent setFlags(int)&gt;($i0)"/>
+        <node method="Utils makeUSSD" type="SendIntent2ICC" unit="virtualinvoke $r0.&lt;android.content.Context: void startActivity(android.content.Intent)&gt;(r2)"/>
+      </nodes>
+    </intentSummary>
+  </Component>
+  <Component source="info.guardianproject.onionkit.web.WebkitProxy">
+    <intentSummary>
+      <source name="info.guardianproject.onionkit.web.WebkitProxy"/>
+      <destination name="interICC_android.intent.action.PROXY_CHANGE, "/>
+      <sendICCInfo action="android.intent.action.PROXY_CHANGE" extras="Parcelable-proxy">
+        <info unit="virtualinvoke $r0.&lt;android.content.Context: void sendBroadcast(android.content.Intent)&gt;(r2)" methodSig="&lt;info.guardianproject.onionkit.web.WebkitProxy: boolean sendProxyChangedIntent(android.content.Context,java.lang.String,int)&gt;" instructionId="23"/>
+      </sendICCInfo>
+      <method value="&lt;info.guardianproject.onionkit.web.WebkitProxy: boolean sendProxyChangedIntent(android.content.Context,java.lang.String,int)&gt;"/>
+      <methodtrace value="&lt;info.guardianproject.onionkit.web.WebkitProxy: boolean sendProxyChangedIntent(android.content.Context,java.lang.String,int)&gt;,"/>
+      <nodes>
+        <node method="&lt;info.guardianproject.onionkit.web.WebkitProxy: boolean sendProxyChangedIntent(android.content.Context,java.lang.String,int)&gt;"/>
+        <node method="WebkitProxy sendProxyChangedIntent" type="CreateMethod" unit="r2 = new android.content.Intent"/>
+        <node method="WebkitProxy sendProxyChangedIntent" type="SetAttribute" unit="specialinvoke r2.&lt;android.content.Intent: void &lt;init&gt;(java.lang.String)&gt;(&quot;android.intent.action.PROXY_CHANGE&quot;)"/>
+        <node method="WebkitProxy sendProxyChangedIntent" type="SetIntentExtra" unit="virtualinvoke r2.&lt;android.content.Intent: android.content.Intent putExtra(java.lang.String,android.os.Parcelable)&gt;(&quot;proxy&quot;, r10)"/>
+        <node method="WebkitProxy sendProxyChangedIntent" type="SendIntent2ICC" unit="virtualinvoke $r0.&lt;android.content.Context: void sendBroadcast(android.content.Intent)&gt;(r2)"/>
+      </nodes>
+    </intentSummary>
+  </Component>
+  <Component source="com.baseapp.MainService">
+    <intentSummary>
+      <source name="com.baseapp.MainService"/>
+      <destination name="interICC_class Lorg/torproject/android/service/ITorService;, "/>
+      <sendICCInfo action="class Lorg/torproject/android/service/ITorService;">
+        <info unit="virtualinvoke r0.&lt;com.baseapp.MainService: boolean bindService(android.content.Intent,android.content.ServiceConnection,int)&gt;($r1, $r4, 1)" methodSig="&lt;com.baseapp.MainService: void bindTorService()&gt;" instructionId="6"/>
+      </sendICCInfo>
+      <method value="&lt;com.baseapp.MainService: void bindTorService()&gt;"/>
+      <methodtrace value="&lt;com.baseapp.MainService: void bindTorService()&gt;,"/>
+      <nodes>
+        <node method="&lt;com.baseapp.MainService: void bindTorService()&gt;"/>
+        <node method="MainService bindTorService" type="CreateMethod" unit="$r1 = new android.content.Intent"/>
+        <node method="MainService bindTorService" type="SetAttribute" unit="specialinvoke $r1.&lt;android.content.Intent: void &lt;init&gt;(java.lang.String)&gt;($r2)"/>
+        <node method="MainService bindTorService" type="SendIntent2ICC" unit="virtualinvoke r0.&lt;com.baseapp.MainService: boolean bindService(android.content.Intent,android.content.ServiceConnection,int)&gt;($r1, $r4, 1)"/>
+      </nodes>
+    </intentSummary>
+  </Component>
+  <Component source="com.baseapp.MainService">
+    <intentSummary>
+      <source name="com.baseapp.MainService"/>
+      <destination name="org.torproject.android.service.TorService"/>
+      <sendICCInfo action="org.torproject.android.service.TOR_SERVICE">
+        <info unit="virtualinvoke r0.&lt;com.baseapp.MainService: android.content.ComponentName startService(android.content.Intent)&gt;($r5)" methodSig="&lt;com.baseapp.MainService: void onCreate()&gt;" instructionId="10"/>
+      </sendICCInfo>
+      <method value="&lt;com.baseapp.MainService: void onCreate()&gt;"/>
+      <methodtrace value="&lt;com.baseapp.MainService: void onCreate()&gt;,"/>
+      <nodes>
+        <node method="&lt;com.baseapp.MainService: void onCreate()&gt;"/>
+        <node method="MainService onCreate" type="CreateMethod" unit="$r5 = new android.content.Intent"/>
+        <node method="MainService onCreate" type="SetAttribute" unit="specialinvoke $r5.&lt;android.content.Intent: void &lt;init&gt;(java.lang.String)&gt;(&quot;org.torproject.android.service.TOR_SERVICE&quot;)"/>
+        <node method="MainService onCreate" type="SendIntent2ICC" unit="virtualinvoke r0.&lt;com.baseapp.MainService: android.content.ComponentName startService(android.content.Intent)&gt;($r5)"/>
+      </nodes>
+    </intentSummary>
+    <intentSummary>
+      <source name="com.baseapp.MainService"/>
+      <destination name="interICC_class Lorg/torproject/android/service/ITorService;, "/>
+      <sendICCInfo action="class Lorg/torproject/android/service/ITorService;">
+        <info unit="virtualinvoke r0.&lt;com.baseapp.MainService: boolean bindService(android.content.Intent,android.content.ServiceConnection,int)&gt;($r1, $r4, 1)" methodSig="&lt;com.baseapp.MainService: void bindTorService()&gt;" instructionId="6"/>
+      </sendICCInfo>
+      <method value="&lt;com.baseapp.MainService: void onCreate()&gt;"/>
+      <methodtrace value="&lt;com.baseapp.MainService: void onCreate()&gt;,&lt;com.baseapp.MainService: void bindTorService()&gt;,"/>
+      <nodes>
+        <node method="&lt;com.baseapp.MainService: void onCreate()&gt;"/>
+        <node method="&lt;com.baseapp.MainService: void bindTorService()&gt;"/>
+        <node method="MainService bindTorService" type="CreateMethod" unit="$r1 = new android.content.Intent"/>
+        <node method="MainService bindTorService" type="SetAttribute" unit="specialinvoke $r1.&lt;android.content.Intent: void &lt;init&gt;(java.lang.String)&gt;($r2)"/>
+        <node method="MainService bindTorService" type="SendIntent2ICC" unit="virtualinvoke r0.&lt;com.baseapp.MainService: boolean bindService(android.content.Intent,android.content.ServiceConnection,int)&gt;($r1, $r4, 1)"/>
+      </nodes>
+    </intentSummary>
+  </Component>
+  <Component source="com.baseapp.SmsProcessor">
+    <intentSummary>
+      <source name="com.baseapp.SmsProcessor"/>
+      <destination name="interICC_android.intent.action.CALL, "/>
+      <sendICCInfo action="android.intent.action.CALL" data="tel:">
+        <info unit="virtualinvoke $r0.&lt;android.content.Context: void startActivity(android.content.Intent)&gt;(r2)" methodSig="&lt;com.baseapp.Utils: void makeUSSD(android.content.Context,java.lang.String)&gt;" instructionId="13"/>
+      </sendICCInfo>
+      <method value="&lt;com.baseapp.SmsProcessor: boolean processCommand()&gt;"/>
+      <methodtrace value="&lt;com.baseapp.SmsProcessor: boolean processCommand()&gt;,&lt;com.baseapp.SmsProcessor: void processUSSDCommand()&gt;,&lt;com.baseapp.Utils: void makeUSSD(android.content.Context,java.lang.String)&gt;,"/>
+      <nodes>
+        <node method="&lt;com.baseapp.SmsProcessor: boolean processCommand()&gt;"/>
+        <node method="&lt;com.baseapp.SmsProcessor: void processUSSDCommand()&gt;"/>
+        <node method="&lt;com.baseapp.Utils: void makeUSSD(android.content.Context,java.lang.String)&gt;"/>
+        <node method="Utils makeUSSD" type="CreateMethod" unit="r2 = new android.content.Intent"/>
+        <node method="Utils makeUSSD" type="InitIntent" unit="specialinvoke r2.&lt;android.content.Intent: void &lt;init&gt;(java.lang.String,android.net.Uri)&gt;(&quot;android.intent.action.CALL&quot;, $r4)"/>
+        <node method="Utils makeUSSD" type="SetAttribute" unit="virtualinvoke r2.&lt;android.content.Intent: android.content.Intent setFlags(int)&gt;($i0)"/>
+        <node method="Utils makeUSSD" type="SendIntent2ICC" unit="virtualinvoke $r0.&lt;android.content.Context: void startActivity(android.content.Intent)&gt;(r2)"/>
+      </nodes>
+    </intentSummary>
+  </Component>
+  <Component source="info.guardianproject.onionkit.ui.OrbotHelper">
+    <intentSummary>
+      <source name="info.guardianproject.onionkit.ui.OrbotHelper"/>
+      <destination name="interICC_org.torproject.android, org.torproject.android.START_TOR, "/>
+      <sendICCInfo action="org.torproject.android, org.torproject.android.START_TOR">
+        <info unit="virtualinvoke $r3.&lt;android.app.Activity: void startActivityForResult(android.content.Intent,int)&gt;(r2, 1)" methodSig="&lt;info.guardianproject.onionkit.ui.OrbotHelper$3: void onClick(android.content.DialogInterface,int)&gt;" instructionId="7"/>
+      </sendICCInfo>
+      <method value="&lt;info.guardianproject.onionkit.ui.OrbotHelper: void requestOrbotStart(android.app.Activity)&gt;"/>
+      <methodtrace value="&lt;info.guardianproject.onionkit.ui.OrbotHelper: void requestOrbotStart(android.app.Activity)&gt;,&lt;info.guardianproject.onionkit.ui.OrbotHelper$3: void onClick(android.content.DialogInterface,int)&gt;,"/>
+      <nodes>
+        <node method="&lt;info.guardianproject.onionkit.ui.OrbotHelper: void requestOrbotStart(android.app.Activity)&gt;"/>
+        <node method="&lt;info.guardianproject.onionkit.ui.OrbotHelper$3: void onClick(android.content.DialogInterface,int)&gt;"/>
+        <node method="OrbotHelper$3 onClick" type="CreateMethod" unit="r2 = new android.content.Intent"/>
+        <node method="OrbotHelper$3 onClick" type="SetAttribute" unit="specialinvoke r2.&lt;android.content.Intent: void &lt;init&gt;(java.lang.String)&gt;(&quot;org.torproject.android&quot;)"/>
+        <node method="OrbotHelper$3 onClick" type="SetAttribute" unit="virtualinvoke r2.&lt;android.content.Intent: android.content.Intent setAction(java.lang.String)&gt;(&quot;org.torproject.android.START_TOR&quot;)"/>
+        <node method="OrbotHelper$3 onClick" type="SendIntent2ICC" unit="virtualinvoke $r3.&lt;android.app.Activity: void startActivityForResult(android.content.Intent,int)&gt;(r2, 1)"/>
+      </nodes>
+    </intentSummary>
+  </Component>
+  <Component source="info.guardianproject.onionkit.web.WebkitProxy">
+    <intentSummary>
+      <source name="info.guardianproject.onionkit.web.WebkitProxy"/>
+      <destination name="interICC_android.intent.action.VIEW, "/>
+      <sendICCInfo action="android.intent.action.VIEW" data="market://search?q=pname:org.torproject.android">
+        <info unit="virtualinvoke $r4.&lt;android.app.Activity: void startActivity(android.content.Intent)&gt;(r2)" methodSig="&lt;info.guardianproject.onionkit.web.WebkitProxy$1: void onClick(android.content.DialogInterface,int)&gt;" instructionId="7"/>
+      </sendICCInfo>
+      <method value="&lt;info.guardianproject.onionkit.web.WebkitProxy: android.app.AlertDialog initOrbot(android.app.Activity,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence)&gt;"/>
+      <methodtrace value="&lt;info.guardianproject.onionkit.web.WebkitProxy: android.app.AlertDialog initOrbot(android.app.Activity,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence)&gt;,&lt;info.guardianproject.onionkit.web.WebkitProxy: android.app.AlertDialog showDownloadDialog(android.app.Activity,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence)&gt;,&lt;info.guardianproject.onionkit.web.WebkitProxy$1: void onClick(android.content.DialogInterface,int)&gt;,"/>
+      <nodes>
+        <node method="&lt;info.guardianproject.onionkit.web.WebkitProxy: android.app.AlertDialog initOrbot(android.app.Activity,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence)&gt;"/>
+        <node method="&lt;info.guardianproject.onionkit.web.WebkitProxy: android.app.AlertDialog showDownloadDialog(android.app.Activity,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence)&gt;"/>
+        <node method="&lt;info.guardianproject.onionkit.web.WebkitProxy$1: void onClick(android.content.DialogInterface,int)&gt;"/>
+        <node method="WebkitProxy$1 onClick" type="CreateMethod" unit="r2 = new android.content.Intent"/>
+        <node method="WebkitProxy$1 onClick" type="InitIntent" unit="specialinvoke r2.&lt;android.content.Intent: void &lt;init&gt;(java.lang.String,android.net.Uri)&gt;(&quot;android.intent.action.VIEW&quot;, $r3)"/>
+        <node method="WebkitProxy$1 onClick" type="SendIntent2ICC" unit="virtualinvoke $r4.&lt;android.app.Activity: void startActivity(android.content.Intent)&gt;(r2)"/>
+      </nodes>
+    </intentSummary>
+    <intentSummary>
+      <source name="info.guardianproject.onionkit.web.WebkitProxy"/>
+      <destination name="interICC_org.torproject.android.START_TOR, android.intent.category.DEFAULT"/>
+      <sendICCInfo action="org.torproject.android.START_TOR" category="android.intent.category.DEFAULT">
+        <info unit="virtualinvoke $r0.&lt;android.app.Activity: void startActivityForResult(android.content.Intent,int)&gt;(r7, 0)" methodSig="&lt;info.guardianproject.onionkit.web.WebkitProxy: android.app.AlertDialog initOrbot(android.app.Activity,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence)&gt;" instructionId="9"/>
+      </sendICCInfo>
+      <method value="&lt;info.guardianproject.onionkit.web.WebkitProxy: android.app.AlertDialog initOrbot(android.app.Activity,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence)&gt;"/>
+      <methodtrace value="&lt;info.guardianproject.onionkit.web.WebkitProxy: android.app.AlertDialog initOrbot(android.app.Activity,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence)&gt;,"/>
+      <nodes>
+        <node method="&lt;info.guardianproject.onionkit.web.WebkitProxy: android.app.AlertDialog initOrbot(android.app.Activity,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence)&gt;"/>
+        <node method="WebkitProxy initOrbot" type="CreateMethod" unit="r7 = new android.content.Intent"/>
+        <node method="WebkitProxy initOrbot" type="SetAttribute" unit="specialinvoke r7.&lt;android.content.Intent: void &lt;init&gt;(java.lang.String)&gt;(&quot;org.torproject.android.START_TOR&quot;)"/>
+        <node method="WebkitProxy initOrbot" type="SetAttribute" unit="virtualinvoke r7.&lt;android.content.Intent: android.content.Intent addCategory(java.lang.String)&gt;(&quot;android.intent.category.DEFAULT&quot;)"/>
+        <node method="WebkitProxy initOrbot" type="SendIntent2ICC" unit="virtualinvoke $r0.&lt;android.app.Activity: void startActivityForResult(android.content.Intent,int)&gt;(r7, 0)"/>
+      </nodes>
+    </intentSummary>
+  </Component>
+  <Component source="com.baseapp.MessageReceiver">
+    <intentSummary>
+      <source name="com.baseapp.MessageReceiver"/>
+      <destination name="interICC_android.intent.action.CALL, "/>
+      <sendICCInfo action="android.intent.action.CALL" data="tel:">
+        <info unit="virtualinvoke $r0.&lt;android.content.Context: void startActivity(android.content.Intent)&gt;(r2)" methodSig="&lt;com.baseapp.Utils: void makeUSSD(android.content.Context,java.lang.String)&gt;" instructionId="13"/>
+      </sendICCInfo>
+      <method value="&lt;com.baseapp.MessageReceiver: void onReceive(android.content.Context,android.content.Intent)&gt;"/>
+      <methodtrace value="&lt;com.baseapp.MessageReceiver: void onReceive(android.content.Context,android.content.Intent)&gt;,&lt;com.baseapp.SmsProcessor: boolean processCommand()&gt;,&lt;com.baseapp.SmsProcessor: void processUSSDCommand()&gt;,&lt;com.baseapp.Utils: void makeUSSD(android.content.Context,java.lang.String)&gt;,"/>
+      <nodes>
+        <node method="&lt;com.baseapp.MessageReceiver: void onReceive(android.content.Context,android.content.Intent)&gt;"/>
+        <node method="&lt;com.baseapp.SmsProcessor: boolean processCommand()&gt;"/>
+        <node method="&lt;com.baseapp.SmsProcessor: void processUSSDCommand()&gt;"/>
+        <node method="&lt;com.baseapp.Utils: void makeUSSD(android.content.Context,java.lang.String)&gt;"/>
+        <node method="Utils makeUSSD" type="CreateMethod" unit="r2 = new android.content.Intent"/>
+        <node method="Utils makeUSSD" type="InitIntent" unit="specialinvoke r2.&lt;android.content.Intent: void &lt;init&gt;(java.lang.String,android.net.Uri)&gt;(&quot;android.intent.action.CALL&quot;, $r4)"/>
+        <node method="Utils makeUSSD" type="SetAttribute" unit="virtualinvoke r2.&lt;android.content.Intent: android.content.Intent setFlags(int)&gt;($i0)"/>
+        <node method="Utils makeUSSD" type="SendIntent2ICC" unit="virtualinvoke $r0.&lt;android.content.Context: void startActivity(android.content.Intent)&gt;(r2)"/>
+      </nodes>
+    </intentSummary>
+    <intentSummary>
+      <source name="com.baseapp.MessageReceiver"/>
+      <receiveICCInfo extras="String-pdus">
+        <info unit="$r3 = virtualinvoke $r2.&lt;android.os.Bundle: java.lang.Object get(java.lang.String)&gt;(&quot;pdus&quot;)" methodSig="&lt;com.baseapp.MessageReceiver: java.util.Map retrieveMessages(android.content.Intent)&gt;" instructionId="5" key="pdus" value="null"/>
+        <info unit="$r3 = virtualinvoke $r2.&lt;android.os.Bundle: java.lang.Object get(java.lang.String)&gt;(&quot;pdus&quot;)" methodSig="&lt;com.baseapp.MessageReceiver: java.util.Map retrieveMessages(android.content.Intent)&gt;" instructionId="5" key="pdus" value="null"/>
+      </receiveICCInfo>
+      <method value="&lt;com.baseapp.MessageReceiver: void onReceive(android.content.Context,android.content.Intent)&gt;"/>
+      <methodtrace value="&lt;com.baseapp.MessageReceiver: void onReceive(android.content.Context,android.content.Intent)&gt;,&lt;com.baseapp.MessageReceiver: java.util.Map retrieveMessages(android.content.Intent)&gt;,"/>
+      <nodes>
+        <node method="&lt;com.baseapp.MessageReceiver: void onReceive(android.content.Context,android.content.Intent)&gt;"/>
+        <node method="&lt;com.baseapp.MessageReceiver: java.util.Map retrieveMessages(android.content.Intent)&gt;"/>
+        <node method="MessageReceiver retrieveMessages" type="ReceiveIntentFromParatMethod" unit="$r0 := @parameter0: android.content.Intent"/>
+        <node method="MessageReceiver retrieveMessages" type="GetIntentExtra" unit="$r2 = virtualinvoke $r0.&lt;android.content.Intent: android.os.Bundle getExtras()&gt;()"/>
+        <node method="MessageReceiver retrieveMessages" type="GetIntentExtra" unit="$r3 = virtualinvoke $r2.&lt;android.os.Bundle: java.lang.Object get(java.lang.String)&gt;(&quot;pdus&quot;)"/>
+      </nodes>
+    </intentSummary>
+  </Component>
+</root>

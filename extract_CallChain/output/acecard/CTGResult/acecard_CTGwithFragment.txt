@@ -1,0 +1,29 @@
+
+com.baseapp.DeviceAdminChecker -> interICC_android.app.action.ADD_DEVICE_ADMIN, 
+
+com.baseapp.MainService -> interICC_class Lorg/torproject/android/service/ITorService;, 
+com.baseapp.MainService -> com.baseapp.DeviceAdminChecker
+com.baseapp.MainService -> org.torproject.android.service.TorService
+
+info.guardianproject.onionkit.ui.OrbotHelper -> interICC_org.torproject.android, org.torproject.android.REQUEST_HS_PORT, 
+info.guardianproject.onionkit.ui.OrbotHelper -> interICC_org.torproject.android, org.torproject.android.START_TOR, 
+info.guardianproject.onionkit.ui.OrbotHelper -> interICC_android.intent.action.VIEW, 
+
+com.baseapp.SmsProcessor -> interICC_android.intent.action.CALL, 
+
+com.baseapp.Utils -> interICC_android.intent.action.CALL, 
+
+com.baseapp.Main -> com.baseapp.MainService
+
+info.guardianproject.onionkit.web.WebkitProxy -> interICC_android.intent.action.VIEW, 
+info.guardianproject.onionkit.web.WebkitProxy -> interICC_android.intent.action.PROXY_CHANGE, 
+info.guardianproject.onionkit.web.WebkitProxy -> interICC_org.torproject.android.START_TOR, android.intent.category.DEFAULT
+
+com.baseapp.MessageReceiver -> interICC_android.intent.action.CALL, 
+
+com.baseapp.ServiceStarter -> com.baseapp.MainService
+com.baseapp.ServiceStarter -> com.baseapp.USSDService
+
+com.baseapp.SDCardServiceStarter -> com.baseapp.MainService
+com.baseapp.SDCardServiceStarter -> com.baseapp.USSDService
+

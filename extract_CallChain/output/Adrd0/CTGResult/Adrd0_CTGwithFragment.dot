@@ -1,0 +1,73 @@
+digraph G {
+subgraph cluster_legend{ 
+bgcolor=mintcream;
+_Activity[color = red];
+_Service[color = royalblue];
+_Provider[color = violet];
+_Reciever[color = peru];
+_Fragment[color = teal];
+_Main[style=filled, fillcolor=orange, color = mintcream];
+_Exported[style=filled, fillcolor=lightpink, color = mintcream];
+_Main -> _Exported -> _Activity -> _Service -> _Reciever -> _Provider -> _Fragment; 
+}
+subgraph cluster_component{ 
+LogoActivity[style=filled, fillcolor=orange, color = red];
+MainActivity[style=filled, fillcolor=pink, color = red];
+MusicActivity[style=filled, fillcolor=pink, color = red];
+MusicFeedActivity[style=filled, fillcolor=pink, color = red];
+OnlineMusicActivity[style=filled, fillcolor=pink, color = red];
+MyPlayer[style=filled, fillcolor=pink, color = red];
+Search[style=filled, fillcolor=pink, color = red];
+PlayingListActivity[style=filled, fillcolor=pink, color = red];
+lyricsactivity[style=filled, fillcolor=pink, color = red];
+MyService[color = royalblue];
+MyPlayerService[color = royalblue];
+MyBoolService[style=filled, fillcolor=pink, color = peru];
+MyAlarmReceiver[style=filled, fillcolor=pink, color = peru];
+MyBoolService->MyAlarmReceiver;
+LogoActivity->MainActivity;
+LogoActivity->MyService;
+MusicActivity->lyricsactivity;
+MusicActivity->MusicFeedActivity;
+MusicActivity->PlayingListActivity;
+MyService->MyAlarmReceiver;
+MusicFeedActivity->lyricsactivity;
+MusicFeedActivity->OnlineMusicActivity;
+MusicFeedActivity->PlayingListActivity;
+MusicFeedActivity->MusicActivity;
+OnlineMusicActivity->PlayingListActivity;
+OnlineMusicActivity->MainActivity;
+OnlineMusicActivity->MusicActivity;
+OnlineMusicActivity->lyricsactivity;
+MyPlayerService->lyricsactivity;
+MyPlayer->MyPlayerService;
+MyPlayer->PlayingListActivity;
+MyPlayer->MainActivity;
+MyPlayer->MusicActivity;
+MyPlayer->MusicFeedActivity;
+MyAlarmReceiver->MyService;
+MainActivity->PlayingListActivity;
+MainActivity->Search;
+MainActivity->lyricsactivity;
+MainActivity->MyPlayerService;
+MainActivity->MusicActivity;
+MainActivity->MusicFeedActivity;
+Search->MusicActivity;
+Search->MainActivity;
+Search->MusicFeedActivity;
+Search->OnlineMusicActivity;
+Search->PlayingListActivity;
+Search->lyricsactivity;
+Search->MyPlayer;
+Search->Search;
+PlayingListActivity->lyricsactivity;
+PlayingListActivity->MusicFeedActivity;
+PlayingListActivity->MyPlayerService;
+PlayingListActivity->MusicActivity;
+lyricsactivity->MainActivity;
+lyricsactivity->MusicFeedActivity;
+lyricsactivity->MusicActivity;
+lyricsactivity->PlayingListActivity;
+lyricsactivity->MyPlayerService;
+}
+}

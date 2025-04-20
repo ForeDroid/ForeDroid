@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+  <source name="com.baseapp.DeviceAdminChecker" type="Activity">
+    <destination ICCType="implicit" name="android.app.action.ADD_DEVICE_ADMIN, " edgeType="Act2Class" method="&lt;com.baseapp.DeviceAdminChecker: void checkDeviceAdmin()&gt;" instructionId="10" unit="virtualinvoke r0.&lt;com.baseapp.DeviceAdminChecker: void startActivity(android.content.Intent)&gt;(r2)" action="android.app.action.ADD_DEVICE_ADMIN" extras="Parcelable-android.app.extra.DEVICE_ADMIN,String-android.app.extra.ADD_EXPLANATION" flags=""/>
+  </source>
+  <source name="com.baseapp.MainService" type="Service">
+    <destination ICCType="implicit" name="class Lorg/torproject/android/service/ITorService;, " edgeType="NonAct2Class" method="&lt;com.baseapp.MainService: void bindTorService()&gt;" instructionId="6" unit="virtualinvoke r0.&lt;com.baseapp.MainService: boolean bindService(android.content.Intent,android.content.ServiceConnection,int)&gt;($r1, $r4, 1)" action="class Lorg/torproject/android/service/ITorService;" extras="" flags=""/>
+    <destination ICCType="explicit" name="com.baseapp.DeviceAdminChecker" desType="Activity" edgeType="NonAct2Act" method="&lt;com.baseapp.MainService: void checkDeviceAdmin()&gt;" instructionId="12" unit="virtualinvoke r0.&lt;com.baseapp.MainService: void startActivity(android.content.Intent)&gt;(r2)" extras="" flags=""/>
+    <destination ICCType="implicit" name="org.torproject.android.service.TorService" desType="Service" edgeType="NonAct2NonAct" method="&lt;com.baseapp.MainService: void onCreate()&gt;" instructionId="10" unit="virtualinvoke r0.&lt;com.baseapp.MainService: android.content.ComponentName startService(android.content.Intent)&gt;($r5)" action="org.torproject.android.service.TOR_SERVICE" extras="" flags=""/>
+  </source>
+  <source name="org.torproject.android.service.TorService" type="Service"/>
+  <source name="com.baseapp.USSDService" type="Service"/>
+  <source name="com.baseapp.MyDeviceAdminReceiver" type="Receiver"/>
+  <source name="com.baseapp.Main" type="Activity">
+    <destination ICCType="explicit" name="com.baseapp.MainService" desType="Service" edgeType="Act2NonAct" method="&lt;com.baseapp.Main: void onCreate(android.os.Bundle)&gt;" instructionId="8" unit="virtualinvoke r0.&lt;com.baseapp.Main: android.content.ComponentName startService(android.content.Intent)&gt;(r3)" action="com.baseapp.MainServiceStart" extras="" flags=""/>
+  </source>
+  <source name="com.baseapp.MessageReceiver" type="Receiver">
+    <destination ICCType="implicit" name="android.intent.action.CALL, " edgeType="NonAct2Class" method="&lt;com.baseapp.Utils: void makeUSSD(android.content.Context,java.lang.String)&gt;" instructionId="13" unit="virtualinvoke $r0.&lt;android.content.Context: void startActivity(android.content.Intent)&gt;(r2)" action="android.intent.action.CALL" data="tel:" extras="" flags=""/>
+  </source>
+  <source name="com.baseapp.ServiceStarter" type="Receiver">
+    <destination ICCType="explicit" name="com.baseapp.MainService" desType="Service" edgeType="NonAct2NonAct" method="&lt;com.baseapp.ServiceStarter: void onReceive(android.content.Context,android.content.Intent)&gt;" instructionId="14" unit="virtualinvoke $r1.&lt;android.content.Context: android.content.ComponentName startService(android.content.Intent)&gt;($r2)" action="com.baseapp.MainServiceStart" extras="" flags=""/>
+    <destination ICCType="explicit" name="com.baseapp.USSDService" desType="Service" edgeType="NonAct2NonAct" method="&lt;com.baseapp.ServiceStarter: void onReceive(android.content.Context,android.content.Intent)&gt;" instructionId="14" unit="virtualinvoke $r1.&lt;android.content.Context: android.content.ComponentName startService(android.content.Intent)&gt;($r2)" action="com.baseapp.MainServiceStart" extras="" flags=""/>
+  </source>
+  <source name="com.baseapp.SDCardServiceStarter" type="Receiver">
+    <destination ICCType="explicit" name="com.baseapp.MainService" desType="Service" edgeType="NonAct2NonAct" method="&lt;com.baseapp.SDCardServiceStarter: void onReceive(android.content.Context,android.content.Intent)&gt;" instructionId="14" unit="virtualinvoke $r1.&lt;android.content.Context: android.content.ComponentName startService(android.content.Intent)&gt;($r2)" action="com.baseapp.MainServiceStart" extras="" flags=""/>
+    <destination ICCType="explicit" name="com.baseapp.USSDService" desType="Service" edgeType="NonAct2NonAct" method="&lt;com.baseapp.SDCardServiceStarter: void onReceive(android.content.Context,android.content.Intent)&gt;" instructionId="14" unit="virtualinvoke $r1.&lt;android.content.Context: android.content.ComponentName startService(android.content.Intent)&gt;($r2)" action="com.baseapp.MainServiceStart" extras="" flags=""/>
+  </source>
+  <source name="info.guardianproject.onionkit.ui.OrbotHelper" type="NotComponentSource">
+    <destination ICCType="implicit" name="org.torproject.android, org.torproject.android.REQUEST_HS_PORT, " edgeType="Class2Any" method="&lt;info.guardianproject.onionkit.ui.OrbotHelper: void requestHiddenServiceOnPort(android.app.Activity,int)&gt;" instructionId="7" unit="virtualinvoke $r1.&lt;android.app.Activity: void startActivityForResult(android.content.Intent,int)&gt;(r2, 9999)" action="org.torproject.android, org.torproject.android.REQUEST_HS_PORT" extras="int-hs_port" flags=""/>
+    <destination ICCType="implicit" name="org.torproject.android, org.torproject.android.START_TOR, " edgeType="Class2Any" method="&lt;info.guardianproject.onionkit.ui.OrbotHelper$3: void onClick(android.content.DialogInterface,int)&gt;" instructionId="7" unit="virtualinvoke $r3.&lt;android.app.Activity: void startActivityForResult(android.content.Intent,int)&gt;(r2, 1)" action="org.torproject.android, org.torproject.android.START_TOR" extras="" flags=""/>
+    <destination ICCType="implicit" name="android.intent.action.VIEW, " edgeType="Class2Any" method="&lt;info.guardianproject.onionkit.ui.OrbotHelper$1: void onClick(android.content.DialogInterface,int)&gt;" instructionId="8" unit="virtualinvoke $r5.&lt;android.app.Activity: void startActivity(android.content.Intent)&gt;(r2)" action="android.intent.action.VIEW" data="new java.lang.String" extras="" flags=""/>
+  </source>
+  <source name="com.baseapp.SmsProcessor" type="NotComponentSource">
+    <destination ICCType="implicit" name="android.intent.action.CALL, " edgeType="Class2Any" method="&lt;com.baseapp.Utils: void makeUSSD(android.content.Context,java.lang.String)&gt;" instructionId="13" unit="virtualinvoke $r0.&lt;android.content.Context: void startActivity(android.content.Intent)&gt;(r2)" action="android.intent.action.CALL" data="tel:" extras="" flags=""/>
+  </source>
+  <source name="com.baseapp.Utils" type="NotComponentSource">
+    <destination ICCType="implicit" name="android.intent.action.CALL, " edgeType="Class2Any" method="&lt;com.baseapp.Utils: void makeUSSD(android.content.Context,java.lang.String)&gt;" instructionId="13" unit="virtualinvoke $r0.&lt;android.content.Context: void startActivity(android.content.Intent)&gt;(r2)" action="android.intent.action.CALL" data="tel:" extras="" flags=""/>
+  </source>
+  <source name="info.guardianproject.onionkit.web.WebkitProxy" type="NotComponentSource">
+    <destination ICCType="implicit" name="android.intent.action.VIEW, " edgeType="Class2Any" method="&lt;info.guardianproject.onionkit.web.WebkitProxy$1: void onClick(android.content.DialogInterface,int)&gt;" instructionId="7" unit="virtualinvoke $r4.&lt;android.app.Activity: void startActivity(android.content.Intent)&gt;(r2)" action="android.intent.action.VIEW" data="market://search?q=pname:org.torproject.android" extras="" flags=""/>
+    <destination ICCType="implicit" name="android.intent.action.PROXY_CHANGE, " edgeType="Class2Any" method="&lt;info.guardianproject.onionkit.web.WebkitProxy: boolean sendProxyChangedIntent(android.content.Context,java.lang.String,int)&gt;" instructionId="23" unit="virtualinvoke $r0.&lt;android.content.Context: void sendBroadcast(android.content.Intent)&gt;(r2)" action="android.intent.action.PROXY_CHANGE" extras="Parcelable-proxy" flags=""/>
+    <destination ICCType="implicit" name="org.torproject.android.START_TOR, android.intent.category.DEFAULT" edgeType="Class2Any" method="&lt;info.guardianproject.onionkit.web.WebkitProxy: android.app.AlertDialog initOrbot(android.app.Activity,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence)&gt;" instructionId="9" unit="virtualinvoke $r0.&lt;android.app.Activity: void startActivityForResult(android.content.Intent,int)&gt;(r7, 0)" action="org.torproject.android.START_TOR" category="android.intent.category.DEFAULT" extras="" flags=""/>
+  </source>
+</root>

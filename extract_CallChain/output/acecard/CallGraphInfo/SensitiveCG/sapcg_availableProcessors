@@ -1,0 +1,1 @@
+<org.spongycastle.math.ntru.polynomial.IntegerPolynomial: org.spongycastle.math.ntru.polynomial.Resultant resultantMultiThread()> -> <java.lang.Runtime: int availableProcessors()>

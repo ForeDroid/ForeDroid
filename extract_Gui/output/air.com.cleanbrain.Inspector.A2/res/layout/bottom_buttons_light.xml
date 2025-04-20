@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textSize="@dimen/buttonTextSize" android:textColor="@color/grayButtonText" android:id="@id/dbx_bottom_bar_cancel_button" android:background="@drawable/common_button_light_gray" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/fileChooserButtonRight" android:layout_weight="1.0" />
+    <Button android:textSize="@dimen/buttonTextSize" android:textColor="@color/greenButtonText" android:id="@id/dbx_bottom_bar_ok_button" android:background="@drawable/common_button_green" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/fileChooserButtonLeft" android:layout_weight="1.0" />
+</LinearLayout>

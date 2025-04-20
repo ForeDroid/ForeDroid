@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="29" android:compileSdkVersionCodename="10" android:installLocation="auto" package="air.com.cleanbrain.Inspector.A2" platformBuildVersionCode="29" platformBuildVersionName="10">
+    <application android:hardwareAccelerated="false" android:icon="@mipmap/icon" android:label="@string/app_name">
+        <activity android:configChanges="fontScale|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:label="@string/app_name" android:launchMode="singleTask" android:name=".AppEntry" android:screenOrientation="user" android:theme="@style/Theme.NoShadow" android:windowSoftInputMode="adjustResize|stateHidden">
+            <meta-data android:name="embeddedFonts" android:value="false"/>
+            <meta-data android:name="namespaceVersion" android:value="33.1"/>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="ctinspector"/>
+            </intent-filter>
+            <meta-data android:name="autoOrients" android:value="true"/>
+            <meta-data android:name="fullScreen" android:value="false"/>
+            <meta-data android:name="uniqueappversionid" android:value="206d4a6e-825f-4e54-94e1-7b8191dd470e"/>
+            <meta-data android:name="initialcontent" android:value="CTInspector.swf"/>
+            <meta-data android:name="containsVideo" android:value="false"/>
+            <meta-data android:name="webContentsDebuggingEnabled" android:value="false"/>
+            <meta-data android:name="disableMediaCodec" android:value="false"/>
+        </activity>
+        <provider android:authorities="air.com.cleanbrain.Inspector.A2.provider" android:exported="false" android:grantUriPermissions="true" android:name="com.adobe.air.CameraUIProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/provider_paths"/>
+        </provider>
+        <activity android:name="com.distriqt.extension.scanner.zbar.ZBarScannerActivity"/>
+        <activity android:name="com.distriqt.extension.scanner.permissions.AuthorisationActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <meta-data android:name="com.pushwoosh.appid" android:value="4E52E-4BD6D"/>
+        <meta-data android:name="com.pushwoosh.senderid" android:value="A920302404586"/>
+        <meta-data android:name="PW_BROADCAST_PUSH" android:value="true"/>
+        <meta-data android:name="com.pushwoosh.notification_icon" android:value="@drawable/notification_icon_branded"/>
+        <meta-data android:name="com.pushwoosh.notification_service_extension" android:value="com.pushwoosh.nativeExtensions.PushwooshNotificationServiceExtension"/>
+        <meta-data android:name="com.pushwoosh.log_level" android:value="NOISE"/>
+        <activity android:name="com.pushwoosh.inapp.view.RichMediaWebActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:name="com.pushwoosh.inapp.view.RemoteUrlActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <receiver android:enabled="true" android:name="com.pushwoosh.BootReceiver" android:permission="android.permission.RECEIVE_BOOT_COMPLETED">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.pushwoosh.FcmRegistrationService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.pushwoosh.firebase.PushFcmIntentService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <activity android:name="com.pushwoosh.internal.utils.PermissionActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <receiver android:name="com.pushwoosh.notification.LocalNotificationReceiver"/>
+        <provider android:authorities="air.com.cleanbrain.Inspector.A2.pushwooshinitprovider" android:enabled="true" android:exported="false" android:initOrder="50" android:name="com.pushwoosh.PushwooshInitProvider"/>
+        <provider android:authorities="air.com.cleanbrain.Inspector.A2.FirebaseInitProvider" android:enabled="true" android:exported="false" android:initOrder="60" android:name="com.pushwoosh.nativeExtensions.PushwooshFirebaseInitProvider"/>
+        <provider android:authorities="air.com.cleanbrain.Inspector.A2.PushwooshSharedDataProvider" android:enabled="true" android:exported="true" android:initOrder="60" android:name="com.pushwoosh.PushwooshSharedDataProvider"/>
+        <provider android:authorities="air.com.cleanbrain.Inspector.A2.firebasepushwooshinitprovider" android:enabled="true" android:exported="false" android:initOrder="70" android:name="com.pushwoosh.firebase.FirebaseInitProvider"/>
+        <receiver android:enabled="true" android:exported="false" android:name="com.pushwoosh.NotificationOpenReceiver"/>
+        <meta-data android:name="com.pushwoosh.plugin.badge" android:value="com.pushwoosh.badge.BadgePlugin"/>
+        <meta-data android:name="com.pushwoosh.internal.plugin_provider" android:value="com.pushwoosh.nativeExtensions.internal.AdobeAirPluginProvider"/>
+        <meta-data android:name="com.pushwoosh.plugin.inbox" android:value="com.pushwoosh.inbox.PushwooshInboxPlugin"/>
+        <activity android:name="com.pushwoosh.nativeExtensions.AirInboxActivity"/>
+        <activity android:name="com.pushwoosh.inbox.ui.presentation.view.activity.AttachmentActivity" android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <service android:exported="false" android:name="com.google.firebase.components.ComponentDiscoveryService">
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.iid.Registrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <receiver android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+                <category android:name="air.com.cleanbrain.Inspector.A2"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="com.google.firebase.messaging.FirebaseMessagingService">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdService">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+        <provider android:authorities="air.com.cleanbrain.Inspector.A2.firebaseinitprovider" android:exported="false" android:initOrder="100" android:name="com.google.firebase.provider.FirebaseInitProvider"/>
+        <provider android:authorities="air.com.cleanbrain.Inspector.A2.workmanager-init" android:directBootAware="false" android:exported="false" android:multiprocess="true" android:name="androidx.work.impl.WorkManagerInitializer"/>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_alarm_service_default" android:exported="false" android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"/>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_job_service_default" android:exported="true" android:name="androidx.work.impl.background.systemjob.SystemJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="false" android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"/>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.BATTERY_OKAY"/>
+                <action android:name="android.intent.action.BATTERY_LOW"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.DEVICE_STORAGE_LOW"/>
+                <action android:name="android.intent.action.DEVICE_STORAGE_OK"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="@bool/enable_system_alarm_service_default" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver">
+            <intent-filter>
+                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies"/>
+            </intent-filter>
+        </receiver>
+        <activity android:name="com.cleanbrain.dropbox.DropboxChooserActivity" android:theme="@android:style/Theme.NoDisplay"/>
+        <activity android:name="com.cleanbrain.filechooser.FileSelectionActivity" android:theme="@style/FloatingTheme"/>
+    </application>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.flash" android:required="false"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <permission android:name="air.com.cleanbrain.Inspector.A2.debug.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <uses-permission android:name="air.com.cleanbrain.Inspector.A2.debug.permission.C2D_MESSAGE"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="com.sec.android.provider.badge.permission.READ"/>
+    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE"/>
+    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT"/>
+    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE"/>
+    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE"/>
+    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT"/>
+    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE"/>
+    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE"/>
+    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.READ_APP_BADGE"/>
+    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ"/>
+    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE"/>
+</manifest>

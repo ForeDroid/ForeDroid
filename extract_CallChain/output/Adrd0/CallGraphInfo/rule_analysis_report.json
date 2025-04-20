@@ -1,0 +1,361 @@
+[ {
+  "findings" : [ [ {
+    "sapcg_file" : "results/output/Adrd0/CallGraphInfo/SensitiveCG/sapcg_getDeviceId",
+    "sensitiveAPI" : "<android.telephony.TelephonyManager: java.lang.String getDeviceId()>"
+  } ], [ {
+    "call_chain" : [ "<com.xxx.yyy.MyService: void onCreate()>", "<android.telephony.TelephonyManager: java.lang.String getDeviceId()>" ],
+    "entry_point" : {
+      "origin_call_chain" : [ "<com.ophone.MiniPlayer.LogoActivity: void onCreate(android.os.Bundle)>", "<com.xxx.yyy.MyBoolService: void onReceive(android.content.Context,android.content.Intent)>", "<com.xxx.yyy.MyService: void onCreate()>", "<com.xxx.yyy.MyAlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>" ],
+      "origin_entry_point" : "com.ophone.MiniPlayer.LogoActivity",
+      "entry_point" : "com.xxx.yyy.MyService",
+      "origin_actions" : [ "android.intent.action.MAIN" ]
+    }
+  } ] ],
+  "rule" : {
+    "or_predicates" : [ "Landroid/telephony/TelephonyManager/getDeviceId", "Landroid/telephony/TelephonyManager/getImei" ],
+    "tags" : [ "read_imei", "telephony", "pii", "fingerprinting" ],
+    "title" : "The application probably gets the IMEI of the phone.",
+    "description" : "",
+    "name" : "readImei"
+  }
+}, {
+  "findings" : [ [ {
+    "sapcg_file" : "results/output/Adrd0/CallGraphInfo/SensitiveCG/sapcg_getSubscriberId",
+    "sensitiveAPI" : "<android.telephony.TelephonyManager: java.lang.String getSubscriberId()>"
+  } ], [ {
+    "call_chain" : [ "<com.xxx.yyy.MyService: void onCreate()>", "<android.telephony.TelephonyManager: java.lang.String getSubscriberId()>" ],
+    "entry_point" : {
+      "origin_call_chain" : [ "<com.ophone.MiniPlayer.LogoActivity: void onCreate(android.os.Bundle)>", "<com.xxx.yyy.MyBoolService: void onReceive(android.content.Context,android.content.Intent)>", "<com.xxx.yyy.MyService: void onCreate()>", "<com.xxx.yyy.MyAlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>" ],
+      "origin_entry_point" : "com.ophone.MiniPlayer.LogoActivity",
+      "entry_point" : "com.xxx.yyy.MyService",
+      "origin_actions" : [ "android.intent.action.MAIN" ]
+    }
+  } ] ],
+  "rule" : {
+    "or_predicates" : [ "Landroid/telephony/TelephonyManager/getSubscriberId" ],
+    "tags" : [ "read_imsi", "telephony", "pii", "fingerprinting" ],
+    "title" : "The application probably gets the subscriber ID associated to the SIM card/ Should never be collected!",
+    "description" : "",
+    "name" : "readImsi"
+  }
+}, {
+  "findings" : [ [ {
+    "sapcg_file" : "results/output/Adrd0/CallGraphInfo/SensitiveCG/sapcg_getActiveNetworkInfo",
+    "sensitiveAPI" : "<android.net.ConnectivityManager: android.net.NetworkInfo getActiveNetworkInfo()>"
+  } ], [ {
+    "call_chain" : [ "<com.xxx.yyy.MyService: void onStart(android.content.Intent,int)>", "<android.net.ConnectivityManager: android.net.NetworkInfo getActiveNetworkInfo()>" ],
+    "entry_point" : {
+      "origin_call_chain" : [ "<com.ophone.MiniPlayer.LogoActivity: void onCreate(android.os.Bundle)>", "<com.xxx.yyy.MyBoolService: void onReceive(android.content.Context,android.content.Intent)>", "<com.xxx.yyy.MyService: void onCreate()>", "<com.xxx.yyy.MyAlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>" ],
+      "origin_entry_point" : "com.ophone.MiniPlayer.LogoActivity",
+      "entry_point" : "com.xxx.yyy.MyService",
+      "origin_actions" : [ "android.intent.action.MAIN" ]
+    }
+  } ] ],
+  "rule" : {
+    "or_predicates" : [ "Landroid/net/ConnectivityManager/getActiveNetworkInfo", "Landroid/net/ConnectivityManager/getNetworkInfo", "Landroid/net/ConnectivityManager/getAllNetworkInfo", "Landroid/net/ConnectivityManager/getAllNetworks", "Landroid/net/ConnectivityManager/getNetworkInfo" ],
+    "tags" : [ "read_network_info", "network", "fingerprinting" ],
+    "title" : "The application probably gets the network connections information.",
+    "description" : "",
+    "name" : "readNetworkInfo"
+  }
+}, {
+  "findings" : [ [ {
+    "sapcg_file" : "results/output/Adrd0/CallGraphInfo/SensitiveCG/sapcg_getInstance",
+    "sensitiveAPI" : "<javax.crypto.Cipher: javax.crypto.Cipher getInstance(java.lang.String)>"
+  } ], [ {
+    "call_chain" : [ "<com.xxx.yyy.MyService: void onStart(android.content.Intent,int)>", "<com.xxx.yyy.qzl: void GG()>", "<com.xxx.yyy.qzl$1: void run()>", "<com.xxx.yyy.ddda: java.lang.String decrypt(java.lang.String,java.lang.String)>", "<javax.crypto.Cipher: javax.crypto.Cipher getInstance(java.lang.String)>" ],
+    "entry_point" : {
+      "origin_call_chain" : [ "<com.ophone.MiniPlayer.LogoActivity: void onCreate(android.os.Bundle)>", "<com.xxx.yyy.MyBoolService: void onReceive(android.content.Context,android.content.Intent)>", "<com.xxx.yyy.MyService: void onCreate()>", "<com.xxx.yyy.MyAlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>" ],
+      "origin_entry_point" : "com.ophone.MiniPlayer.LogoActivity",
+      "entry_point" : "com.xxx.yyy.MyService",
+      "origin_actions" : [ "android.intent.action.MAIN" ]
+    }
+  }, {
+    "call_chain" : [ "<com.xxx.yyy.MyService: void onStart(android.content.Intent,int)>", "<com.xxx.yyy.qzl: void GG()>", "<com.xxx.yyy.qzl$1: void run()>", "<com.xxx.yyy.ddda: java.lang.String decrypt(java.lang.String,java.lang.String)>", "<javax.crypto.Cipher: javax.crypto.Cipher getInstance(java.lang.String)>" ],
+    "entry_point" : {
+      "origin_call_chain" : [ "<com.ophone.MiniPlayer.LogoActivity: void onCreate(android.os.Bundle)>", "<com.xxx.yyy.MyBoolService: void onReceive(android.content.Context,android.content.Intent)>", "<com.xxx.yyy.MyService: void onCreate()>", "<com.xxx.yyy.MyAlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>" ],
+      "origin_entry_point" : "com.ophone.MiniPlayer.LogoActivity",
+      "entry_point" : "com.xxx.yyy.MyService",
+      "origin_actions" : [ "android.intent.action.MAIN" ]
+    }
+  }, {
+    "call_chain" : [ "<com.xxx.yyy.MyService: void onStart(android.content.Intent,int)>", "<com.xxx.yyy.qzl: void GG()>", "<com.xxx.yyy.qzl$1: void run()>", "<com.xxx.yyy.ddda: java.lang.String decrypt(java.lang.String,java.lang.String)>", "<javax.crypto.Cipher: javax.crypto.Cipher getInstance(java.lang.String)>" ],
+    "entry_point" : {
+      "origin_call_chain" : [ "<com.ophone.MiniPlayer.LogoActivity: void onCreate(android.os.Bundle)>", "<com.xxx.yyy.MyBoolService: void onReceive(android.content.Context,android.content.Intent)>", "<com.xxx.yyy.MyService: void onCreate()>", "<com.xxx.yyy.MyAlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>" ],
+      "origin_entry_point" : "com.ophone.MiniPlayer.LogoActivity",
+      "entry_point" : "com.xxx.yyy.MyService",
+      "origin_actions" : [ "android.intent.action.MAIN" ]
+    }
+  }, {
+    "call_chain" : [ "<com.xxx.yyy.MyService: void onStart(android.content.Intent,int)>", "<com.xxx.yyy.qzl: void GG()>", "<com.xxx.yyy.qzl$1: void run()>", "<com.xxx.yyy.ddda: java.lang.String decrypt(java.lang.String,java.lang.String)>", "<javax.crypto.Cipher: javax.crypto.Cipher getInstance(java.lang.String)>" ],
+    "entry_point" : {
+      "origin_call_chain" : [ "<com.ophone.MiniPlayer.LogoActivity: void onCreate(android.os.Bundle)>", "<com.xxx.yyy.MyBoolService: void onReceive(android.content.Context,android.content.Intent)>", "<com.xxx.yyy.MyService: void onCreate()>", "<com.xxx.yyy.MyAlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>" ],
+      "origin_entry_point" : "com.ophone.MiniPlayer.LogoActivity",
+      "entry_point" : "com.xxx.yyy.MyService",
+      "origin_actions" : [ "android.intent.action.MAIN" ]
+    }
+  }, {
+    "call_chain" : [ "<com.xxx.yyy.MyService: void onStart(android.content.Intent,int)>", "<com.xxx.yyy.qzl: void GG()>", "<com.xxx.yyy.qzl$1: void run()>", "<com.xxx.yyy.ddda: java.lang.String decrypt(java.lang.String,java.lang.String)>", "<javax.crypto.Cipher: javax.crypto.Cipher getInstance(java.lang.String)>" ],
+    "entry_point" : {
+      "origin_call_chain" : [ "<com.ophone.MiniPlayer.LogoActivity: void onCreate(android.os.Bundle)>", "<com.xxx.yyy.MyBoolService: void onReceive(android.content.Context,android.content.Intent)>", "<com.xxx.yyy.MyService: void onCreate()>", "<com.xxx.yyy.MyAlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>" ],
+      "origin_entry_point" : "com.ophone.MiniPlayer.LogoActivity",
+      "entry_point" : "com.xxx.yyy.MyService",
+      "origin_actions" : [ "android.intent.action.MAIN" ]
+    }
+  } ] ],
+  "rule" : {
+    "or_predicates" : [ "Ljavax/crypto/Cipher/getInstance", "Ljavax/crypto/Cipher/init", "Ljavax/crypto/Cipher/doFinal", "Ljavax/crypto/Cipher/init", "Ljavax/crypto/Cipher/getIV", "Ljavax/crypto/Cipher/init" ],
+    "tags" : [ "use_crypto" ],
+    "title" : "The application probably uses cryptography.",
+    "description" : "",
+    "name" : "useCrypto"
+  }
+}, {
+  "findings" : [ [ {
+    "sapcg_file" : "results/output/Adrd0/CallGraphInfo/SensitiveCG/sapcg_init",
+    "sensitiveAPI" : "<javax.crypto.Cipher: void init(int,java.security.Key,java.security.spec.AlgorithmParameterSpec)>"
+  } ], [ {
+    "call_chain" : [ "<com.xxx.yyy.MyService: void onStart(android.content.Intent,int)>", "<com.xxx.yyy.qzl: void GG()>", "<com.xxx.yyy.qzl$1: void run()>", "<com.xxx.yyy.ddda: java.lang.String decrypt(java.lang.String,java.lang.String)>", "<javax.crypto.Cipher: void init(int,java.security.Key,java.security.spec.AlgorithmParameterSpec)>" ],
+    "entry_point" : {
+      "origin_call_chain" : [ "<com.ophone.MiniPlayer.LogoActivity: void onCreate(android.os.Bundle)>", "<com.xxx.yyy.MyBoolService: void onReceive(android.content.Context,android.content.Intent)>", "<com.xxx.yyy.MyService: void onCreate()>", "<com.xxx.yyy.MyAlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>" ],
+      "origin_entry_point" : "com.ophone.MiniPlayer.LogoActivity",
+      "entry_point" : "com.xxx.yyy.MyService",
+      "origin_actions" : [ "android.intent.action.MAIN" ]
+    }
+  }, {
+    "call_chain" : [ "<com.xxx.yyy.MyService: void onStart(android.content.Intent,int)>", "<com.xxx.yyy.qzl: void GG()>", "<com.xxx.yyy.qzl$1: void run()>", "<com.xxx.yyy.ddda: java.lang.String decrypt(java.lang.String,java.lang.String)>", "<javax.crypto.Cipher: void init(int,java.security.Key,java.security.spec.AlgorithmParameterSpec)>" ],
+    "entry_point" : {
+      "origin_call_chain" : [ "<com.ophone.MiniPlayer.LogoActivity: void onCreate(android.os.Bundle)>", "<com.xxx.yyy.MyBoolService: void onReceive(android.content.Context,android.content.Intent)>", "<com.xxx.yyy.MyService: void onCreate()>", "<com.xxx.yyy.MyAlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>" ],
+      "origin_entry_point" : "com.ophone.MiniPlayer.LogoActivity",
+      "entry_point" : "com.xxx.yyy.MyService",
+      "origin_actions" : [ "android.intent.action.MAIN" ]
+    }
+  }, {
+    "call_chain" : [ "<com.xxx.yyy.MyService: void onStart(android.content.Intent,int)>", "<com.xxx.yyy.qzl: void GG()>", "<com.xxx.yyy.qzl$1: void run()>", "<com.xxx.yyy.ddda: java.lang.String decrypt(java.lang.String,java.lang.String)>", "<javax.crypto.Cipher: void init(int,java.security.Key,java.security.spec.AlgorithmParameterSpec)>" ],
+    "entry_point" : {
+      "origin_call_chain" : [ "<com.ophone.MiniPlayer.LogoActivity: void onCreate(android.os.Bundle)>", "<com.xxx.yyy.MyBoolService: void onReceive(android.content.Context,android.content.Intent)>", "<com.xxx.yyy.MyService: void onCreate()>", "<com.xxx.yyy.MyAlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>" ],
+      "origin_entry_point" : "com.ophone.MiniPlayer.LogoActivity",
+      "entry_point" : "com.xxx.yyy.MyService",
+      "origin_actions" : [ "android.intent.action.MAIN" ]
+    }
+  }, {
+    "call_chain" : [ "<com.xxx.yyy.MyService: void onStart(android.content.Intent,int)>", "<com.xxx.yyy.qzl: void GG()>", "<com.xxx.yyy.qzl$1: void run()>", "<com.xxx.yyy.ddda: java.lang.String decrypt(java.lang.String,java.lang.String)>", "<javax.crypto.Cipher: void init(int,java.security.Key,java.security.spec.AlgorithmParameterSpec)>" ],
+    "entry_point" : {
+      "origin_call_chain" : [ "<com.ophone.MiniPlayer.LogoActivity: void onCreate(android.os.Bundle)>", "<com.xxx.yyy.MyBoolService: void onReceive(android.content.Context,android.content.Intent)>", "<com.xxx.yyy.MyService: void onCreate()>", "<com.xxx.yyy.MyAlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>" ],
+      "origin_entry_point" : "com.ophone.MiniPlayer.LogoActivity",
+      "entry_point" : "com.xxx.yyy.MyService",
+      "origin_actions" : [ "android.intent.action.MAIN" ]
+    }
+  }, {
+    "call_chain" : [ "<com.xxx.yyy.MyService: void onStart(android.content.Intent,int)>", "<com.xxx.yyy.qzl: void GG()>", "<com.xxx.yyy.qzl$1: void run()>", "<com.xxx.yyy.ddda: java.lang.String decrypt(java.lang.String,java.lang.String)>", "<javax.crypto.Cipher: void init(int,java.security.Key,java.security.spec.AlgorithmParameterSpec)>" ],
+    "entry_point" : {
+      "origin_call_chain" : [ "<com.ophone.MiniPlayer.LogoActivity: void onCreate(android.os.Bundle)>", "<com.xxx.yyy.MyBoolService: void onReceive(android.content.Context,android.content.Intent)>", "<com.xxx.yyy.MyService: void onCreate()>", "<com.xxx.yyy.MyAlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>" ],
+      "origin_entry_point" : "com.ophone.MiniPlayer.LogoActivity",
+      "entry_point" : "com.xxx.yyy.MyService",
+      "origin_actions" : [ "android.intent.action.MAIN" ]
+    }
+  } ] ],
+  "rule" : {
+    "or_predicates" : [ "Ljavax/crypto/Cipher/getInstance", "Ljavax/crypto/Cipher/init", "Ljavax/crypto/Cipher/doFinal", "Ljavax/crypto/Cipher/init", "Ljavax/crypto/Cipher/getIV", "Ljavax/crypto/Cipher/init" ],
+    "tags" : [ "use_crypto" ],
+    "title" : "The application probably uses cryptography.",
+    "description" : "",
+    "name" : "useCrypto"
+  }
+}, {
+  "findings" : [ [ {
+    "sapcg_file" : "results/output/Adrd0/CallGraphInfo/SensitiveCG/sapcg_doFinal",
+    "sensitiveAPI" : "<javax.crypto.Cipher: byte[] doFinal(byte[])>"
+  } ], [ {
+    "call_chain" : [ "<com.xxx.yyy.MyService: void onStart(android.content.Intent,int)>", "<com.xxx.yyy.qzl: void GG()>", "<com.xxx.yyy.qzl$1: void run()>", "<com.xxx.yyy.ddda: java.lang.String decrypt(java.lang.String,java.lang.String)>", "<javax.crypto.Cipher: byte[] doFinal(byte[])>" ],
+    "entry_point" : {
+      "origin_call_chain" : [ "<com.ophone.MiniPlayer.LogoActivity: void onCreate(android.os.Bundle)>", "<com.xxx.yyy.MyBoolService: void onReceive(android.content.Context,android.content.Intent)>", "<com.xxx.yyy.MyService: void onCreate()>", "<com.xxx.yyy.MyAlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>" ],
+      "origin_entry_point" : "com.ophone.MiniPlayer.LogoActivity",
+      "entry_point" : "com.xxx.yyy.MyService",
+      "origin_actions" : [ "android.intent.action.MAIN" ]
+    }
+  }, {
+    "call_chain" : [ "<com.xxx.yyy.MyService: void onStart(android.content.Intent,int)>", "<com.xxx.yyy.qzl: void GG()>", "<com.xxx.yyy.qzl$1: void run()>", "<com.xxx.yyy.ddda: java.lang.String decrypt(java.lang.String,java.lang.String)>", "<javax.crypto.Cipher: byte[] doFinal(byte[])>" ],
+    "entry_point" : {
+      "origin_call_chain" : [ "<com.ophone.MiniPlayer.LogoActivity: void onCreate(android.os.Bundle)>", "<com.xxx.yyy.MyBoolService: void onReceive(android.content.Context,android.content.Intent)>", "<com.xxx.yyy.MyService: void onCreate()>", "<com.xxx.yyy.MyAlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>" ],
+      "origin_entry_point" : "com.ophone.MiniPlayer.LogoActivity",
+      "entry_point" : "com.xxx.yyy.MyService",
+      "origin_actions" : [ "android.intent.action.MAIN" ]
+    }
+  }, {
+    "call_chain" : [ "<com.xxx.yyy.MyService: void onStart(android.content.Intent,int)>", "<com.xxx.yyy.qzl: void GG()>", "<com.xxx.yyy.qzl$1: void run()>", "<com.xxx.yyy.ddda: java.lang.String decrypt(java.lang.String,java.lang.String)>", "<javax.crypto.Cipher: byte[] doFinal(byte[])>" ],
+    "entry_point" : {
+      "origin_call_chain" : [ "<com.ophone.MiniPlayer.LogoActivity: void onCreate(android.os.Bundle)>", "<com.xxx.yyy.MyBoolService: void onReceive(android.content.Context,android.content.Intent)>", "<com.xxx.yyy.MyService: void onCreate()>", "<com.xxx.yyy.MyAlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>" ],
+      "origin_entry_point" : "com.ophone.MiniPlayer.LogoActivity",
+      "entry_point" : "com.xxx.yyy.MyService",
+      "origin_actions" : [ "android.intent.action.MAIN" ]
+    }
+  }, {
+    "call_chain" : [ "<com.xxx.yyy.MyService: void onStart(android.content.Intent,int)>", "<com.xxx.yyy.qzl: void GG()>", "<com.xxx.yyy.qzl$1: void run()>", "<com.xxx.yyy.ddda: java.lang.String decrypt(java.lang.String,java.lang.String)>", "<javax.crypto.Cipher: byte[] doFinal(byte[])>" ],
+    "entry_point" : {
+      "origin_call_chain" : [ "<com.ophone.MiniPlayer.LogoActivity: void onCreate(android.os.Bundle)>", "<com.xxx.yyy.MyBoolService: void onReceive(android.content.Context,android.content.Intent)>", "<com.xxx.yyy.MyService: void onCreate()>", "<com.xxx.yyy.MyAlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>" ],
+      "origin_entry_point" : "com.ophone.MiniPlayer.LogoActivity",
+      "entry_point" : "com.xxx.yyy.MyService",
+      "origin_actions" : [ "android.intent.action.MAIN" ]
+    }
+  }, {
+    "call_chain" : [ "<com.xxx.yyy.MyService: void onStart(android.content.Intent,int)>", "<com.xxx.yyy.qzl: void GG()>", "<com.xxx.yyy.qzl$1: void run()>", "<com.xxx.yyy.ddda: java.lang.String decrypt(java.lang.String,java.lang.String)>", "<javax.crypto.Cipher: byte[] doFinal(byte[])>" ],
+    "entry_point" : {
+      "origin_call_chain" : [ "<com.ophone.MiniPlayer.LogoActivity: void onCreate(android.os.Bundle)>", "<com.xxx.yyy.MyBoolService: void onReceive(android.content.Context,android.content.Intent)>", "<com.xxx.yyy.MyService: void onCreate()>", "<com.xxx.yyy.MyAlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>" ],
+      "origin_entry_point" : "com.ophone.MiniPlayer.LogoActivity",
+      "entry_point" : "com.xxx.yyy.MyService",
+      "origin_actions" : [ "android.intent.action.MAIN" ]
+    }
+  } ] ],
+  "rule" : {
+    "or_predicates" : [ "Ljavax/crypto/Cipher/getInstance", "Ljavax/crypto/Cipher/init", "Ljavax/crypto/Cipher/doFinal", "Ljavax/crypto/Cipher/init", "Ljavax/crypto/Cipher/getIV", "Ljavax/crypto/Cipher/init" ],
+    "tags" : [ "use_crypto" ],
+    "title" : "The application probably uses cryptography.",
+    "description" : "",
+    "name" : "useCrypto"
+  }
+}, {
+  "findings" : [ [ {
+    "sapcg_file" : "results/output/Adrd0/CallGraphInfo/SensitiveCG/sapcg_init",
+    "sensitiveAPI" : "<javax.crypto.Cipher: void init(int,java.security.Key,java.security.spec.AlgorithmParameterSpec)>"
+  } ], [ {
+    "call_chain" : [ "<com.xxx.yyy.MyService: void onStart(android.content.Intent,int)>", "<com.xxx.yyy.qzl: void GG()>", "<com.xxx.yyy.qzl$1: void run()>", "<com.xxx.yyy.ddda: java.lang.String decrypt(java.lang.String,java.lang.String)>", "<javax.crypto.Cipher: void init(int,java.security.Key,java.security.spec.AlgorithmParameterSpec)>" ],
+    "entry_point" : {
+      "origin_call_chain" : [ "<com.ophone.MiniPlayer.LogoActivity: void onCreate(android.os.Bundle)>", "<com.xxx.yyy.MyBoolService: void onReceive(android.content.Context,android.content.Intent)>", "<com.xxx.yyy.MyService: void onCreate()>", "<com.xxx.yyy.MyAlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>" ],
+      "origin_entry_point" : "com.ophone.MiniPlayer.LogoActivity",
+      "entry_point" : "com.xxx.yyy.MyService",
+      "origin_actions" : [ "android.intent.action.MAIN" ]
+    }
+  }, {
+    "call_chain" : [ "<com.xxx.yyy.MyService: void onStart(android.content.Intent,int)>", "<com.xxx.yyy.qzl: void GG()>", "<com.xxx.yyy.qzl$1: void run()>", "<com.xxx.yyy.ddda: java.lang.String decrypt(java.lang.String,java.lang.String)>", "<javax.crypto.Cipher: void init(int,java.security.Key,java.security.spec.AlgorithmParameterSpec)>" ],
+    "entry_point" : {
+      "origin_call_chain" : [ "<com.ophone.MiniPlayer.LogoActivity: void onCreate(android.os.Bundle)>", "<com.xxx.yyy.MyBoolService: void onReceive(android.content.Context,android.content.Intent)>", "<com.xxx.yyy.MyService: void onCreate()>", "<com.xxx.yyy.MyAlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>" ],
+      "origin_entry_point" : "com.ophone.MiniPlayer.LogoActivity",
+      "entry_point" : "com.xxx.yyy.MyService",
+      "origin_actions" : [ "android.intent.action.MAIN" ]
+    }
+  }, {
+    "call_chain" : [ "<com.xxx.yyy.MyService: void onStart(android.content.Intent,int)>", "<com.xxx.yyy.qzl: void GG()>", "<com.xxx.yyy.qzl$1: void run()>", "<com.xxx.yyy.ddda: java.lang.String decrypt(java.lang.String,java.lang.String)>", "<javax.crypto.Cipher: void init(int,java.security.Key,java.security.spec.AlgorithmParameterSpec)>" ],
+    "entry_point" : {
+      "origin_call_chain" : [ "<com.ophone.MiniPlayer.LogoActivity: void onCreate(android.os.Bundle)>", "<com.xxx.yyy.MyBoolService: void onReceive(android.content.Context,android.content.Intent)>", "<com.xxx.yyy.MyService: void onCreate()>", "<com.xxx.yyy.MyAlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>" ],
+      "origin_entry_point" : "com.ophone.MiniPlayer.LogoActivity",
+      "entry_point" : "com.xxx.yyy.MyService",
+      "origin_actions" : [ "android.intent.action.MAIN" ]
+    }
+  }, {
+    "call_chain" : [ "<com.xxx.yyy.MyService: void onStart(android.content.Intent,int)>", "<com.xxx.yyy.qzl: void GG()>", "<com.xxx.yyy.qzl$1: void run()>", "<com.xxx.yyy.ddda: java.lang.String decrypt(java.lang.String,java.lang.String)>", "<javax.crypto.Cipher: void init(int,java.security.Key,java.security.spec.AlgorithmParameterSpec)>" ],
+    "entry_point" : {
+      "origin_call_chain" : [ "<com.ophone.MiniPlayer.LogoActivity: void onCreate(android.os.Bundle)>", "<com.xxx.yyy.MyBoolService: void onReceive(android.content.Context,android.content.Intent)>", "<com.xxx.yyy.MyService: void onCreate()>", "<com.xxx.yyy.MyAlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>" ],
+      "origin_entry_point" : "com.ophone.MiniPlayer.LogoActivity",
+      "entry_point" : "com.xxx.yyy.MyService",
+      "origin_actions" : [ "android.intent.action.MAIN" ]
+    }
+  }, {
+    "call_chain" : [ "<com.xxx.yyy.MyService: void onStart(android.content.Intent,int)>", "<com.xxx.yyy.qzl: void GG()>", "<com.xxx.yyy.qzl$1: void run()>", "<com.xxx.yyy.ddda: java.lang.String decrypt(java.lang.String,java.lang.String)>", "<javax.crypto.Cipher: void init(int,java.security.Key,java.security.spec.AlgorithmParameterSpec)>" ],
+    "entry_point" : {
+      "origin_call_chain" : [ "<com.ophone.MiniPlayer.LogoActivity: void onCreate(android.os.Bundle)>", "<com.xxx.yyy.MyBoolService: void onReceive(android.content.Context,android.content.Intent)>", "<com.xxx.yyy.MyService: void onCreate()>", "<com.xxx.yyy.MyAlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>" ],
+      "origin_entry_point" : "com.ophone.MiniPlayer.LogoActivity",
+      "entry_point" : "com.xxx.yyy.MyService",
+      "origin_actions" : [ "android.intent.action.MAIN" ]
+    }
+  } ] ],
+  "rule" : {
+    "or_predicates" : [ "Ljavax/crypto/Cipher/getInstance", "Ljavax/crypto/Cipher/init", "Ljavax/crypto/Cipher/doFinal", "Ljavax/crypto/Cipher/init", "Ljavax/crypto/Cipher/getIV", "Ljavax/crypto/Cipher/init" ],
+    "tags" : [ "use_crypto" ],
+    "title" : "The application probably uses cryptography.",
+    "description" : "",
+    "name" : "useCrypto"
+  }
+}, {
+  "findings" : [ [ {
+    "sapcg_file" : "results/output/Adrd0/CallGraphInfo/SensitiveCG/sapcg_init",
+    "sensitiveAPI" : "<javax.crypto.Cipher: void init(int,java.security.Key,java.security.spec.AlgorithmParameterSpec)>"
+  } ], [ {
+    "call_chain" : [ "<com.xxx.yyy.MyService: void onStart(android.content.Intent,int)>", "<com.xxx.yyy.qzl: void GG()>", "<com.xxx.yyy.qzl$1: void run()>", "<com.xxx.yyy.ddda: java.lang.String decrypt(java.lang.String,java.lang.String)>", "<javax.crypto.Cipher: void init(int,java.security.Key,java.security.spec.AlgorithmParameterSpec)>" ],
+    "entry_point" : {
+      "origin_call_chain" : [ "<com.ophone.MiniPlayer.LogoActivity: void onCreate(android.os.Bundle)>", "<com.xxx.yyy.MyBoolService: void onReceive(android.content.Context,android.content.Intent)>", "<com.xxx.yyy.MyService: void onCreate()>", "<com.xxx.yyy.MyAlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>" ],
+      "origin_entry_point" : "com.ophone.MiniPlayer.LogoActivity",
+      "entry_point" : "com.xxx.yyy.MyService",
+      "origin_actions" : [ "android.intent.action.MAIN" ]
+    }
+  }, {
+    "call_chain" : [ "<com.xxx.yyy.MyService: void onStart(android.content.Intent,int)>", "<com.xxx.yyy.qzl: void GG()>", "<com.xxx.yyy.qzl$1: void run()>", "<com.xxx.yyy.ddda: java.lang.String decrypt(java.lang.String,java.lang.String)>", "<javax.crypto.Cipher: void init(int,java.security.Key,java.security.spec.AlgorithmParameterSpec)>" ],
+    "entry_point" : {
+      "origin_call_chain" : [ "<com.ophone.MiniPlayer.LogoActivity: void onCreate(android.os.Bundle)>", "<com.xxx.yyy.MyBoolService: void onReceive(android.content.Context,android.content.Intent)>", "<com.xxx.yyy.MyService: void onCreate()>", "<com.xxx.yyy.MyAlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>" ],
+      "origin_entry_point" : "com.ophone.MiniPlayer.LogoActivity",
+      "entry_point" : "com.xxx.yyy.MyService",
+      "origin_actions" : [ "android.intent.action.MAIN" ]
+    }
+  }, {
+    "call_chain" : [ "<com.xxx.yyy.MyService: void onStart(android.content.Intent,int)>", "<com.xxx.yyy.qzl: void GG()>", "<com.xxx.yyy.qzl$1: void run()>", "<com.xxx.yyy.ddda: java.lang.String decrypt(java.lang.String,java.lang.String)>", "<javax.crypto.Cipher: void init(int,java.security.Key,java.security.spec.AlgorithmParameterSpec)>" ],
+    "entry_point" : {
+      "origin_call_chain" : [ "<com.ophone.MiniPlayer.LogoActivity: void onCreate(android.os.Bundle)>", "<com.xxx.yyy.MyBoolService: void onReceive(android.content.Context,android.content.Intent)>", "<com.xxx.yyy.MyService: void onCreate()>", "<com.xxx.yyy.MyAlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>" ],
+      "origin_entry_point" : "com.ophone.MiniPlayer.LogoActivity",
+      "entry_point" : "com.xxx.yyy.MyService",
+      "origin_actions" : [ "android.intent.action.MAIN" ]
+    }
+  }, {
+    "call_chain" : [ "<com.xxx.yyy.MyService: void onStart(android.content.Intent,int)>", "<com.xxx.yyy.qzl: void GG()>", "<com.xxx.yyy.qzl$1: void run()>", "<com.xxx.yyy.ddda: java.lang.String decrypt(java.lang.String,java.lang.String)>", "<javax.crypto.Cipher: void init(int,java.security.Key,java.security.spec.AlgorithmParameterSpec)>" ],
+    "entry_point" : {
+      "origin_call_chain" : [ "<com.ophone.MiniPlayer.LogoActivity: void onCreate(android.os.Bundle)>", "<com.xxx.yyy.MyBoolService: void onReceive(android.content.Context,android.content.Intent)>", "<com.xxx.yyy.MyService: void onCreate()>", "<com.xxx.yyy.MyAlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>" ],
+      "origin_entry_point" : "com.ophone.MiniPlayer.LogoActivity",
+      "entry_point" : "com.xxx.yyy.MyService",
+      "origin_actions" : [ "android.intent.action.MAIN" ]
+    }
+  }, {
+    "call_chain" : [ "<com.xxx.yyy.MyService: void onStart(android.content.Intent,int)>", "<com.xxx.yyy.qzl: void GG()>", "<com.xxx.yyy.qzl$1: void run()>", "<com.xxx.yyy.ddda: java.lang.String decrypt(java.lang.String,java.lang.String)>", "<javax.crypto.Cipher: void init(int,java.security.Key,java.security.spec.AlgorithmParameterSpec)>" ],
+    "entry_point" : {
+      "origin_call_chain" : [ "<com.ophone.MiniPlayer.LogoActivity: void onCreate(android.os.Bundle)>", "<com.xxx.yyy.MyBoolService: void onReceive(android.content.Context,android.content.Intent)>", "<com.xxx.yyy.MyService: void onCreate()>", "<com.xxx.yyy.MyAlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>" ],
+      "origin_entry_point" : "com.ophone.MiniPlayer.LogoActivity",
+      "entry_point" : "com.xxx.yyy.MyService",
+      "origin_actions" : [ "android.intent.action.MAIN" ]
+    }
+  } ] ],
+  "rule" : {
+    "or_predicates" : [ "Ljavax/crypto/Cipher/getInstance", "Ljavax/crypto/Cipher/init", "Ljavax/crypto/Cipher/doFinal", "Ljavax/crypto/Cipher/init", "Ljavax/crypto/Cipher/getIV", "Ljavax/crypto/Cipher/init" ],
+    "tags" : [ "use_crypto" ],
+    "title" : "The application probably uses cryptography.",
+    "description" : "",
+    "name" : "useCrypto"
+  }
+}, {
+  "findings" : [ [ {
+    "sapcg_file" : "results/output/Adrd0/CallGraphInfo/SensitiveCG/sapcg_setAccessible",
+    "sensitiveAPI" : "<java.lang.reflect.AccessibleObject: void setAccessible(boolean)>"
+  } ], [ {
+    "call_chain" : [ "<com.xxx.yyy.MyService: void onStart(android.content.Intent,int)>", "<com.xxx.yyy.MyService: void setMobileDataState(android.content.Context,boolean)>", "<com.xxx.yyy.MyService: java.lang.Object getITelephony(android.content.Context)>", "<java.lang.reflect.AccessibleObject: void setAccessible(boolean)>" ],
+    "entry_point" : {
+      "origin_call_chain" : [ "<com.ophone.MiniPlayer.LogoActivity: void onCreate(android.os.Bundle)>", "<com.xxx.yyy.MyBoolService: void onReceive(android.content.Context,android.content.Intent)>", "<com.xxx.yyy.MyService: void onCreate()>", "<com.xxx.yyy.MyAlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>" ],
+      "origin_entry_point" : "com.ophone.MiniPlayer.LogoActivity",
+      "entry_point" : "com.xxx.yyy.MyService",
+      "origin_actions" : [ "android.intent.action.MAIN" ]
+    }
+  } ] ],
+  "rule" : {
+    "or_predicates" : [ "Ljava/lang/reflect/AccessibleObject/isAnnotationPresent", "Ljava/lang/reflect/AccessibleObject/getAnnotation", "Ljava/lang/reflect/AccessibleObject/setAccessible", "Ljava/lang/reflect/AccessibleObject/isAccessible" ],
+    "tags" : [ "use_reflection" ],
+    "title" : "The application probably uses reflection.",
+    "description" : "",
+    "name" : "useReflection"
+  }
+}, {
+  "findings" : [ [ {
+    "sapcg_file" : "results/output/Adrd0/CallGraphInfo/SensitiveCG/sapcg_isAccessible",
+    "sensitiveAPI" : "<java.lang.reflect.AccessibleObject: boolean isAccessible()>"
+  } ], [ {
+    "call_chain" : [ "<com.xxx.yyy.MyService: void onStart(android.content.Intent,int)>", "<com.xxx.yyy.MyService: void setMobileDataState(android.content.Context,boolean)>", "<com.xxx.yyy.MyService: java.lang.Object getITelephony(android.content.Context)>", "<java.lang.reflect.AccessibleObject: boolean isAccessible()>" ],
+    "entry_point" : {
+      "origin_call_chain" : [ "<com.ophone.MiniPlayer.LogoActivity: void onCreate(android.os.Bundle)>", "<com.xxx.yyy.MyBoolService: void onReceive(android.content.Context,android.content.Intent)>", "<com.xxx.yyy.MyService: void onCreate()>", "<com.xxx.yyy.MyAlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>" ],
+      "origin_entry_point" : "com.ophone.MiniPlayer.LogoActivity",
+      "entry_point" : "com.xxx.yyy.MyService",
+      "origin_actions" : [ "android.intent.action.MAIN" ]
+    }
+  } ] ],
+  "rule" : {
+    "or_predicates" : [ "Ljava/lang/reflect/AccessibleObject/isAnnotationPresent", "Ljava/lang/reflect/AccessibleObject/getAnnotation", "Ljava/lang/reflect/AccessibleObject/setAccessible", "Ljava/lang/reflect/AccessibleObject/isAccessible" ],
+    "tags" : [ "use_reflection" ],
+    "title" : "The application probably uses reflection.",
+    "description" : "",
+    "name" : "useReflection"
+  }
+} ]

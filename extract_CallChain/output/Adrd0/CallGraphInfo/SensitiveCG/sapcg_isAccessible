@@ -1,0 +1,5 @@
+<com.xxx.yyy.MyService: java.lang.Object getITelephony(android.content.Context)> -> <java.lang.reflect.AccessibleObject: boolean isAccessible()>
+<com.xxx.yyy.MyService: void setMobileDataState(android.content.Context,boolean)> -> <com.xxx.yyy.MyService: java.lang.Object getITelephony(android.content.Context)>
+<com.xxx.yyy.MyService: void onStart(android.content.Intent,int)> -> <com.xxx.yyy.MyService: void setMobileDataState(android.content.Context,boolean)>
+<dummyMainClass: com.xxx.yyy.MyService dummyMainMethod_com_xxx_yyy_MyService(android.content.Intent)> -> <com.xxx.yyy.MyService: void onStart(android.content.Intent,int)>
+<dummyMainClass: void dummyMainMethod(java.lang.String[])> -> <dummyMainClass: com.xxx.yyy.MyService dummyMainMethod_com_xxx_yyy_MyService(android.content.Intent)>

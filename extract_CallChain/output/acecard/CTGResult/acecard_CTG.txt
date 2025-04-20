@@ -1,0 +1,12 @@
+
+com.baseapp.MainService -> com.baseapp.DeviceAdminChecker
+com.baseapp.MainService -> org.torproject.android.service.TorService
+
+com.baseapp.Main -> com.baseapp.MainService
+
+com.baseapp.ServiceStarter -> com.baseapp.MainService
+com.baseapp.ServiceStarter -> com.baseapp.USSDService
+
+com.baseapp.SDCardServiceStarter -> com.baseapp.MainService
+com.baseapp.SDCardServiceStarter -> com.baseapp.USSDService
+

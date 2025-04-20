@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+  <component name="com.xxx.yyy.MyBoolService" type="Receiver">
+    <manifest>
+      <intent_filter action="android.intent.action.BOOT_COMPLETED"/>
+    </manifest>
+    <sender destination="com.xxx.yyy.MyAlarmReceiver" action="com.lz.myservicestart"/>
+    <receive action="android.intent.action.BOOT_COMPLETED"/>
+  </component>
+  <component name="com.ophone.MiniPlayer.LogoActivity" type="Activity">
+    <manifest>
+      <intent_filter action="android.intent.action.MAIN" category="android.intent.category.LAUNCHER"/>
+    </manifest>
+    <sender destination="com.ophone.MiniPlayer.MainActivity, com.xxx.yyy.MyService"/>
+  </component>
+  <component name="com.ophone.MiniPlayer.MusicActivity" type="Activity">
+    <manifest>
+      <intent_filter action="android.intent.action.VIEW" category="android.intent.category.DEFAULT"/>
+    </manifest>
+    <sender destination="interICC_android.intent.action.MEDIA_SCANNER_SCAN_FILE, , com.ophone.MiniPlayer.MusicFeedActivity, interICC_com.myplayer.toService, , com.ophone.MiniPlayer.lyricsactivity, com.ophone.MiniPlayer.PlayingListActivity" action="android.intent.action.MEDIA_SCANNER_SCAN_FILE, com.myplayer.toService" data="file://, file:///sdcard/yy/tmp/M032890500170758.mp3" extras="int-position,Serializable-R.string,Serializable-songlist,int-cmd,Serializable-song"/>
+    <receive extras="int-status,int-position"/>
+  </component>
+  <component name="com.xxx.yyy.MyService" type="Service">
+    <sender destination="com.xxx.yyy.MyAlarmReceiver" action="com.lz.myservicestart"/>
+  </component>
+  <component name="com.ophone.MiniPlayer.MusicFeedActivity" type="Activity">
+    <manifest>
+      <intent_filter action="android.intent.action.VIEW" category="android.intent.category.DEFAULT"/>
+    </manifest>
+    <sender destination="com.ophone.MiniPlayer.MusicActivity, com.ophone.MiniPlayer.OnlineMusicActivity, com.ophone.MiniPlayer.lyricsactivity, com.ophone.MiniPlayer.PlayingListActivity" extras="Serializable-R.string"/>
+  </component>
+  <component name="com.ophone.MiniPlayer.OnlineMusicActivity" type="Activity">
+    <manifest>
+      <intent_filter action="android.intent.action.VIEW" category="android.intent.category.DEFAULT"/>
+    </manifest>
+    <sender destination="com.ophone.MiniPlayer.MainActivity, com.ophone.MiniPlayer.MusicActivity, interICC_com.myplayer.toService, , com.ophone.MiniPlayer.lyricsactivity, com.ophone.MiniPlayer.PlayingListActivity" action="com.myplayer.toService" extras="String-strURllrc,int-position,Serializable-R.string,int-cmd,Serializable-songlist,String-strURL,Serializable-song"/>
+    <receive extras="int-status,int-R.string,int-position"/>
+  </component>
+  <component name="com.ophone.MiniPlayer.MyPlayerService" type="Service">
+    <sender destination="interICC_com.myplayer.servicetoactivitysonglist, , interICC_com.myplayer.servicetoactivity, , interICC_android.intent.action.MEDIA_SCANNER_SCAN_FILE, , interICC_com.myplayer.servicetoactivityonline, , interICC_com.myplayer.servicetoactivitylocal, , com.ophone.MiniPlayer.lyricsactivity" action="android.intent.action.MEDIA_SCANNER_SCAN_FILE, com.myplayer.servicetoactivitylocal, com.myplayer.servicetoactivity, com.myplayer.servicetoactivityonline, com.myplayer.servicetoactivitysonglist" data="file://" extras="int-position,int-status,String-lyricurllocal,String-lyricurlgoogle,String-songname,Serializable-artist,Serializable-songlist,int-flagrepeat,String-album,int-flagrandom"/>
+    <receive extras="Serializable-songlist,int-flagrandom,int-cmd,int-position,String-deleteplaylist,String-strURllrc,String-filename,int-pos,String-strURL,String-playlistname,int-flagrepeat,Serializable-song"/>
+  </component>
+  <component name="com.ophone.MiniPlayer.MyPlayer" type="Activity">
+    <manifest>
+      <intent_filter action="android.intent.action.VIEW" category="android.intent.category.DEFAULT"/>
+    </manifest>
+    <sender destination="com.ophone.MiniPlayer.MainActivity, com.ophone.MiniPlayer.MusicActivity, com.ophone.MiniPlayer.MusicFeedActivity, com.ophone.MiniPlayer.MyPlayerService, interICC_com.myplayer.toService, , com.ophone.MiniPlayer.PlayingListActivity" action="com.myplayer.toService" extras="int-flagrandom,int-cmd,Serializable-song,int-flagrepeat"/>
+    <receive extras="Serializable-song,String-songname,int-R.string,int-status,int-flagrandom,Serializable-artist,String-album,int-flagrepeat"/>
+  </component>
+  <component name="com.xxx.yyy.MyAlarmReceiver" type="Receiver">
+    <manifest>
+      <intent_filter action="com.lz.myservicestart"/>
+    </manifest>
+    <sender destination="com.xxx.yyy.MyService"/>
+    <receive action="com.lz.myservicestart"/>
+  </component>
+  <component name="com.ophone.MiniPlayer.MainActivity" type="Activity">
+    <manifest>
+      <intent_filter action="android.intent.action.VIEW" category="android.intent.category.DEFAULT"/>
+    </manifest>
+    <sender destination="com.ophone.MiniPlayer.MusicActivity, com.ophone.MiniPlayer.MusicFeedActivity, com.ophone.MiniPlayer.MyPlayerService, com.ophone.MiniPlayer.Search, com.ophone.MiniPlayer.lyricsactivity, com.ophone.MiniPlayer.PlayingListActivity"/>
+  </component>
+  <component name="com.ophone.MiniPlayer.Search" type="Activity">
+    <manifest>
+      <intent_filter action="android.intent.action.VIEW" category="android.intent.category.DEFAULT"/>
+    </manifest>
+    <sender destination="com.ophone.MiniPlayer.MainActivity, com.ophone.MiniPlayer.MusicActivity, com.ophone.MiniPlayer.MusicFeedActivity, com.ophone.MiniPlayer.OnlineMusicActivity, com.ophone.MiniPlayer.MyPlayer, com.ophone.MiniPlayer.Search, com.ophone.MiniPlayer.PlayingListActivity, com.ophone.MiniPlayer.lyricsactivity" action="android.intent.action.VIEW" data=""/>
+  </component>
+  <component name="com.ophone.MiniPlayer.PlayingListActivity" type="Activity">
+    <manifest>
+      <intent_filter action="android.intent.action.VIEW" category="android.intent.category.DEFAULT"/>
+    </manifest>
+    <sender destination="com.ophone.MiniPlayer.MusicActivity, com.ophone.MiniPlayer.MusicFeedActivity, com.ophone.MiniPlayer.MyPlayerService, interICC_com.myplayer.toService, , com.ophone.MiniPlayer.lyricsactivity" action="com.myplayer.toService" extras="int-cmd,String-filename,String-playlistname,Serializable-song,Serializable-songlist,Serializable-R.string,String-deleteplaylist,int-pos"/>
+    <receive extras="int-status,Serializable-songlist"/>
+  </component>
+  <component name="com.ophone.MiniPlayer.lyricsactivity" type="Activity">
+    <manifest>
+      <intent_filter action="android.intent.action.VIEW" category="android.intent.category.DEFAULT"/>
+    </manifest>
+    <sender destination="com.ophone.MiniPlayer.MainActivity, com.ophone.MiniPlayer.MusicActivity, com.ophone.MiniPlayer.MusicFeedActivity, com.ophone.MiniPlayer.MyPlayerService, interICC_com.myplayer.toService, , com.ophone.MiniPlayer.PlayingListActivity" action="com.myplayer.toService" extras="int-cmd,Serializable-song"/>
+    <receive extras="Serializable-song,String-songname,String-lyricurllocal,int-R.string,int-status,String-lyricurlgoogle,Serializable-artist"/>
+  </component>
+</root>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Navegar para a página inicial</string>
+    <string name="abc_action_bar_up_description">Navegar para cima</string>
+    <string name="abc_action_menu_overflow_description">Mais opções</string>
+    <string name="abc_action_mode_done">Concluído</string>
+    <string name="abc_activity_chooser_view_see_all">Ver tudo</string>
+    <string name="abc_activitychooserview_choose_application">Selecionar um app</string>
+    <string name="abc_capital_off">DESATIVADO</string>
+    <string name="abc_capital_on">ATIVADO</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">espaço</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Pesquisar…</string>
+    <string name="abc_searchview_description_clear">Limpar consulta</string>
+    <string name="abc_searchview_description_query">Consulta de pesquisa</string>
+    <string name="abc_searchview_description_search">Pesquisar</string>
+    <string name="abc_searchview_description_submit">Enviar consulta</string>
+    <string name="abc_searchview_description_voice">Pesquisa por voz</string>
+    <string name="abc_shareactionprovider_share_with">Compartilhar com</string>
+    <string name="abc_shareactionprovider_share_with_application">Compartilhar com %s</string>
+    <string name="abc_toolbar_collapse_description">Recolher</string>
+    <string name="search_menu_title">Pesquisar</string>
+    <string name="app_name">BearTrax</string>
+    <string name="action_settings">Definições</string>
+    <string name="ok">OK</string>
+    <string name="files">Ficheiros</string>
+    <string name="directories">Pastas</string>
+    <string name="goUp">Subir</string>
+    <string name="all">Selecionar tudo</string>
+    <string name="cancel">Cancelar</string>
+    <string name="none">Desmarcar tudo</string>
+    <string name="ext">Externo</string>
+    <string name="Int">Interno</string>
+    <string name="New">Nova pasta</string>
+    <string name="CNew">Introduza o nome da nova pasta</string>
+    <string name="create">Criar</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="application_name">Adobe AIR</string>
+    <string name="flash_browser_plugin">Plug-in Flash</string>
+    <string name="button_cancel">Cancelar</string>
+    <string name="button_continue">Continuar</string>
+    <string name="button_yes">Sim</string>
+    <string name="button_no">Não</string>
+    <string name="IDA_APP_WAITING_DEBUGGER_TITLE"><u>Adobe AIR: aguardando conexão</u></string>
+    <string name="IDA_APP_UNABLE_LISTEN_ERROR"><u>Adobe AIR: ouvindo na porta</u></string>
+    <string name="IDA_APP_WAITING_DEBUGGER_WARNING"><u>O aplicativo AIR está aguardando a conexão pelo depurador. Isso pode levar até %d segundos.</u></string>
+    <string name="IDA_APP_DEBUGGER_TIMEOUT_INFO">Não é possível se conectar com o depurador.</string>
+    <string name="app_version">APP_VERSION</string>
+    <string name="button_install">Continuar</string>
+    <string name="button_exit">Sair</string>
+    <string name="file_save_as">Salvar como:</string>
+    <string name="file_download">Baixar</string>
+    <string name="file_upload">Carregar</string>
+    <string name="audio_files">Arquivos de áudio</string>
+    <string name="image_files">Arquivos de imagem</string>
+    <string name="video_files">Arquivos de vídeo</string>
+    <string name="button_ok">OK</string>
+    <string name="empty_file_list">Nenhum arquivo encontrado.</string>
+    <string name="title_adobe_air"><b>Adobe AIR</b></string>
+    <string name="text_runtime_required">"Este aplicativo requer o Adobe AIR.
+
+"</string>
+    <string name="text_install_runtime">Para continuar, instale o Adobe AIR neste dispositivo.</string>
+    <string name="text_runtime_on_external_storage">Para continuar, instale o Adobe AIR neste dispositivo ou saia deste aplicativo e monte o cartão SD que contém o Adobe AIR antes de reiniciar.</string>
+    <string name="text_gamepreview_loading">Carregando...</string>
+    <string name="text_gamepreview_loading_error">Não é possível carregar o Jogo.</string>
+    <string name="text_install_gamepreview_app">Instalar agora</string>
+    <string name="text_air_missing_header">Adobe AIR necessário</string>
+    <string name="text_air_missing_text">Você precisa instalar o Adobe AIR para que a visualização do jogo funcione.</string>
+    <string name="button_install_air_from_playstore">Instalar pela Play Store.</string>
+    <string name="text_dont_show_again">Não mostrar isso novamente.</string>
+    <string name="IDA_CURL_SSL_SECURITY_WARNING">Aviso de segurança</string>
+    <string name="IDA_CURL_INTERFACE_THISSESS">Confiar na sessão</string>
+    <string name="IDA_CURL_INTERFACE_NOSESS">Cancelar</string>
+    <string name="IDA_CURL_INTERFACE_OK">OK</string>
+    <string name="IDA_CURL_INTERFACE_UNVERSER_2">O servidor ao qual o aplicativo está se conectando não foi verificado.</string>
+    <string name="IDA_CURL_INTERFACE_ALLSESS">Confiar sempre</string>
+    <string name="IDA_CURL_INTERFACE_SERVER"><b>Servidor:</b></string>
+    <string name="IDA_CURL_INTERFACE_TRUSTSER">Deseja confiar neste servidor e estabelecer a conexão?</string>
+    <string name="IDA_CURL_INTERFACE_CNAME_MSG">O nome do servidor (%1$s) não corresponde ao nome no certificado (%2$s). Deseja confiar neste servidor e continuar?</string>
+    <string name="IDA_CURL_INTERFACE_VIEW_CERT"><u>Exibir certificado</u></string>
+    <string name="IDA_CURL_INTERFACE_CERTIFICATE_DETAILS_TITLE"><u>Detalhes do certificado</u></string>
+    <string name="IDA_CERTIFICATE_DETAILS"><b>Certificado:</b>"
+ 
+ "<u><b>Emitido para:</b></u>"
+ Nome comum:
+ %1$s
+ 
+ Organização:
+ %2$s
+ 
+ Unidade organizacional:
+ %3$s
+ 
+ "<u><b>Emitido por:</b></u>"
+ Nome comum:
+ %4$s
+ 
+ Organização:
+ %5$s
+ 
+ Unidade organizacional:
+ %6$s
+ 
+ "<u><b>Validade:</b></u>"
+ Emitido em:
+ %7$s
+ 
+ Expira em:
+ %8$s "</string>
+</resources>

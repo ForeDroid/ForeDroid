@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+  <methodSummary source="&lt;com.ophone.MiniPlayer.MusicFeedActivity: void onCreate(android.os.Bundle)&gt;">
+    <node type="setContentView" unit="virtualinvoke r0.&lt;com.ophone.MiniPlayer.MusicFeedActivity: void setContentView(int)&gt;(2130903041)"/>
+  </methodSummary>
+  <methodSummary source="&lt;com.ophone.MiniPlayer.PlayingListActivity: void onCreate(android.os.Bundle)&gt;">
+    <node type="setContentView" unit="virtualinvoke r0.&lt;com.ophone.MiniPlayer.PlayingListActivity: void setContentView(int)&gt;(2130903054)"/>
+  </methodSummary>
+  <methodSummary source="&lt;com.ophone.MiniPlayer.OnlineMusicActivity: void onCreate(android.os.Bundle)&gt;">
+    <node type="setContentView" unit="virtualinvoke r0.&lt;com.ophone.MiniPlayer.OnlineMusicActivity: void setContentView(int)&gt;(2130903050)"/>
+  </methodSummary>
+  <methodSummary source="&lt;com.ophone.MiniPlayer.MyPlayer: void onCreate(android.os.Bundle)&gt;">
+    <node type="setContentView" unit="virtualinvoke r0.&lt;com.ophone.MiniPlayer.MyPlayer: void setContentView(int)&gt;(2130903048)"/>
+  </methodSummary>
+  <methodSummary source="&lt;com.ophone.MiniPlayer.MusicActivity: void onCreate(android.os.Bundle)&gt;">
+    <node type="setContentView" unit="virtualinvoke r0.&lt;com.ophone.MiniPlayer.MusicActivity: void setContentView(int)&gt;(2130903050)"/>
+  </methodSummary>
+  <methodSummary source="&lt;com.ophone.MiniPlayer.Search: void onCreate(android.os.Bundle)&gt;">
+    <node type="setContentView" unit="virtualinvoke r0.&lt;com.ophone.MiniPlayer.Search: void setContentView(int)&gt;(2130903058)"/>
+  </methodSummary>
+  <methodSummary source="&lt;com.ophone.MiniPlayer.lyricsactivity: void onCreate(android.os.Bundle)&gt;">
+    <node type="setContentView" unit="virtualinvoke r0.&lt;com.ophone.MiniPlayer.lyricsactivity: void setContentView(int)&gt;(2130903056)"/>
+  </methodSummary>
+  <methodSummary source="&lt;com.ophone.MiniPlayer.MainActivity: void onCreate(android.os.Bundle)&gt;">
+    <node type="setContentView" unit="virtualinvoke r0.&lt;com.ophone.MiniPlayer.MainActivity: void setContentView(int)&gt;(2130903047)"/>
+  </methodSummary>
+  <methodSummary source="&lt;com.ophone.MiniPlayer.LogoActivity: void onCreate(android.os.Bundle)&gt;">
+    <node type="setContentView" unit="virtualinvoke r0.&lt;com.ophone.MiniPlayer.LogoActivity: void setContentView(int)&gt;(2130903046)"/>
+  </methodSummary>
+</root>
