@@ -6,7 +6,7 @@ This package implements a functional scenario-based clustering pipeline for Andr
 ## Structure
 
 - `entry_point_filter.py`: Extracts and cleans entry points from APKs, generates semantic vectors.
-- `cluster_entry.py`: Performs PCA + MiniBatchKMeans clustering and generates wordclouds.
+- `cluster_entry.py`: Performs PCA + HDBSCAN clustering and generates wordclouds.
 - `group_by_cluster.py`: Groups original APKs by cluster and exports per-cluster data.
 - `api_stats.py`: Computes sensitive API usage statistics per cluster.
 - `pipeline.py`: Orchestrates the full end-to-end pipeline.

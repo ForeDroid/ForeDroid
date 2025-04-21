@@ -88,7 +88,7 @@ output/[apk_name]/CallGraphInfo/rule_analysis_report.json
 ```
 cluster_pipeline/
 ├── entry_point_filter.py              # Entry point + action cleaning and embedding
-├── cluster_entry_vec.py               # PCA + KMeans clustering
+├── cluster_entry_vec.py               # PCA + HDBSCAN clustering
 ├── group_origin_csv_by_cluster.py     # Group CSV by cluster labels
 ├── cluster_api_stats.py               # Per-cluster API usage statistics
 ├── run_cluster_pipeline.py            # Main clustering entry script
