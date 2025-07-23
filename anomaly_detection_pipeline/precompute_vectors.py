@@ -2,8 +2,9 @@ import pandas as pd
 import os
 import argparse
 from sentence_transformers import SentenceTransformer, util
+import torch
 
-def compute_similarity_vectors(merged_file, cluster_dir, output_file):
+def compute_topk_similarity_vectors(merged_file, cluster_dir, output_file, k=50):
     model = SentenceTransformer('all-MiniLM-L6-v2')
 
     df = pd.read_csv(merged_file, sep=';', dtype={'id': str})
@@ -19,23 +20,28 @@ def compute_similarity_vectors(merged_file, cluster_dir, output_file):
         embeddings = model.encode(descs, convert_to_tensor=True)
 
         for i, eid in enumerate(ids):
-            others = embeddings[:i] + embeddings[i+1:] if len(embeddings) > 1 else embeddings
-            if len(others) > 0:
-                sim_scores = util.cos_sim(embeddings[i], others)
-                max_sim = float(sim_scores.max())
+            if len(embeddings) == 1:
+                avg_sim = 0.0
             else:
-                max_sim = 1.0
-            results.append({'id': eid, 'max_similarity': max_sim})
+               
+                sim_scores = util.cos_sim(embeddings[i], embeddings)[0]  
+                sim_scores[i] = -1.0 
+                topk = torch.topk(sim_scores, min(k, len(sim_scores)-1)).values
+                avg_sim = float(topk.mean())
+
+            anomaly_score = 1 - avg_sim
+            results.append({'id': eid, 'anomaly_score': anomaly_score})
 
     out_df = pd.DataFrame(results)
     out_df.to_csv(output_file, sep=';', index=False)
-    print(f"[Done] Saved similarity vectors to {output_file}")
+    print(f"[Done] Saved anomaly scores to {output_file}")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--merged_file", type=str, required=True)
     parser.add_argument("--cluster_dir", type=str, required=True)
     parser.add_argument("--output_file", type=str, required=True)
+    parser.add_argument("--k", type=int, default=50)
     args = parser.parse_args()
 
-    compute_similarity_vectors(args.merged_file, args.cluster_dir, args.output_file)
+    compute_topk_similarity_vectors(args.merged_file, args.cluster_dir, args.output_file, args.k)
