@@ -1,5 +1,13 @@
 # ForeDroid Analysis Toolkit
 
+
+## Notice
+
+This repository is being cleaned up for reproducibility.
+
+Some parts of the current public version may be difficult to run due to code-level issues. We are actively reorganizing the repository and will provide a cleaner, easier-to-run version as soon as possible.
+
+
 This repository contains scripts and tools for extracting scenario information, sensitive API call chains, clustering functional behavior scenarios, and detecting anomalous behaviors in Android APKs. These serve as the static analysis foundation for **ForeDroid**.
 
 ---
