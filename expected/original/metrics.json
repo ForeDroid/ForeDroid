@@ -1,0 +1,149 @@
+{
+  "overall": {
+    "total_apks": 20000,
+    "scorable_apks": 15093,
+    "unscorable_apks": 4907,
+    "coverage": 0.75465,
+    "status_counts": {
+      "predicted": 15093,
+      "no_fused_behavior": 4872,
+      "no_scorable_scene": 35
+    },
+    "TN": 2212,
+    "FP": 5708,
+    "FN": 1704,
+    "TP": 5469,
+    "precision": 0.48930840118099667,
+    "recall": 0.7624424926808867,
+    "f1": 0.5960762942779292,
+    "auc": 0.5057595595576565,
+    "benign_fpr": 0.7207070707070707,
+    "malware_only_f1": 0.8652112007593735
+  },
+  "years": {
+    "2018": {
+      "total_apks": 4000,
+      "scorable_apks": 3304,
+      "unscorable_apks": 696,
+      "coverage": 0.826,
+      "status_counts": {
+        "predicted": 3304,
+        "no_fused_behavior": 681,
+        "no_scorable_scene": 15
+      },
+      "TN": 695,
+      "FP": 966,
+      "FN": 373,
+      "TP": 1270,
+      "precision": 0.5679785330948122,
+      "recall": 0.772976262933658,
+      "f1": 0.6548079401907708,
+      "auc": 0.6032895288900093,
+      "benign_fpr": 0.5815773630343167,
+      "malware_only_f1": 0.871953312736011
+    },
+    "2019": {
+      "total_apks": 4000,
+      "scorable_apks": 2937,
+      "unscorable_apks": 1063,
+      "coverage": 0.73425,
+      "status_counts": {
+        "predicted": 2937,
+        "no_fused_behavior": 1057,
+        "no_scorable_scene": 6
+      },
+      "TN": 490,
+      "FP": 1194,
+      "FN": 306,
+      "TP": 947,
+      "precision": 0.44231667445119105,
+      "recall": 0.7557861133280128,
+      "f1": 0.558043606364172,
+      "auc": 0.5194073416200169,
+      "benign_fpr": 0.7090261282660333,
+      "malware_only_f1": 0.860909090909091
+    },
+    "2020": {
+      "total_apks": 4000,
+      "scorable_apks": 3151,
+      "unscorable_apks": 849,
+      "coverage": 0.78775,
+      "status_counts": {
+        "predicted": 3151,
+        "no_fused_behavior": 841,
+        "no_scorable_scene": 8
+      },
+      "TN": 444,
+      "FP": 1177,
+      "FN": 459,
+      "TP": 1071,
+      "precision": 0.476423487544484,
+      "recall": 0.7,
+      "f1": 0.5669666490206459,
+      "auc": 0.455955736191248,
+      "benign_fpr": 0.7260950030845157,
+      "malware_only_f1": 0.8235294117647058
+    },
+    "2021": {
+      "total_apks": 4000,
+      "scorable_apks": 3110,
+      "unscorable_apks": 890,
+      "coverage": 0.7775,
+      "status_counts": {
+        "predicted": 3110,
+        "no_fused_behavior": 885,
+        "no_scorable_scene": 5
+      },
+      "TN": 328,
+      "FP": 1191,
+      "FN": 288,
+      "TP": 1303,
+      "precision": 0.5224538893344026,
+      "recall": 0.8189817724701446,
+      "f1": 0.6379436964504284,
+      "auc": 0.48658579426985815,
+      "benign_fpr": 0.7840684660961159,
+      "malware_only_f1": 0.9004837595024188
+    },
+    "2022": {
+      "total_apks": 4000,
+      "scorable_apks": 2591,
+      "unscorable_apks": 1409,
+      "coverage": 0.64775,
+      "status_counts": {
+        "predicted": 2591,
+        "no_fused_behavior": 1408,
+        "no_scorable_scene": 1
+      },
+      "TN": 255,
+      "FP": 1180,
+      "FN": 278,
+      "TP": 878,
+      "precision": 0.42662779397473277,
+      "recall": 0.759515570934256,
+      "f1": 0.5463596764156814,
+      "auc": 0.45211289680865174,
+      "benign_fpr": 0.8222996515679443,
+      "malware_only_f1": 0.8633235004916421
+    }
+  },
+  "method": "Coverage-normalized mean OCSVM with training RMS calibration; unified cached behavior artifacts",
+  "training_years": [
+    2014,
+    2015,
+    2016,
+    2017
+  ],
+  "testing_years": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022
+  ],
+  "model": "/home/lb/tool/ForeDroid/anomaly_detection_pipeline/models/mean_all_model.pkl",
+  "model_sha256": "7a14ae6445837233428b31dc412a9986c909632b8719df0b3db353b2ba2da7a5",
+  "representation": "coverage_normalized",
+  "rms_scale": 14.772415705563056,
+  "scope": "Exploratory evaluation; representation examined on GPMalware and 2018–2022, models/scalers fit only on 2014–2017 benign data"
+}

@@ -1,0 +1,85 @@
+cluster_id;scenario_label;count
+28;Deny;206
+32;Authenticate;178
+14;write status;159
+82;Clear ||| Close;96
+47;Get currently played track ||| Search by artist ||| Search for text in lyrics ||| Search inside lyrics ||| Look for artist's tracks ||| Search by track name ||| Look for track name;95
+40;Add ||| UDP#TCP#SOCKS#HTTP ||| Refresh ||| Set Password ||| Automatic Refresh ||| Recycle Memory ||| Clear Log ||| Details ||| Reset SmokeStack ||| Reset Fields ||| Save;91
+81;Settings;83
+5;Next ||| Previous ||| Copy URI;77
+41;Search or type URL;75
+48;Open ||| Cancel;71
+54;Player;67
+6;New Project;64
+70;none ||| Share key via clipboard ||| Upload To Keyserver ||| Try again ||| Back ||| Cancel ||| Encrypt files ||| Encrypt text ||| Share key;63
+37;accept call;63
+29;Open ||| Pick from contacts ||| Share;62
+21;Add widget command;61
+19;Settings ||| Sudoku Lists ||| Resume;61
+62;Start Full Test ||| Delete Calibration ||| Instructions ||| Add simple calibration ||| Calibration ||| Test single frequency ||| Add full calibration;61
+67;restart app ||| Settings;60
+18;Hide Show ||| Type your answer here ||| Next ||| Back;59
+66;Import;58
+35;Write data on tag ||| Edit;58
+59;Grant Permissions;58
+58;New Game;57
+2;Run;55
+42;Grant Permission;52
+49;Upload ||| Keep#Share#Open ||| Delete ||| Keep#Share;52
+15;Measure ||| Acknowledge;52
+77;New Game ||| Continue Game;50
+55;Settings ||| Refresh;46
+50;Continue ||| telephone number;46
+46;Next;46
+33;Screen Rotation ||| Player next ||| Unlock controls ||| Navigate up ||| Video zoom ||| Lock controls ||| Select playback speed ||| Player previous ||| Select audio track ||| Select subtitle track;45
+10;Progress;45
+17;Start;44
+71;Settings;44
+39;Restore Wallet ||| Create New Wallet;44
+75;The service has to be running for that#Select connection option;43
+72;Next ||| Auto Zoom ||| Filename ||| Enter password ||| Password protect backup file ||| Exit ||| Cancel ||| Find GPS location ||| Restore ||| Prev ||| OK ||| Create;42
+44;Batch add ||| Search ||| Add Metalink ||| WebView ||| Add URI ||| Add Torrent;42
+34;Start sharing ||| Create new sharing link;41
+52;Folder ||| Icon;41
+9;Send;41
+63;ALLOW PERMISSION AND START SENSOR FIX;40
+12;Open ||| Partial file opening ||| Recently opened;40
+23;Resume Session ||| Start new Session;40
+76;Start;39
+83;Clear ||| Close ||| Other Non-Smoke;39
+13;Profile image ||| write status ||| Banner Image;39
+24;BEEPER ||| DETECT ||| INSTRUCTIONS;38
+73;Show SSIDs Matching regex;36
+25;GPS fix status;36
+78;Complete Scan ||| Incremental Scan;35
+56;Image;34
+4;Send inventory;34
+30;RETOURNER SUR 'INTERFACE PAR FAUT ||| Envoyer un SMS ||| APPEL ||| CONTACTS ||| SMS;34
+0;Addition#Multiplication#Miscellaneous#Subtraction#Simplification#Division#Addition Series#Simplification Advance ||| Starts Now;34
+36;Read Tag;34
+64;Monitoring Enabled ||| Auto-Restart Monitoring After Alert ||| Add SMS Emergency Contact;33
+53;biometrics ||| Unlock;33
+69;Jump to Store ||| Copy error message ||| Send email ||| Turn off recovery mode ||| Send Telegram;33
+57;Add ||| Time;32
+1;Size ||| Delete ||| Copy;32
+8;Instance banner image;32
+20;Add Domain;32
+27;Calibrate;31
+51;Tap this button and speak;31
+68;Report this error via telegram ||| Report on GitHub ||| Report this error via e-mail ||| Copy formatted report;30
+61;Scroll to top;30
+7;About;30
+80;Next month;29
+60;0x;28
+3;Apply Changes;28
+79;Play audio content ||| Scroll to top;28
+74;Control center;27
+45;Settings;27
+43;Add custom URL or search engine;27
+38;Log in;26
+22;1KB ||| 80KB ||| Auto start on boot ||| Interpolate notice battery life ||| 50KB ||| 100KB ||| Logarithm bar ||| Hide when in fullscreen ||| 20KB;26
+11;Save;25
+16;About ||| Continue;25
+31;Licensing information ||| Retry ||| Digital Speedometer fullscreen ||| Grant location permission ||| Change;25
+26;Offline;25
+65;Import Contacts ||| Import Call Log ||| Wipe Messages ||| Export Messages ||| Export Contacts ||| Export Call Log ||| Import Messages ||| Set default SMS app;25

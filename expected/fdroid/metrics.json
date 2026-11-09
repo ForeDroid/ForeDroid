@@ -1,0 +1,92 @@
+{
+  "model": "/mnt/lab6312/lb/Dataset/ForeDroid_output/F-Droid/training/anomaly_detection_pipeline/models/mean_all_model.pkl",
+  "model_sha256": "738f54c228c9f40b58ed18e820c630811bbb08756ddc60260cf518cde9420d1c",
+  "training_dataset": "F-Droid",
+  "overall": {
+    "total_apks": 20000,
+    "scorable_apks": 15046,
+    "unscorable_apks": 4954,
+    "TP": 5867,
+    "FP": 5956,
+    "FN": 1288,
+    "TN": 1935,
+    "precision": 0.4962361498773577,
+    "recall": 0.8199860237596087,
+    "f1": 0.6182948677415955,
+    "malware_only_f1": 0.9010904622945785,
+    "benign_fpr": 0.7547839310607021
+  },
+  "years": {
+    "2018": {
+      "total_apks": 4000,
+      "scorable_apks": 3298,
+      "unscorable_apks": 702,
+      "TP": 1376,
+      "FP": 1277,
+      "FN": 267,
+      "TN": 378,
+      "precision": 0.5186581228797588,
+      "recall": 0.837492391965916,
+      "f1": 0.6405959031657356,
+      "malware_only_f1": 0.9115601192447831,
+      "benign_fpr": 0.7716012084592145
+    },
+    "2019": {
+      "total_apks": 4000,
+      "scorable_apks": 2927,
+      "unscorable_apks": 1073,
+      "TP": 1002,
+      "FP": 1351,
+      "FN": 248,
+      "TN": 326,
+      "precision": 0.4258393540161496,
+      "recall": 0.8016,
+      "f1": 0.556203164029975,
+      "malware_only_f1": 0.8898756660746003,
+      "benign_fpr": 0.8056052474657126
+    },
+    "2020": {
+      "total_apks": 4000,
+      "scorable_apks": 3138,
+      "unscorable_apks": 862,
+      "TP": 1214,
+      "FP": 1152,
+      "FN": 313,
+      "TN": 459,
+      "precision": 0.5131022823330516,
+      "recall": 0.7950229207596594,
+      "f1": 0.6236835345491909,
+      "malware_only_f1": 0.8858080992338563,
+      "benign_fpr": 0.7150837988826816
+    },
+    "2021": {
+      "total_apks": 4000,
+      "scorable_apks": 3104,
+      "unscorable_apks": 896,
+      "TP": 1368,
+      "FP": 1136,
+      "FN": 217,
+      "TN": 383,
+      "precision": 0.5463258785942492,
+      "recall": 0.8630914826498423,
+      "f1": 0.669112252384446,
+      "malware_only_f1": 0.9265154080596004,
+      "benign_fpr": 0.7478604344963792
+    },
+    "2022": {
+      "total_apks": 4000,
+      "scorable_apks": 2579,
+      "unscorable_apks": 1421,
+      "TP": 907,
+      "FP": 1040,
+      "FN": 243,
+      "TN": 389,
+      "precision": 0.4658448895737031,
+      "recall": 0.788695652173913,
+      "f1": 0.585728123990959,
+      "malware_only_f1": 0.881866796305299,
+      "benign_fpr": 0.72778166550035
+    }
+  },
+  "scope": "All downloaded F-Droid apps used as training inputs; 2018–2022 test, exact training SHA overlap excluded; cross-corpus package/version novelty not established"
+}

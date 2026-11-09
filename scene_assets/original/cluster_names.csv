@@ -1,0 +1,1877 @@
+cluster;name;count
+-1;cluster_-1;164900
+1202;BG: main activity create main;1116
+1201;BG: main activity create main;1089
+801;BG: payment method activity;947
+802;BG: payment method activity;931
+237;BG: create;810
+236;BG: webview create;803
+1445;BG: activity click main;758
+1171;BG: main activity run;758
+1446;BG: main activity click main;754
+1172;BG: main activity run;684
+479;BG: unity ads fullscreen activity start fullscreen activity;653
+478;BG: unity ads fullscreen activity start fullscreen activity;645
+1196;BG: home activity create main;636
+1197;BG: home activity create main;623
+539;BG: overlay activity;598
+540;BG: overlay activity;590
+1527;BG: activity click;559
+1528;BG: activity click;559
+20;BG: ;551
+923;BG: ad activity show ad activity;551
+1310;BG: car finder activity click;540
+1311;BG: car finder activity click;536
+1124;BG: list activity;535
+1123;BG: list activity;528
+924;BG: ad activity show ad activity;517
+19;BG: ;509
+1206;BG: activity create;497
+1207;BG: activity create;489
+39;BG: corona activity show corona activity main;447
+1302;BG: login activity click;446
+172;BG: pay pal service;438
+40;BG: corona activity show corona activity main;434
+1303;BG: login activity click;423
+171;BG: pay pal service;411
+1186;BG: main activity;406
+455;BG: unity player proxy activity create main;404
+457;BG: unity player native activity create main;403
+628;BG: main create main;399
+1099;BG: new fan wall activity click;399
+928;BG: interstitial ad activity show;399
+510;BG: c dm registration receiver receive google c2 dm registration;381
+454;BG: unity player proxy activity create main;381
+16;BG: lbs manager receive filter gps;377
+456;BG: unity player native activity create main;376
+508;BG: broadcast receiver receive google c2 receive;376
+1185;BG: main activity;375
+1236;BG: click;373
+1100;BG: new fan wall activity click;372
+929;BG: interstitial ad activity show;371
+287;BG: push service cn report cn pushservice cn push time cn register;370
+1237;BG: click;368
+507;BG: broadcast receiver receive google c2 receive;364
+627;BG: splashactivity create main;363
+333;BG: rich media activity show ad;360
+288;BG: push service cn report cn pushservice cn push time cn register;360
+17;BG: lbs manager receive filter gps;357
+769;BG: dispatcher network broadcast receiver receive net conn connectivity change android airplane mode;356
+871;BG: activity;343
+710;BG: index activity stack create;343
+863;BG: comment list activity start activity;342
+948;BG: payment confirm activity;341
+872;BG: activity;337
+332;BG: rich media activity show ad;337
+817;BG: rich media activity override url loading;330
+532;BG: website create;326
+531;BG: website create;324
+864;BG: comment list activity start activity;324
+676;BG: main activity handle message;320
+675;BG: activity main handle message;320
+768;BG: dispatcher network broadcast receiver receive net conn connectivity change android airplane mode;320
+130;BG: payment integrate fragment create view;316
+1034;BG: splash activity create main;316
+1035;BG: splash activity create main;315
+947;BG: payment confirm activity;313
+129;BG: payment integrate fragment create view;307
+818;BG: rich media activity override url loading;305
+509;BG: c dm registration receiver receive google c2 dm registration;302
+24;BG: mobile core report;301
+23;BG: mobile core report;301
+73;BG: status bar broadcast receiver create delete intent main;298
+72;BG: status bar broadcast receiver create delete intent main;297
+152;BG: cb impression activity;289
+1512;BG: us activity click;286
+1511;BG: us activity click;283
+390;BG: sl start command;283
+151;BG: cb impression activity;282
+424;BG: audience network activity;260
+423;BG: audience network activity;257
+246;BG: profile list settings classic activity start activity;253
+980;BG: search activity create;250
+800;BG: radio context item select;250
+248;BG: app lovin interstitial activity;249
+249;BG: app lovin interstitial activity;248
+105;BG: radio prepare dialog;246
+1259;BG: main click;244
+1496;BG: details activity click;243
+492;BG: c dm messages receiver receive google c2 receive;243
+106;BG: radio prepare dialog;243
+61;BG: conduit frag act display center notification main;243
+60;BG: conduit frag act display center notification main;243
+799;BG: radio context item select;238
+491;BG: c dm messages receiver receive google c2 receive;237
+68;BG: bt screen start;236
+1098;BG: video player activity;235
+245;BG: profile list settings classic activity start activity;233
+1485;BG: bookmark detail activity item click;232
+1260;BG: main click main;231
+791;BG: receive net conn connectivity change;230
+192;BG: mp activity intent;226
+191;BG: mp activity intent;224
+986;BG: video player activity create intent;224
+1484;BG: bookmark detail activity item click;223
+790;BG: receive net conn connectivity change;222
+1473;BG: info activity click;222
+1506;BG: activity list item click;221
+1128;BG: app brain activity;220
+987;BG: video player activity create intent;219
+512;BG: broadcast receiver receive google c2 dm registration com google c2 receive;213
+1127;BG: app brain activity;212
+513;BG: broadcast receiver receive google c2 dm registration com google c2 receive;211
+1296;BG: twitter login activity open twitter login view;210
+1780;GUI: Show on map ||| Write review ||| Distance is from the specified location ||| Book now;208
+114;BG: radio create context;207
+990;BG: contact map activity create;207
+22;BG: mobile core report c;206
+1071;BG: activity run;204
+113;BG: radio create context;203
+218;BG: act channel new intent search;203
+446;BG: real estate detail activity create;203
+1097;BG: video player activity;203
+957;BG: activity create intent;200
+1804;GUI: Select ||| Cancel;199
+978;BG: car finder activity resume;198
+1314;BG: home screen activity click;198
+985;BG: video player activity create intent native video;197
+1313;BG: home screen activity click;194
+21;BG: mobile core report c;194
+1072;BG: activity run;193
+958;BG: activity create intent;193
+1042;BG: us detail activity create;193
+146;BG: realtime service chat update;192
+546;BG: interstitial activity init;190
+977;BG: car finder activity resume;189
+1165;BG: activity resume;189
+42;BG: product detail handle product action;188
+1471;BG: view feed activity click;187
+147;BG: realtime service chat update;187
+1295;BG: twitter login activity open twitter login view;186
+447;BG: real estate detail activity create;186
+545;BG: interstitial activity init;185
+1287;BG: login activity;185
+1612;GUI: WiFi only ||| Download ||| Import;185
+544;BG: mm activity start ad view overlay activity;184
+608;BG: app brain service;184
+1283;BG: login signup activity start activity;183
+1108;BG: share activity;182
+1275;BG: change password activity click;182
+1421;BG: buy activity click;181
+688;BG: update alert activity create;181
+984;BG: video player activity create intent native video;181
+930;BG: ad interstitial activity start;180
+344;BG: rich media activity navigate;180
+1144;BG: list activity activity create;180
+859;BG: disqus comments activity start activity;179
+991;BG: contact map activity create;179
+148;BG: cb impression activity c;179
+1358;BG: message activity click;178
+609;BG: app brain service;178
+934;BG: video activity;178
+615;BG: unity player native activity click;178
+1288;BG: login activity;177
+865;BG: comment post activity start activity;176
+638;BG: event v details activity create;176
+639;BG: event v details activity create;176
+1231;BG: real estate detail activity click;175
+1740;GUI: Cancel ||| Retry;175
+458;BG: unity player activity create main;174
+1404;BG: contact map activity click;174
+1093;BG: video activity create;173
+866;BG: comment post activity start activity;172
+617;BG: sms receiver receive provider telephony sms receive;172
+1284;BG: login signup activity start activity;170
+1107;BG: share activity;170
+210;BG: sync service init;169
+988;BG: video player activity create intent vast;169
+160;BG: receive user present;169
+550;BG: post execute;169
+701;BG: profile list edit activity start activity;168
+860;BG: disqus comments activity start activity;166
+345;BG: rich media activity navigate;166
+1166;BG: activity resume;166
+1157;BG: activity main resume main;165
+1232;BG: real estate detail activity click;165
+931;BG: ad interstitial activity start;165
+459;BG: unity player activity create main;165
+935;BG: video activity;164
+1403;BG: contact map activity click;164
+1498;BG: us detail activity click;164
+883;BG: list activity show;164
+805;BG: car finder activity create;164
+1041;BG: us detail activity create;163
+442;BG: video view start video;162
+705;BG: event v details activity click;162
+141;BG: mo pub activity create intent;162
+483;BG: ad colony browser;160
+18;BG: twitter preview run;160
+989;BG: video player activity create intent vast;159
+1385;BG: article detail toolbar swipe activity click;158
+495;BG: firebase messaging service google firebase message event;158
+1156;BG: main activity resume main;158
+216;BG: pay pal activity checkout;158
+312;BG: intent service registered;157
+463;BG: unity player native activity create;155
+1532;BG: web activity click;155
+1000;BG: map activity create;155
+1483;BG: detail item click;154
+363;BG: new fan wall activity create;153
+296;BG: picture detail animation activity start activity;153
+462;BG: unity player native activity create;153
+806;BG: car finder activity create;152
+1475;BG: set activity click;151
+882;BG: list activity show;150
+217;BG: pay pal activity checkout;150
+311;BG: intent service registered;149
+851;BG: interstitial activity;149
+1297;BG: login twitter activity login twitter view;149
+1414;BG: location activity click;149
+1848;GUI: OK ||| Cancel;148
+1411;BG: share activity click;148
+443;BG: video view start video;148
+1497;BG: us detail activity click;148
+536;BG: billing receiver notify vend billing app notify com vend billing purchase state change com vend billing response code;147
+718;BG: widget provider honeycomb enable widget widget refresh android user present com widget call change membership android update com widget membership widget refresh android delete android configure android enable android disabled;147
+702;BG: profile list edit activity start activity;147
+420;BG: term detail classic activity start activity;147
+706;BG: event v details activity click;146
+852;BG: interstitial activity;146
+1240;BG: poi detail activity click;145
+295;BG: picture detail animation activity start activity;145
+389;BG: settings detail classic activity start activity;144
+1477;BG: setting activity click;144
+1472;BG: account activity click;144
+1544;BG: detail activity item click;143
+1298;BG: login twitter activity login twitter view;143
+94;BG: tour detail show detail;143
+1020;BG: info activity create;143
+625;BG: ad activity open;142
+149;BG: cb impression activity c;142
+621;BG: add custom poi map activity open check;142
+367;BG: station list create;142
+1395;BG: sound podcast detail toolbar activity start activity;142
+286;BG: push service c cn report cn pushservice cn push time cn register;142
+950;BG: location activity create location intent;142
+142;BG: mo pub activity create intent;142
+383;BG: main activity request permissions result main;141
+786;BG: connectivity change receiver receive net conn connectivity change;141
+1823;GUI: Home;141
+473;BG: g location service v2;141
+1467;BG: video activity click;140
+209;BG: book fragment activity c;140
+388;BG: settings detail classic activity start activity;140
+1474;BG: set activity click;140
+1341;BG: entry activity click;140
+884;BG: activity dialog;139
+1417;BG: main activity click view;139
+91;BG: view activity handle geofence;139
+732;BG: parse push broadcast receiver handle push parse push receive com parse push delete android user present android boot complete com parse push open;139
+1159;BG: web view activity create intent;138
+1394;BG: sound podcast detail toolbar activity start activity;138
+384;BG: handle message main;137
+1290;BG: login activity create;137
+761;BG: push receiver package add android package remove;137
+1416;BG: main activity click view;137
+445;BG: video view display video;136
+1234;BG: logo activity click view;136
+717;BG: bb alarm receiver;135
+419;BG: term detail classic activity start activity;135
+1466;BG: contact activity click;135
+480;BG: unity ads fullscreen activity show;135
+444;BG: video view display video;135
+652;BG: popup activity;135
+1524;BG: product content activity click;135
+636;BG: sound cloud detail activity start activity;135
+631;BG: activity press;135
+212;BG: player service init;134
+897;BG: activity options item select;134
+844;BG: home activity;134
+1195;BG: us activity create;134
+1486;BG: image view activity click;133
+853;BG: interstitial video activity;133
+223;BG: f h;133
+1348;BG: app activity click;132
+1135;BG: us activity resume;132
+1067;BG: open url activity open url;132
+1413;BG: activity preference click;131
+757;BG: install receiver receive vend install referrer;131
+215;BG: registration receiver package remove;130
+1407;BG: chat activity click;130
+1239;BG: intro activity dialog click view;130
+1194;BG: us activity create;130
+1068;BG: open url activity open url;130
+629;BG: map activity get map intent;130
+1373;BG: save photo activity click;130
+624;BG: ad activity open;130
+1084;BG: map activity resume;129
+999;BG: map location activity create;129
+309;BG: intent service generate notification main;129
+1397;BG: sound podcast detail toolbar swipe activity start activity;129
+756;BG: install receiver receive vend install referrer;128
+1412;BG: fs scenic activity click;128
+597;BG: l c receive screen android screen;128
+1181;BG: web view activity create;128
+413;BG: flurry fullscreen takeover activity;128
+1235;BG: logo activity click view;127
+434;BG: share activity goto share;127
+468;BG: mu pdf activity success;127
+465;BG: unity player native activity resume;127
+1230;BG: setting click;127
+722;BG: mobi ad activity;126
+92;BG: view activity handle geofence;126
+1252;BG: profile click;126
+253;BG: new app receiver handle message;125
+840;BG: audio context item select;125
+14;BG: capture lead handle capture lead action;125
+1375;BG: comment activity click;125
+364;BG: new fan wall activity create;125
+1091;BG: video player activity open video;124
+678;BG: wx entry activity create;124
+1538;BG: web view activity click;124
+867;BG: main navigation activity main;124
+1130;BG: notification activity create;123
+1132;BG: setting activity;123
+1137;BG: app activity create;123
+529;BG: theme activity goto main main;123
+285;BG: push service c cn report cn pushservice cn push time cn register;123
+901;BG: twitter activity create;123
+1657;GUI: Stop;123
+849;BG: interstitial activity process;123
+1708;GUI: Activate ||| Exit now;123
+682;BG: event map activity main com finish activity;123
+481;BG: unity ads fullscreen activity show;123
+1134;BG: us activity resume;122
+1842;GUI: Cancel#Apply ||| Cancel#OK ||| Cancel#Next ||| Done#Cancel ||| View ||| Cancel#Save ||| Blocked Friends#Members ||| Post ||| Delete#Cancel ||| Prev#Skip ||| Edit ||| Close;122
+715;BG: ad request net conn connectivity change;122
+1030;BG: splash activity resume main;122
+533;BG: real estate list activity create;122
+1451;BG: home activity click;122
+868;BG: main navigation activity main;121
+1525;BG: category activity click;121
+414;BG: flurry fullscreen takeover activity;121
+365;BG: activity create detail activity intent display item view;121
+1428;BG: location detector activity click search;121
+894;BG: main activity options item select main;120
+1452;BG: home activity click;120
+407;BG: pay pal activity preapprove;120
+101;BG: book reader create main;120
+1047;BG: detail activity;120
+1539;BG: web view activity click;119
+1429;BG: location detector activity click search;119
+467;BG: unity player native activity resume main;119
+1031;BG: splash activity resume main;119
+758;BG: main activity select world newspaper main;119
+211;BG: player service init;119
+1490;BG: user set activity click;119
+854;BG: interstitial video activity;119
+995;BG: submit detail classic activity click;119
+1462;BG: map activity click;119
+310;BG: intent service generate notification main;119
+174;BG: game circle user interface show html overlay;118
+1611;GUI: Insert video ||| Post body;118
+337;BG: tj ad unit view display rich media;118
+942;BG: save photo activity activity result;118
+538;BG: main activity start alarm main;118
+1180;BG: web view activity create;118
+1463;BG: activity click set wallpaper;118
+336;BG: tj ad unit view display rich media;118
+1340;BG: entry activity click;118
+1717;GUI: Send;117
+464;BG: unity player native activity resume;117
+1114;BG: runner activity send notification main;117
+1220;BG: browser activity;117
+1028;BG: splash screen activity create main;117
+729;BG: notification open receiver set static;117
+136;BG: video player handle message;117
+926;BG: ad activity;117
+1456;BG: route map activity item click;116
+1543;BG: activity item click;116
+86;BG: pay pal service build pay pal service intent;116
+435;BG: share activity goto share;116
+348;BG: album list activity;116
+1053;BG: us detail activity resume;116
+379;BG: full screen ad web view show full screen ad;116
+140;BG: mo pub activity create;115
+1372;BG: save photo activity click;115
+466;BG: unity player native activity resume main;114
+785;BG: connectivity change receiver receive net conn connectivity change;114
+661;BG: photo detail activity;114
+1141;BG: setting activity resume;114
+637;BG: sound cloud detail activity start activity;114
+949;BG: location activity create location intent;114
+915;BG: ad view activity show;113
+1037;BG: article detail classic activity create;113
+753;BG: multiple install broadcast receiver receive vend install referrer;113
+521;BG: video player play video;113
+994;BG: submit detail classic activity click;113
+1392;BG: sound podcast detail toolbar android activity start activity;113
+1170;BG: activity main stop main;113
+654;BG: interstitial video activity k;113
+74;BG: byte;113
+684;BG: main window focus changed;112
+847;BG: interstitial activity create;112
+1624;GUI: Skip ||| Finish;112
+1722;GUI: dw#dmo ||| Message ||| View;112
+776;BG: activity entry detail po post execute;112
+182;BG: c geofence geofencestrategyservice;112
+83;BG: installation tracker;111
+196;BG: monitor service;111
+846;BG: interstitial activity create;111
+826;BG: open url activity override url loading;111
+836;BG: unity player native activity window focus changed main;111
+1092;BG: video player activity open video;111
+498;BG: intent service message receive google c2 receive;111
+1046;BG: detail activity;111
+1476;BG: setting activity click;110
+670;BG: order submit activity handle message;110
+976;BG: widget update update;110
+1360;BG: profile activity click;110
+132;BG: payment integrate fragment destroy;110
+317;BG: player service create;110
+87;BG: pay pal service build pay pal service intent;110
+1618;GUI: No ||| Yes;110
+276;BG: controller activity press;110
+166;BG: pay pal service destroy;110
+1857;GUI: Register;110
+606;BG: yt tutorial activity finish;109
+1326;BG: activity entry service click;109
+482;BG: get pass set activity submit;109
+1305;BG: custom browser activity click;109
+653;BG: activity upload upload;109
+850;BG: interstitial activity process;109
+1381;BG: article detail toolbar android activity create;109
+233;BG: input method service hover view;108
+49;BG: location view run;108
+188;BG: road immortal init main;108
+1062;BG: user activity;108
+181;BG: c geofence geofencestrategyservice;108
+1396;BG: sound podcast detail toolbar swipe activity start activity;108
+1043;BG: activity tab u local root activity result;108
+1281;BG: app entry click main;108
+397;BG: download service;108
+1359;BG: notification activity click;108
+354;BG: browser open;108
+1461;BG: map activity click;108
+900;BG: real estate list activity click;108
+121;BG: activity guest potrait press;108
+855;BG: voice call activity start voice call;107
+1443;BG: log activity click;107
+1129;BG: category activity create;107
+1174;BG: web activity create;107
+914;BG: ad interstitial activity c;107
+896;BG: pay activity;107
+599;BG: save photo activity resume;106
+353;BG: browser open;106
+125;BG: embed push manager init net conn connectivity change;106
+1617;GUI: Deixe seu coment rio ||| Tr nsito ao Redor ||| Desconectar ||| Meus Trajetos;106
+992;BG: screen renderer click;106
+777;BG: activity post execute;106
+252;BG: new app receiver handle message;106
+1503;BG: detail activity click;106
+1847;GUI: Cancel ||| Completed;106
+1322;BG: activity entry trans req item click;106
+681;BG: save photo activity save instance state;106
+1315;BG: gallery item click;106
+204;BG: audio service bind service;106
+925;BG: ad activity;105
+890;BG: main activity init main;105
+408;BG: pay pal activity preapprove;105
+1517;BG: main activity item click main;105
+1301;BG: click view;105
+1190;BG: activity main start main;105
+1380;BG: station list item click main;105
+395;BG: push service stop service;105
+169;BG: paypal purchase activity destroy;105
+1285;BG: login activity start login activity result;105
+1664;GUI: Unlock Pack ||| ot PAR ot PART oe PART ||| Tap here to open Menu Tap here to see sharing options Swipe LeftRight to change assets ||| Open;105
+739;BG: get current location net wifi scan result;104
+1494;BG: event detail activity click;104
+1369;BG: activity navigation click;104
+1436;BG: account center detail activity click;104
+744;BG: offers web view show offer currency id;104
+267;BG: screen start;104
+1167;BG: main activity view;104
+886;BG: event click;104
+528;BG: term activity;104
+259;BG: wifi x entry activity;104
+555;BG: update dialog activity create phone view updatedialogactivity;103
+437;BG: ad wall activity show ad list;103
+893;BG: activity detail options item select;103
+827;BG: open url activity override url loading;103
+128;BG: video play screen goto video play screen;103
+820;BG: ad marvel video activity override url loading;103
+1487;BG: slide image activity item click;103
+1048;BG: splash activity start main;103
+752;BG: receiver receive package replace;103
+195;BG: monitor service;103
+1113;BG: home page activity create main;103
+663;BG: error activity;102
+747;BG: receive net wifi scan result;102
+746;BG: boot broadcast receiver receive boot complete;102
+170;BG: paypal purchase activity destroy;102
+835;BG: unity player native activity window focus changed main;102
+600;BG: save photo activity resume;102
+1255;BG: tweet reply activity click view;102
+391;BG: downloading service;102
+334;BG: tj ad unit view start video;102
+1258;BG: act set click main;102
+1269;BG: password change activity;102
+399;BG: push service;102
+1458;BG: gallery preview activity item click;101
+1427;BG: transfer activity click;101
+357;BG: fan wall v activity create;101
+858;BG: gallery activity create;101
+983;BG: welcome activity run view;101
+611;BG: main pause;101
+1142;BG: app activity create main;101
+743;BG: offers web view show offer currency id;101
+1347;BG: splash screen item click main;101
+1337;BG: activity entry bank click;101
+1370;BG: activity friend click friend;101
+1199;BG: setting activity create;101
+1280;BG: index activity click;101
+47;BG: ta metered paywall popup handle paywall local;101
+1300;BG: login click;100
+308;BG: intent service message;100
+614;BG: list activity goto claim offer;100
+504;BG: listener service send notification google c2 receive;100
+1155;BG: auth activity create view;100
+953;BG: activity build intent activity;100
+1426;BG: main search activity click;100
+1455;BG: map detail classic activity item click;100
+202;BG: go coins sdk main activity;100
+1204;BG: help activity create;100
+1480;BG: report activity click;100
+716;BG: earn screen receiver receive screen android screen;100
+1399;BG: video detail toolbar swipe activity click;100
+1499;BG: product list activity click;99
+1495;BG: location detail activity click;99
+796;BG: app entry create main;99
+993;BG: image grid activity resume;99
+1307;BG: screenshot activity click;99
+904;BG: agenda click;99
+400;BG: push service;99
+686;BG: message activity create;98
+306;BG: intent service generate notification;98
+1542;BG: activity item click;98
+1217;BG: web browser activity;98
+674;BG: activity handle message;98
+5;BG: gs game wrapper activity stop main;98
+503;BG: listener service send notification google c2 receive;98
+79;BG: ti activity handle open;98
+66;BG: network change notifier auto detect receive;98
+873;BG: tab bar options item select;98
+361;BG: new fan wall activity activity result;98
+1118;BG: profile activity create;97
+745;BG: push service receiver show rich notification power connect android power disconnect android medium mount android user present android boot complete com pushservice medium click android net conn connectivity change com pushservice notification show;97
+770;BG: main post execute;97
+12;BG: gs game wrapper activity create main;97
+1146;BG: result activity;97
+975;BG: widget update update;97
+1282;BG: login activity start login activity main;97
+499;BG: listener service message receive google c2 receive;97
+905;BG: day detail activity success view;97
+1362;BG: item click;97
+1101;BG: bind activity create;97
+118;BG: easy touch service run;97
+834;BG: unity player native activity window focus changed;97
+605;BG: store activity start store activity;96
+811;BG: wallpaper activity set wallpaper;96
+187;BG: dash board;96
+119;BG: easy touch service run;96
+1032;BG: splash activity post resume main;96
+1393;BG: sound podcast detail toolbar android activity start activity;96
+1516;BG: main activity item click main;96
+966;BG: wb share activity sina weibo sdk sdk req activity;96
+318;BG: player service create;96
+885;BG: main options item select main;96
+374;BG: push activity start activity intent cn pushactivity;96
+1343;BG: card activity click;96
+520;BG: video player play video;96
+655;BG: interstitial video activity k;95
+338;BG: audio guide activity bring front;95
+870;BG: business activity;95
+46;BG: advert c;95
+952;BG: activity build intent activity;95
+642;BG: main activity destroy main;95
+1163;BG: main activity run view;95
+25;BG: screen show screen;95
+416;BG: guest post execute;95
+1168;BG: main activity view;95
+922;BG: ad medium activity;95
+534;BG: real estate list activity create;95
+970;BG: moro widget provider delete update;94
+254;BG: controller activity pause;94
+329;BG: controller activity resume;94
+321;BG: voip activity;94
+438;BG: ad wall activity show ad list;94
+1173;BG: home activity create;94
+819;BG: ad marvel video activity override url loading;94
+371;BG: print bill temp click;94
+48;BG: location view run;94
+692;BG: chat detail activity start activity;94
+780;BG: main activity post execute main;94
+917;BG: application details proxy activity create view;94
+838;BG: simple register activity create;94
+126;BG: mi;94
+630;BG: order submit activity;93
+825;BG: ad scheme activity create view;93
+1191;BG: activity main start main;93
+657;BG: route activity route;93
+1459;BG: gallery preview activity item click;93
+1045;BG: splash activity run main;93
+2;BG: cj;93
+262;BG: aw receive battery change;93
+691;BG: chat detail activity start activity;93
+1059;BG: activity pause;93
+961;BG: im browser activity create calendar event;93
+360;BG: new fan wall activity resume;92
+1665;GUI: OK ||| Unlock Pack ||| ot PAR ot PART oe PART ||| Tap here to open Menu Tap here to see sharing options Swipe LeftRight to change assets;92
+1117;BG: profile activity;92
+1221;BG: custom browser activity open internal browser;92
+133;BG: game installer;92
+1069;BG: first page activity create;92
+1431;BG: instant search activity click;92
+876;BG: sign first activity go;92
+1643;GUI: Export ||| Cancel;92
+258;BG: first page activity search;92
+740;BG: account activity get account intent;92
+1353;BG: sms public get auth code activity click;92
+940;BG: contact activity create;92
+941;BG: save photo activity activity result;92
+307;BG: intent service message;92
+734;BG: common receiver receive headset plug android net connectivity action android power disconnect android bluetooth adapter state change android medium;92
+1261;BG: choose account activity upgrade click search;92
+748;BG: boot receiver receive boot complete;92
+881;BG: preferences session manager activity conversation click view;91
+1545;BG: order detail activity item click;91
+213;BG: message receiver receive mm sdk plugin scan;91
+1531;BG: commodity category activity item click;91
+1162;BG: main activity run view;91
+764;BG: receive battery change android screen android net wifi wifi state change android net wifi scan result android location gps fix change android net conn connectivity change android screen android airplane mode;91
+305;BG: intent service generate notification;91
+1052;BG: splash activity main;91
+1827;GUI: COMPLETE SIGN IN ||| Non-Member ||| Skip and go to app ||| GO BACK;91
+144;BG: main controller create main;91
+346;BG: rich media activity completion;91
+1256;BG: search click;91
+484;BG: landing page activity resume action show landing page;91
+461;BG: unity player activity resume;91
+335;BG: tj ad unit view show content;91
+1509;BG: history activity click;91
+284;BG: push service l cn report cn pushservice cn push time cn register;90
+230;BG: offer wall activity nt open offer wall;90
+1481;BG: deal activity click activity;90
+271;BG: im browser activity get gallery image;90
+830;BG: unity player native activity location changed main;90
+812;BG: wallpaper activity set wallpaper;90
+781;BG: main activity post execute main;90
+270;BG: im browser activity get gallery image;90
+1025;BG: splash screen create main;90
+962;BG: im browser activity create calendar event;90
+1587;GUI: Search;90
+505;BG: native activity write notifications view;90
+1189;BG: main activity finish;90
+11;BG: gs game wrapper activity create main;90
+1222;BG: im browser activity;90
+1450;BG: game activity click;90
+1316;BG: gallery content item click;90
+153;BG: couponing historical activity start activity;90
+1323;BG: activity entry status pre pos click;90
+1244;BG: ad activity click action;90
+1363;BG: item click;90
+206;BG: rule create;90
+1192;BG: start activity create main;89
+824;BG: ad scheme activity create view;89
+641;BG: main activity destroy main;89
+1175;BG: main activity go main;89
+261;BG: loyalty qr code reader activity start activity;89
+398;BG: download service;89
+1131;BG: activity generate notification view;89
+1085;BG: map view data view activity resume;89
+477;BG: logo activity start activity main;89
+669;BG: joy prize timer activity click;89
+703;BG: activity prepared;88
+566;BG: select account activity;88
+1806;GUI: Move ||| Turn on auto backup to upload new photos automatically ||| Edit ||| Share ||| Delete ||| Bump phones to share photos ||| Upload ||| Next ||| Select ||| Public ||| Cancel ||| Private;88
+131;BG: payment integrate fragment destroy;88
+44;BG: advert g;88
+843;BG: call activity;88
+1060;BG: full ad activity click main;88
+347;BG: rich media activity completion;88
+145;BG: mixed color info activity language changed;88
+1435;BG: news activity click;88
+164;BG: index handle push plugin;88
+760;BG: receive user present android net wifi wifi state change;88
+320;BG: update status activity jump actvity c;87
+1200;BG: setting activity create;87
+1136;BG: articles list activity create;87
+373;BG: song create;87
+1115;BG: runner activity send notification main;87
+1246;BG: launch screen click main;87
+1250;BG: album detail image end activity click;87
+377;BG: get jar activity show page;87
+845;BG: home activity run;87
+241;BG: wallpaper open wallpaper selector main;87
+1731;GUI: Add wall ||| Edit Registry ||| Save ||| Shipping Details ||| Add dimension ||| Circle ||| Cubic footage#Square footage ||| Triangle ||| Order Details ||| Contact Vendor ||| Scan Barcode ||| Rectangle;87
+1457;BG: gallery preview activity click;87
+1352;BG: authorization activity click;87
+1245;BG: ad activity click action;86
+1249;BG: ye wu detail activity click;86
+1488;BG: user profile activity item click view;86
+506;BG: custom broadcast receiver receive google c2 receive;86
+452;BG: unity player activity create;86
+393;BG: download service start command;86
+1151;BG: single book start activity main;86
+256;BG: friend list run;86
+857;BG: audio service audio url;86
+560;BG: voice record picker activity;86
+1079;BG: activity main success;86
+690;BG: push click result com custom notification com push cancel result com unregister com enable com msg ack com tag com register;86
+1198;BG: set activity create;85
+1018;BG: splash activity create;85
+229;BG: offer wall activity nt open offer wall;85
+205;BG: rule create;85
+232;BG: augmented reality activity start augmented reality viewer view;85
+960;BG: main activity new intent main;85
+165;BG: geofence loader service refresh geofences start monitoring;85
+762;BG: scan receiver receive package add android package remove;85
+1438;BG: event activity click;85
+1771;GUI: Save ||| Later#Quit ||| Update#OK ||| Cancel;85
+157;BG: couponing favorites saved activity start activity;85
+816;BG: activity create set wallpaper;85
+841;BG: notification activity run;85
+837;BG: register activity;85
+1110;BG: phone gap activity send notification main;85
+1400;BG: cache foods activity item click;85
+63;BG: photocard execute;85
+77;BG: destroy;85
+76;BG: social accounts build social intent;85
+427;BG: album activity;85
+208;BG: service lib push service stop com lib push service start;85
+1628;GUI: ud478uc2dc uc54cub78c ub4f1ub85d ||| beta ||| Try to send new message;85
+563;BG: splash account flow activity create;85
+527;BG: term activity;85
+453;BG: unity player activity create;84
+155;BG: couponing details activity start activity list;84
+1537;BG: product details activity item click;84
+1073;BG: expand banner activity open internal browser;84
+1070;BG: base activity;84
+829;BG: main activity location changed main;84
+581;BG: browser activity browser notification;84
+1152;BG: single book start activity main;84
+679;BG: wx entry activity new intent;84
+895;BG: filter activity options item select;84
+898;BG: approve activity options item select;84
+1507;BG: articles list activity item click;84
+324;BG: main run main;84
+1026;BG: splash screen create main;84
+589;BG: article activity invoke;84
+1440;BG: activity entry detail tr item click;84
+1510;BG: place activity click;84
+331;BG: offer wall activity;84
+1264;BG: main item click;84
+596;BG: large typo home activity start;84
+967;BG: sms popup activity jb recent message;84
+179;BG: c;84
+168;BG: order paypal activity al;84
+84;BG: video player c;84
+41;BG: main controller load app code main;84
+749;BG: boot receiver receive boot complete;84
+127;BG: biography create options;83
+93;BG: chat;83
+220;BG: level create;83
+1147;BG: result activity;83
+1371;BG: photo upload activity click;83
+1254;BG: agenda detail click;83
+231;BG: augmented reality activity start augmented reality viewer view;83
+32;BG: ep new intent;83
+387;BG: main controller update controls datum main;83
+772;BG: receive net wifi wifi state change android net conn connectivity change;83
+386;BG: main controller update controls datum main;83
+1645;GUI: Today ||| Done ||| Logout;83
+150;BG: authenticator activity get auth token;83
+564;BG: splash account flow activity create;83
+1493;BG: activity pos click;82
+530;BG: cross activity animation end;82
+916;BG: application details proxy activity create view;82
+869;BG: business activity;82
+221;BG: level create;82
+794;BG: app delegate create main;82
+362;BG: new fan wall activity activity result;82
+1247;BG: screen home click;82
+451;BG: unity player proxy activity create;82
+861;BG: disqus comment activity create;82
+1662;GUI: Log in ||| CHALLENGES;81
+143;BG: message callback handler service message message autoupdate handler;81
+1057;BG: af list activity;81
+1177;BG: main activity activity result;81
+45;BG: advert c;81
+580;BG: reward video activity;81
+122;BG: index handle push main;81
+1837;GUI: Write Page ||| Retry;81
+350;BG: permission activity available;81
+176;BG: hotel service create main;81
+1346;BG: choose timer activity click;81
+429;BG: gallery activity open gallery album;81
+602;BG: language activity;81
+1526;BG: home page activity click;81
+351;BG: permission activity available;81
+1448;BG: score board activity click;81
+964;BG: news memory click;81
+372;BG: song create;81
+1243;BG: ad activity click;80
+685;BG: journey map activity touch;80
+1033;BG: splash activity post resume main;80
+906;BG: custom browser activity start custom browser;80
+214;BG: message receiver receive mm sdk plugin scan;80
+1468;BG: custom camera activity click;80
+460;BG: unity player activity resume;80
+224;BG: service;80
+352;BG: weibo sdk browser;80
+567;BG: select account activity;80
+910;BG: ad activity launch ad activity;80
+277;BG: service create icapptainservice;80
+404;BG: sync service start sync service;80
+792;BG: launcher activity main;80
+1248;BG: screen home click;80
+1145;BG: product list activity create;80
+56;BG: logo screen go welcome main;80
+1216;BG: web browser activity;80
+1437;BG: puzzle activity click main;80
+1211;BG: im browser activity post social;80
+671;BG: app entry cancel main;80
+666;BG: android launcher resume main;79
+1039;BG: article detail classic activity start;79
+778;BG: activity po post execute;79
+1179;BG: welcome activity create main;79
+996;BG: map activity;79
+1225;BG: login activity handle command main;79
+943;BG: e browser activity main;79
+426;BG: html create;79
+573;BG: main key main;79
+33;BG: videos preview open preview;79
+476;BG: logo activity start activity main;79
+1644;GUI: Today ||| Edit ||| Logout;79
+711;BG: index activity;79
+646;BG: mo pub browser open;79
+1056;BG: main resume main;79
+428;BG: gallery activity open gallery album;79
+474;BG: location service v2;79
+981;BG: main activity restart search;78
+601;BG: language activity;78
+959;BG: main activity get intent;78
+1143;BG: app starter activity start app main;78
+1423;BG: store activity click;78
+469;BG: interstitial activity resume;78
+26;BG: roster show preview;78
+156;BG: couponing favorites saved activity start activity;78
+1632;GUI: Community ||| Write post ||| Ok ||| Yes;78
+497;BG: custom broadcast receiver send notification google c2 receive;78
+266;BG: shp item activity;78
+677;BG: wx entry activity run;78
+52;BG: discography list execute;78
+1317;BG: gallery content item click;78
+417;BG: guest post execute;78
+431;BG: update service;78
+291;BG: registration intent service;78
+1238;BG: user bind card credit activity click;78
+1308;BG: screenshot activity click;77
+1364;BG: web page click;77
+29;BG: set main goto set;77
+359;BG: new fan wall activity resume;77
+1066;BG: add thread activity setting;77
+1160;BG: event activity create;77
+807;BG: memo user list activity activity result;77
+190;BG: user account run;77
+687;BG: activity guide success;77
+161;BG: audio create context;77
+30;BG: push connection keep alive monitor receive parse;77
+1153;BG: invite activity create view medium;77
+1795;GUI: Done ||| Submit;77
+1176;BG: main activity activity result main;77
+1541;BG: product content activity item click;77
+490;BG: intent service create notification google c2 receive;77
+997;BG: map view activity main;77
+878;BG: assist activity start assist activity;77
+316;BG: media player service get media streamer;77
+411;BG: wx entry activity get message wx req;77
+1434;BG: search activity click;76
+1027;BG: event detail map activity create;76
+1087;BG: list activity new location;76
+1549;GUI: Default;76
+1327;BG: activity entry nota beli item click;76
+441;BG: video view;76
+1339;BG: activity pre entry click;76
+1715;GUI: Remind me later;76
+1064;BG: feedback activity create;76
+178;BG: c;76
+649;BG: im ad tracker receiver receive vend install referrer com share android net conn connectivity change;76
+982;BG: main activity restart search;76
+1105;BG: deep link activity create;76
+1272;BG: linkedin login act login;76
+472;BG: facebook fragment activity run;76
+65;BG: k;76
+1625;GUI: ng ch ||| Th lo ||| gi ||| Ti;76
+658;BG: compose message activity code send;76
+700;BG: conversation detail activity show conversation;76
+3;BG: social accounts run;76
+515;BG: new post activity go checkin send multiple;76
+425;BG: chat new message activity start activity;75
+328;BG: recognizerservice recognizerservice br receive;75
+1390;BG: article detail toolbar activity page select;75
+281;BG: controller activity create;75
+1;BG: cj;75
+1265;BG: main item click;75
+554;BG: privacy activity create;75
+721;BG: rss activity create;75
+186;BG: ad colony overlay configuration change;75
+1697;GUI: Get Availability ||| If You don't know Train Click here ||| Home ||| Track On Map ||| Search ||| PREVIOUS SEARCH ||| DPT;75
+1546;GUI: txt;75
+1391;BG: video detail toolbar activity page select;75
+1133;BG: article list activity;75
+1224;BG: im browser activity open;75
+1184;BG: web view activity;75
+496;BG: custom broadcast receiver send notification google c2 receive;75
+117;BG: gamma pix service notify user background;75
+1520;BG: activity list activity click;75
+1853;GUI: Remove;75
+415;BG: life content activity;75
+767;BG: activity player post execute;75
+552;BG: capo normal activity click;75
+842;BG: group discussion click;75
+1309;BG: photo detail activity click photo;75
+225;BG: service;75
+1058;BG: main activity pause main;75
+839;BG: simple register activity create;74
+1293;BG: login tumblr activity login tumblr view;74
+1345;BG: choose timer activity click;74
+279;BG: get jar service notify;74
+1125;BG: image crop activity;74
+1074;BG: test activity create;74
+954;BG: assist activity get assist activity intent;74
+586;BG: articles list activity scroll state changed;74
+1338;BG: activity pre entry click;74
+1354;BG: account info item click;74
+203;BG: go coins sdk main activity;74
+1112;BG: main activity show notification main;74
+571;BG: key;74
+120;BG: activity guest potrait press;73
+1802;GUI: Transact in NFO Scheme ||| Login ||| Transact ||| Yestake me there ||| Register ||| Later;73
+583;BG: capo normal activity press;73
+1554;GUI: Gioca;73
+422;BG: c search poi activity activity result main;73
+290;BG: ad colony overlay click;73
+1405;BG: activity edit company click;73
+793;BG: app launcher create main;73
+1500;BG: score board activity list item click;73
+1081;BG: list activity resume;73
+1502;BG: chat activity item click;73
+699;BG: conversation detail activity show conversation;73
+558;BG: main download url file;73
+340;BG: vl ka view;73
+1491;BG: feather activity item click;73
+154;BG: couponing historical activity start activity;73
+1279;BG: login activity goto login screen;73
+493;BG: c dm messages receiver get notification google c2 receive;73
+1229;BG: level click;73
+1424;BG: product boutique activity click;72
+1019;BG: article category activity create;72
+1514;BG: video play activity item click;72
+1012;BG: home screen activity create;72
+1050;BG: main tab activity press;72
+1010;BG: main activity configuration change main;72
+1102;BG: product list activity restart;72
+1425;BG: product boutique activity click;72
+998;BG: map activity run view;72
+1055;BG: main resume main;72
+919;BG: ad marvel activity;72
+67;BG: network change notifier auto detect application state change;72
+644;BG: mo pub browser create;72
+62;BG: user setting execute;72
+1203;BG: auth activity create;72
+234;BG: lobby activity;72
+736;BG: controller orientation broadcast receiver receive configuration change;72
+936;BG: event detail map activity page select;72
+766;BG: c receive net conn connectivity change android airplane mode;72
+763;BG: file manager click;72
+938;BG: check au user type activity c;72
+1508;BG: articles list activity click;72
+1356;BG: video detail toolbar swipe activity create;72
+944;BG: e browser activity stop main;72
+185;BG: ad colony overlay configuration change;72
+339;BG: vl ka view;72
+1330;BG: activity pre entry sd click;72
+1822;GUI: Geo ||| Back ||| Create new group ||| Group ||| Personal ||| People;72
+971;BG: app update activity view;72
+963;BG: news memory click;72
+1126;BG: app brain activity start;72
+1784;GUI: Download ||| Later ||| Distance is from the specified location;72
+704;BG: activity prepared;72
+366;BG: application updates check service;71
+683;BG: group detail post execute;71
+695;BG: edit activity play;71
+301;BG: intent service show notification;71
+1770;GUI: Navy Federal Personal Account;71
+1409;BG: gallery activity click;71
+55;BG: logo screen go welcome main;71
+1727;GUI: Schedule ||| Job ID ||| WO ID ||| EnterView Field Ticket ||| Add Task;71
+1021;BG: event info activity;71
+1818;GUI: Invite people ||| Later ||| Favourites;71
+1111;BG: main activity build notification main;71
+38;BG: uber social profile show profile;71
+193;BG: monitor service receive;71
+112;BG: expand banner activity process;71
+1530;BG: commodity category activity item click;71
+759;BG: flurry fullscreen takeover activity override url loading;71
+199;BG: tw get num;70
+9;BG: gs game wrapper activity resume main;70
+449;BG: unity player native activity pause;70
+158;BG: couponing details activity start activity favorite coupons;70
+1049;BG: main tab activity press;70
+1158;BG: image view activity create;70
+1398;BG: video detail toolbar activity click;70
+1565;GUI: SCORES;70
+622;BG: update dialog activity;70
+1432;BG: activity kitchen view click;70
+1212;BG: im browser activity post social;70
+300;BG: receive location intent service;70
+299;BG: receive location intent service;70
+194;BG: monitor service receive;70
+1150;BG: runner activity stop main;70
+1149;BG: runner activity start main;70
+1693;GUI: Download ||| Later;70
+804;BG: bump api click;70
+728;BG: intent receiver receive main;70
+803;BG: facebook create;70
+795;BG: app entry create main;70
+502;BG: listener service send notification open link google c2 receive;70
+1029;BG: splash screen activity run main;70
+1626;GUI: u7279u4ef7u6536u85cf ||| u767bu5f55 ||| u9152u5e97u6536u85cf ||| u4fddu5b58 ||| u6ce8u518c ||| u5730u56fe ||| QQER;70
+1014;BG: main activity next screen main;70
+102;BG: message receiver msg messagereceiver;70
+519;BG: video player play cached video;69
+280;BG: controller activity create;69
+1817;GUI: Search Locality Projects ||| RETRY;69
+720;BG: ad view receive screen android user present;69
+80;BG: news detail run;69
+808;BG: photo detail activity create photo detail intent;69
+265;BG: shp item activity;69
+1401;BG: edit profile activity click;69
+574;BG: main;69
+1349;BG: splash activity click main;69
+1164;BG: scratch home activity create;69
+501;BG: listener service send notification open link google c2 receive;69
+297;BG: intent service message main;69
+323;BG: main run main;69
+1006;BG: chat room activity;69
+594;BG: app starter activity download expansion files need main;69
+1775;GUI: Process ||| Sales ||| Swipe ||| Credit Card Terminal ||| Manual ||| Exit ||| Final ||| Adjust Tip ||| Update ||| Void;69
+933;BG: main activity press main;69
+1286;BG: login activity run;69
+1734;GUI: Daftar dengan Email Sign Up with Email ||| Change Country ||| Connect With Facebook ||| Skip Login;69
+486;BG: contact picker send multiple;69
+623;BG: update dialog activity;69
+1321;BG: splash click main;69
+918;BG: ad marvel activity run;69
+907;BG: custom browser activity start custom browser;69
+1439;BG: ol consult list activity item click;69
+648;BG: discuss activity;69
+902;BG: capo data view activity press;69
+1420;BG: register activity click;69
+603;BG: voice record picker activity click;69
+665;BG: activity touch;69
+167;BG: pay pal service stop paypal service;69
+240;BG: pause;69
+242;BG: wallpaper open wallpaper selector main;69
+1703;GUI: Entries ||| News ||| Alerts ||| Channels ||| Today's Live Racing ||| Results ||| Today's Changes ||| How to use- Demo ||| Race Replays;69
+1104;BG: video activity stop view;69
+43;BG: registrar request receive parse;69
+1227;BG: jam click view;68
+1536;BG: item info activity click;68
+81;BG: main list touch;68
+561;BG: voice record picker activity;68
+103;BG: menus item preview show preview;68
+613;BG: real estate list activity resume;68
+911;BG: ad activity play video;68
+247;BG: appointment activity reserve;68
+396;BG: download resource service;68
+269;BG: screen dispatch event main;68
+1746;GUI: Menu ||| NAVER ||| Legal notice ||| Invitee ||| View all applications ||| Import event ||| Move to Naver mobile web ||| Compose event button ||| Recent version ||| NAVER Corp;68
+788;BG: network state receiver receive net conn connectivity change;68
+1036;BG: product detail activity stop;68
+955;BG: assist activity get assit intent;68
+1038;BG: article detail activity;68
+1040;BG: event detail activity create;68
+53;BG: fm show dwn notification main;68
+1735;GUI: Contact Us ||| Home ||| Restore Purchases ||| Settings ||| Popular Apps;67
+880;BG: start activity;67
+104;BG: touch;67
+662;BG: app c agreement activity call agreement activity;67
+10;BG: gs game wrapper activity resume main;67
+643;BG: mo pub browser pause;67
+618;BG: sms recibir receive provider telephony sms receive;67
+235;BG: business types create;67
+548;BG: push activity create cn pushactivity;67
+912;BG: ad activity display;67
+1088;BG: full screen video activity;67
+1419;BG: register activity click;67
+1266;BG: content unlock click;67
+651;BG: im ad tracker receiver receive vend install referrer android net conn connectivity change;67
+779;BG: conn broadcast reciever receive net conn connectivity change;67
+572;BG: start main;67
+576;BG: rich media activity play video;67
+1233;BG: invite people group click;67
+1223;BG: im browser activity open;67
+1568;GUI: CANCEL ||| VIEW TUTORIAL ||| SIGN OUT ||| SIGN UP ||| Close ||| Start Using App;67
+1294;BG: login linkedin activity login linkedin view;67
+726;BG: activity detail potrait press;67
+1342;BG: information click;67
+1002;BG: talk chat room activity start chat room activity;67
+410;BG: make activity l;66
+730;BG: intent receiver receive;66
+1334;BG: entry activity item click;66
+856;BG: audio click audio url;66
+1556;GUI: Hightlight ||| Note;66
+1382;BG: article detail toolbar android activity start;66
+724;BG: cache controller receive net conn connectivity change;66
+75;BG: rich page activity post handle push;66
+1681;GUI: Edit Delivery Preferences ||| Terms of Service ||| Visit us online;66
+741;BG: youtube channel activity create channel;66
+879;BG: activity start;66
+124;BG: message reply show message;66
+1383;BG: article detail toolbar swipe activity start;66
+1182;BG: main activity l main;66
+123;BG: install delegate activity;66
+1077;BG: web tab group activity create;66
+1576;GUI: Hola Boost ||| Upload Wallpaper ||| Back to Edit ||| HeartApp ||| Rate ||| Add Games ||| Crop ||| Hot Images ||| Favorites ||| Hot Deals ||| DIY ||| Daily Optimization Tasks ||| Uploading List ||| Collections ||| Hola Games ||| Hot Videos;66
+1522;BG: image detail activity item click;66
+394;BG: agent service run;66
+1529;BG: activity full news item click;66
+1384;BG: article detail toolbar activity start;66
+969;BG: featured word widget update update;66
+78;BG: inbound calling init call info;66
+1277;BG: video activity click url;66
+471;BG: route demo activity handle message;66
+921;BG: ad activity create;66
+401;BG: service start;66
+59;BG: conduit frag act continue rich push main;66
+1704;GUI: Later ||| Next ||| Montreal ||| Outside ||| Rolling Stone ||| Echoes Of Silence ||| Initation ||| XO The Host ||| Heaven Or Las Vegas ||| Valerie ||| The Fall ||| DD ||| Till Dawn Here Comes The Sun ||| Same Old Song;65
+874;BG: im browser activity validate ad configuration;65
+1083;BG: contact map activity resume;65
+1355;BG: payment activity click;65
+1851;GUI: RETRY ||| Forgot Password ||| Don't have an account Sign up ||| Enter Your Email ||| NEXT;65
+733;BG: package add android package remove;65
+402;BG: location service start service;65
+1013;BG: home screen activity create;65
+714;BG: sales promotion detail click;65
+34;BG: connection service mts push connection service hero;65
+57;BG: maz reader;65
+1333;BG: entry activity item click;65
+1328;BG: activity entry ingredient click;65
+89;BG: insert pin;65
+1262;BG: main pager click main;64
+1318;BG: profile map activity click;64
+1540;BG: book detail activity item click;64
+436;BG: screen define main;64
+1218;BG: im browser activity expand;64
+450;BG: unity player activity pause;64
+1187;BG: main activity key main;64
+432;BG: resume;64
+1374;BG: favorite activity click;64
+1319;BG: feedback activity click;64
+370;BG: vertical play control view handle message;64
+680;BG: omega setting click;64
+175;BG: act chat create;64
+1005;BG: chat history activity;64
+577;BG: rich media activity play video;64
+228;BG: offer wall activity nt h;64
+1430;BG: circle search activity click;64
+562;BG: reservation msg box activity start reservation msg box activity;64
+1707;GUI: Activate ||| Exit now ||| Continue;64
+1469;BG: sign activity click;64
+1492;BG: feather activity item click;64
+293;BG: intent service;64
+719;BG: ad view receive screen android user present;64
+197;BG: sr payment methods activity show offer;64
+620;BG: main game create main;64
+180;BG: ax c geofence geofencestrategyservice;64
+1696;GUI: Napisz wiadomo ||| Kup Gwiazd GWIAZDA ||| Fotka ||| Wr ||| Menu wne ||| Przeslij zdj cie ZDJECIE ||| DANE ||| Zapro znajomych DODAJ DODAJ ||| rednia ocen zdj cia ||| Przejd do profilu ||| ' ||| Daj prezent ||| WPISY ||| Wi cej ||| Wy lij ||| Ustawienia#Wybierz spos atno ci;64
+578;BG: mu pdf activity checked changed;64
+612;BG: real estate list activity resume;64
+1534;BG: web view activity item click;64
+525;BG: category display activity;64
+1001;BG: talk chat room activity start chat room activity;64
+1024;BG: splash activity result main;63
+282;BG: music service playback start medium android medium browse mediabrowserservice;63
+278;BG: search activity editor action search;63
+1169;BG: web view activity run;63
+343;BG: pw connect checkout activity transaction fail;63
+1761;GUI: IMPOWER ||| Version Logging in#Loading IMPOWER Powered By Smarter Agent Mobile Powered By Smarter Agent Mobile;63
+974;BG: product content activity b create;63
+892;BG: scorecard activity options item select;63
+1433;BG: search activity click;63
+1505;BG: order detail activity click;63
+640;BG: home activity destroy main;63
+1418;BG: simple register activity click;63
+1410;BG: knowledge activity click;63
+268;BG: ad colony fullscreen surface texture available;63
+1257;BG: settings detail classic activity click;63
+537;BG: response receiver receive amazon purchasing notify;63
+1454;BG: map view activity click;63
+1415;BG: weather activity click weather;63
+810;BG: activity press set wallpaper;63
+100;BG: service start hal service notification com hal service start;63
+773;BG: recent activity help execute;63
+292;BG: main activity restore instance state;63
+488;BG: notification proxy broadcast receiver get dismiss intent;63
+13;BG: application manager h;62
+1833;GUI: Refresh ||| L7J ||| User Account ||| Done ||| Log out;62
+1304;BG: browser activity click;62
+27;BG: run;62
+222;BG: geofence handler service get geofence intent;62
+875;BG: assist activity;62
+1675;GUI: Start;62
+1738;GUI: My Bariatric Solutions;62
+1008;BG: activity main touch;62
+619;BG: main game create main;62
+1627;GUI: ub85cuadf8uc778 ubc29ubc95 uc120ud0dd ||| ID;62
+1464;BG: feed activity click;62
+771;BG: network change receiver receive net wifi wifi state change android net conn connectivity change;62
+542;BG: home screen activity resume;62
+547;BG: push activity cn pushactivity;62
+64;BG: media brix service action;62
+1687;GUI: Set Wallpaper ||| Free Premium Keyboard ||| Apply Theme ||| Love This Theme ||| Get More Themes;62
+1600;GUI: Af ||| AP aP;62
+1350;BG: splash activity click main;62
+1367;BG: player activity click;62
+541;BG: home screen activity resume;62
+1214;BG: app web view open url;62
+58;BG: handle push;62
+821;BG: logo activity override url loading view;62
+556;BG: crop image activity get intent;62
+500;BG: listener service google c2 receive;62
+412;BG: mx web traffic activity run;62
+1090;BG: video call activity start video call;62
+1479;BG: personal fund activity click;62
+274;BG: browser activity camera take photo;61
+735;BG: controller orientation broadcast receiver receive configuration change;61
+742;BG: notification receiver receive;61
+755;BG: e receive net wifi scan result;61
+1633;GUI: Map;61
+238;BG: act set run main;61
+633;BG: pay activity show;61
+809;BG: wall activity get intent;61
+6;BG: gs game wrapper activity pause main;61
+659;BG: ticket list activity;61
+1852;GUI: RETRY ||| Enter Your Email ||| Don't have an account Sign up ||| NEXT;61
+244;BG: update activity open wallpaper selector main;61
+1183;BG: web view activity;61
+750;BG: network broadcast receiver receive;61
+489;BG: c dm receiver registered;61
+108;BG: audio prepare dialog;61
+1788;GUI: Automatically login;61
+1011;BG: overlay activity configuration change;61
+98;BG: main controller run main;61
+514;BG: home write post activity;61
+1513;BG: business activity click;61
+1523;BG: previewer activity click;61
+569;BG: ad wall activity;61
+518;BG: video player play cached video;61
+1767;GUI: Map ||| Zip Cty State or Address ||| Details ||| IMPOWER ||| Version Logging in#Loading IMPOWER Powered By Smarter Agent Mobile Powered By Smarter Agent Mobile;61
+815;BG: activity create set wallpaper;60
+707;BG: show section activity show activity view;60
+54;BG: fm show dwn notification main;60
+557;BG: media activity key view medium;60
+255;BG: article category activity restart;60
+551;BG: capo normal activity click;60
+298;BG: mx splash activity display splash screen;60
+1368;BG: preview activity click;60
+418;BG: comment reply show comment;60
+115;BG: gb download manager receive;60
+1051;BG: splash activity main;60
+1406;BG: activity add edit click;60
+1408;BG: article category activity click;60
+1478;BG: video player activity click;60
+774;BG: activity detail post execute;60
+1161;BG: scenic activity create;60
+85;BG: poi search;60
+1482;BG: activity request order click;60
+1178;BG: loading activity create main;60
+579;BG: mu pdf activity configuration change;60
+1422;BG: playlist item click;60
+35;BG: navigator activity jump navigator;60
+1561;GUI: OK;60
+319;BG: upload intent service post execute;60
+1007;BG: activity chat;60
+1016;BG: location detail activity create;60
+939;BG: conversation activity;60
+635;BG: sound cloud new detail activity start activity;60
+593;BG: auth activity c;60
+485;BG: product boutique activity restart;60
+1559;GUI: back;60
+899;BG: set activity activity result;60
+887;BG: music preview click;59
+951;BG: go pro activity get go pro intent;59
+723;BG: mobi ad activity init;59
+787;BG: network state receiver receive net conn connectivity change;59
+1453;BG: search activity map click;59
+111;BG: expand banner activity process;59
+932;BG: main activity press main;59
+725;BG: cache controller receive net conn connectivity change;59
+475;BG: location service v2;59
+99;BG: service start hal service notification com hal service start;59
+90;BG: cn pushactivity;59
+516;BG: photo list user activity open create;59
+610;BG: channel list activity show conversation;59
+1749;GUI: Watch Video;59
+1672;GUI: Debug;59
+368;BG: overlay activity resume;59
+1533;BG: view activity item click;59
+522;BG: video player page start;59
+1270;BG: mu pdf activity goto login screen;59
+260;BG: interest page fragment activity;59
+1121;BG: app wall activity show;59
+138;BG: splashactivity press main;59
+1096;BG: video activity start video activity;59
+664;BG: ad detail activity run;59
+1504;BG: order detail activity click;59
+409;BG: bz gateway activity launch;59
+877;BG: support activity start activity;59
+1242;BG: native interstitial ad activity click;59
+668;BG: android launcher create main;59
+1061;BG: passive event activity event;59
+315;BG: media player service start;59
+139;BG: fm uri launcher click view;59
+1095;BG: video activity start video activity;59
+592;BG: map activity stop service search;59
+1706;GUI: Take look ||| Add new plan ||| Set Notification Bar ||| Never show me again;59
+1669;GUI: Rules ||| Home ||| Favorites ||| Search;59
+559;BG: voice record picker activity open voice recorder;59
+650;BG: im ad tracker receiver receive vend install referrer android net conn connectivity change;59
+828;BG: map proximity activity focus change;59
+1103;BG: activity promo voucher click;59
+1460;BG: city map activity click;59
+587;BG: home create main;59
+1116;BG: favorite list activity favorite;59
+1518;BG: tweet detail activity item click;59
+294;BG: intent service;59
+1267;BG: score list click;59
+1763;GUI: Tap to select Province and City ||| Version Logging in#Loading IMPOWER Powered By Smarter Agent Mobile Powered By Smarter Agent Mobile ||| Search Here ||| IMPOWER ||| gy;58
+1750;GUI: Close ||| Progressing ||| Novice ||| Good ||| Excellent ||| Pro;58
+1702;GUI: Mom Souq Qatar ||| Change ||| Search;58
+937;BG: book read activity create;58
+823;BG: share manager activity start activity view;58
+765;BG: receive net conn connectivity change android airplane mode;58
+543;BG: share activity c;58
+1276;BG: youtube login activity auth;58
+162;BG: audio signal create;58
+440;BG: real estate detail activity resume;58
+1213;BG: app web view open url;58
+889;BG: freemium activity open freemium main;58
+380;BG: browser activity contact add contact;58
+251;BG: download service handle intent main;58
+356;BG: fan wall v activity click;58
+972;BG: rank list activity create senior intent view;58
+973;BG: widget provider update update;58
+1075;BG: save photo activity create;58
+349;BG: receive configuration change;58
+304;BG: intent service create notification;58
+322;BG: highway speed create main;58
+97;BG: naked browser activity c speech voice search result;58
+313;BG: intent service unregistered;58
+1320;BG: feedback activity click;58
+616;BG: swipe activity create;58
+7;BG: gs game wrapper activity pause main;58
+1312;BG: splash activity click view;58
+595;BG: home screen activity result;58
+731;BG: intent receiver receive;58
+28;BG: content unlock handle locked item;58
+1344;BG: swipe activity click;58
+1444;BG: fo main activity click;57
+341;BG: video activity load fullscreen video;57
+751;BG: network broadcast receiver receive;57
+1366;BG: route activity click;57
+903;BG: capo data view activity create;57
+201;BG: service perform command;57
+1581;GUI: Voice;57
+1336;BG: activity pre entry staff click;57
+189;BG: mo pub activity show html interstitial;57
+15;BG: conversation press;57
+1120;BG: app wall activity show splash;57
+289;BG: ad colony fullscreen click;57
+376;BG: questionnaire activity;57
+1094;BG: video player activity launch player;57
+1515;BG: simple player activity item click;57
+1205;BG: tip line click;57
+1679;GUI: Frames Collages;57
+110;BG: start;57
+1351;BG: preferences manage notifications activity notifications click view;57
+82;BG: item list execute;57
+95;BG: service interface c cn tag alia timeout cn tag alia callback;57
+1387;BG: article detail toolbar swipe activity create;57
+798;BG: splash create main;57
+584;BG: capo normal activity create;57
+1521;BG: activity list activity click;57
+1779;GUI: Register ||| Sign in ||| Skip ||| Distance is from the specified location;57
+1271;BG: mu pdf activity goto login screen;57
+1778;GUI: Register ||| Sign in ||| Skip ||| Distance is from the specified location;57
+814;BG: chat detail activity generate chat notification;57
+1772;GUI: Address;57
+535;BG: tour create tab;57
+1661;GUI: See ||| OO OO OO ||| See the rules ||| Free Chronos ||| Chronos pack ||| No thanks ||| Jokers for free ||| More Chronos;57
+448;BG: capo map activity create;57
+275;BG: browser activity camera take photo;57
+330;BG: daily reward ad web view show daily reward ad;56
+645;BG: mo pub browser;56
+738;BG: display controller orientation broadcast receiver receive configuration change;56
+1447;BG: member group activity preference click;56
+604;BG: voice record picker activity click;56
+0;BG: hp;56
+920;BG: ad activity create;56
+405;BG: mp activity;56
+891;BG: solution article list activity options item select;56
+406;BG: mp activity;56
+433;BG: resume;56
+494;BG: c dm messages receiver get notification google c2 receive;56
+575;BG: send feedback open send feedback activity;56
+358;BG: fan wall v activity resume;56
+647;BG: activity video call send video call;56
+159;BG: couponing details activity start activity favorite coupons;56
+1729;GUI: Description;56
+71;BG: status bar broadcast receiver create delete intent view;56
+1251;BG: membership detail activity sub list item click listener;56
+37;BG: uber social profile show profile;56
+1138;BG: im browser activity launch embed browser;56
+1122;BG: app wall activity show;56
+31;BG: act chat window send chat window load;56
+1109;BG: main activity c;56
+1797;GUI: Distance is from the specified location;56
+163;BG: index create plugin;56
+1080;BG: trip home activity success main;56
+1065;BG: feedback activity;56
+660;BG: interstitial activity pause;56
+1054;BG: main game activity run;56
+549;BG: capo normal activity item select;55
+1389;BG: article detail toolbar activity create;55
+107;BG: audio prepare dialog;55
+568;BG: capo data view activity item select;55
+570;BG: intro start main main;55
+116;BG: gb download manager receive;55
+775;BG: activity entry detail post execute;55
+784;BG: connection change receiver receive net conn connectivity change;55
+1022;BG: splash screen create;55
+1292;BG: login activity view;55
+69;BG: ads service;55
+1378;BG: pearl g store activity click;55
+598;BG: k c receive screen android screen;55
+8;BG: gs game wrapper activity activity resumed main;55
+1335;BG: activity pre entry supplier click;55
+626;BG: feather activity run;55
+634;BG: pay activity show;55
+4;BG: social accounts launch social accounts;55
+585;BG: image edit activity start image edit activity jb edit publish;55
+1762;GUI: Refresh ||| Loading#Version Logging in IMPOWER Powered By Smarter Agent Mobile Powered By Smarter Agent Mobile ||| Tap to select Province and City ||| Sign Up ||| Cancel ||| Search Here ||| Tap to select Province and City#Select ||| IMPOWER ||| gy;55
+1535;BG: web activity item click;55
+325;BG: go sms middle widget activity z jb middlewidgetmoreactivity;55
+1044;BG: activity tab weather root start;55
+302;BG: notification intent service send notification main;55
+1106;BG: appointment list detail activity create;55
+375;BG: share business card click;55
+956;BG: web video player activity play web media;55
+219;BG: setup wizard activity;55
+381;BG: browser activity contact get contact;55
+207;BG: receive pushreceiver;55
+1063;BG: conversation activity start feedback activity;55
+1723;GUI: dw#dmo ||| Reply ||| Message ||| View;55
+1188;BG: activity key main;55
+1209;BG: game click;55
+184;BG: activity entry detail background;55
+1210;BG: default browser activity create view;55
+392;BG: geo location service stop tracking geo pushes;54
+607;BG: update activity success;54
+470;BG: route demo activity handle message;54
+355;BG: fan wall v activity click;54
+264;BG: receive battery change;54
+430;BG: loc setup create main;54
+565;BG: wx entry activity activity resumed;54
+385;BG: activity call state change main;54
+36;BG: navigator activity jump navigator;54
+198;BG: product content activity b location map;54
+582;BG: capo normal activity completion;54
+51;BG: item detail activity show poi edit send;54
+1361;BG: group profile activity click view;54
+965;BG: runner activity create main;54
+712;BG: mediation test activity run;54
+831;BG: unity player native activity location changed;54
+1082;BG: contact map activity resume;54
+1241;BG: interstitial activity click url;54
+1228;BG: jam click;54
+789;BG: jl receive net conn connectivity change;54
+737;BG: display controller orientation broadcast receiver receive configuration change;54
+1388;BG: article detail toolbar activity create;54
+1489;BG: activity customer view click;54
+1004;BG: chat history activity;54
+1365;BG: update activity click;54
+1332;BG: album activity click;54
+1263;BG: test activity click;54
+979;BG: tab view activity run;54
+968;BG: dynamic layout activity create;54
+697;BG: media edit activity;54
+696;BG: media edit activity;54
+927;BG: ad interstitial activity;54
+1683;GUI: Edit;53
+1291;BG: account activity login;53
+487;BG: notification proxy broadcast receiver get click intent;53
+832;BG: unity player activity location changed;53
+833;BG: unity player activity location changed;53
+1843;GUI: Report Post ||| EDIT;53
+1646;GUI: add to schedule button#Add to Schedule ||| camera icon in schedulable cardview footer ||| subtitle of the schedulable item ||| note icon in contactable cardview footer ||| add-contact icon in contactable cardview footer ||| Export ||| Skip ||| bookmark icon in contactable cardview footer ||| Search ||| location pin in locatable cardview footer ||| Checked In#Check In#Attended ||| Remove from Schedule#remvoe from schedule button ||| Cancel ||| Duplicate ||| user status ||| send message icon in contactable cardview footer ||| location of the schedulable item;53
+109;BG: start;53
+1268;BG: login resume;53
+888;BG: options item select;53
+862;BG: comment activity resume;53
+1009;BG: poi compass activity click;53
+88;BG: touch service animation end;53
+1592;GUI: Search;53
+1289;BG: login activity register user;53
+526;BG: search result activity create barcode scan intent view;53
+1721;GUI: dw#dmo ||| Message ||| View ||| Okay;53
+257;BG: friend invite list invite;53
+1753;GUI: Edit My Favorites ||| Restaurants ||| Terms Privacy ||| delivery ||| Notifications ||| Events ||| happy hour ||| Suggest Restaurant ||| Change City ||| deals;53
+1154;BG: set activity open set main;53
+693;BG: push message receiver update content pushservice receive com pushservice notification click;53
+200;BG: service perform command;53
+1733;GUI: Delete ||| Back ||| Edit ||| Done;53
+708;BG: vast activity show;53
+1003;BG: web activity;53
+226;BG: save photo activity location changed;53
+783;BG: jr receive net conn connectivity change;53
+754;BG: e receive net wifi scan result;53
+239;BG: act set run main;53
+137;BG: splashactivity press main;53
+1193;BG: invite activity create;52
+1148;BG: home activity resume main;52
+50;BG: c chart form show chart form;52
+1379;BG: msg content activity click;52
+1377;BG: new rate comment activity click;52
+946;BG: payment activity;52
+250;BG: download intent service trigger download;52
+1754;GUI: Edit My Favorites ||| Logout ||| Terms Privacy ||| Notifications ||| Suggest Restaurant ||| Change City;52
+1274;BG: youtube detail fragment activity list item click;52
+369;BG: sms public input activity;52
+1119;BG: app wall activity show splash;52
+177;BG: package monitor schedule alarm package add android package remove;52
+1386;BG: article detail toolbar swipe activity create;52
+913;BG: ad activity display;52
+1376;BG: new rate comment activity click;52
+709;BG: vast activity show;52
+797;BG: splash create main;52
+727;BG: download service package add android package remove;52
+713;BG: sales promotion detail click;52
+1465;BG: add address activity click;52
+1547;GUI: Hobby Color Converter;52
+1856;GUI: Sign In ||| Save;52
+591;BG: transit map activity search;52
+283;BG: location service bind service;52
+656;BG: main activity notify game mainactivity;52
+303;BG: intent service generate notification view;52
+689;BG: photo edit activity open photo edit;52
+1501;BG: chat activity item click;52
+1324;BG: activity entry rent object item click;52
+694;BG: push message receiver start activity pushservice receive com pushservice message com pushservice notification click;51
+378;BG: broadcast recevier receive;51
+813;BG: chat detail activity generate chat notification;51
+243;BG: home activity open wallpaper selector main;51
+342;BG: app brain service handle intent;51
+1017;BG: location detail activity create;51
+1442;BG: home activity click main;51
+1402;BG: edit company profile click;51
+1023;BG: splash screen create;51
+227;BG: save photo activity location changed;51
+588;BG: wm push noti activity default;51
+1519;BG: tweet detail activity item click;51
+183;BG: music service set foreground xtreme ui demo url;51
+135;BG: item detail activity send feedback send;51
+673;BG: auth activity;51
+1208;BG: game click;51
+1078;BG: survey click;51
+1597;GUI: call;51
+96;BG: attendee text changed;51
+1682;GUI: birthday;51
+1306;BG: need approval group activity click;51
+403;BG: service start command;51
+1299;BG: video click;51
+1325;BG: activity pre entry modifier click;51
+1557;GUI: Free Games ||| More Comics Free Comics;51
+273;BG: im browser activity take camera picture;51
+1810;GUI: Don't ask me again ||| Contact Us ||| Privacy Policy ||| User guide ||| Turn on ||| Submit selection ||| Auto-Location ||| LINE ||| More than one screen lock appears ||| Add new location ||| Whatsapp ||| Terms of Use ||| Email ||| Feedback ||| Facebook;51
+1329;BG: activity entry ingredient click;51
+945;BG: payment activity create;51
+134;BG: game installer p;51
+1139;BG: im browser activity launch embed browser;51
+511;BG: receiver receive google c2 dm registration com google c2 receive;51
+314;BG: intent service unregistered;51
+1868;GUI: CANCEL ||| Don't have an account#Already have an account#Login ||| APPLY ||| Sign up with Email ||| BOOK CAR ||| CONFIRM RESCHEDULE#This amount will be refunded#Fetching Address;51
+263;BG: receive battery change;51
+439;BG: real estate detail activity resume;51
+1273;BG: ta community activity click;51
+848;BG: activity show interstitial;51
+523;BG: video player page start;51
+272;BG: im browser activity take camera picture;50
+1694;GUI: Cancel ||| Download;50
+1089;BG: activity start full screen video;50
+1647;GUI: location of the organization ||| Skip All ||| Open Bluetooth Settings ||| camera icon in schedulable cardview footer ||| checkin or attended button#Check In ||| Refresh Logs ||| add-contact icon in contactable cardview footer ||| reminder button in schedulable cardview footer ||| Game Info ||| Remove from Schedule#remvoe from schedule button ||| Email Logs ||| Achievements ||| subtitle of the organization ||| Crop ||| Cancel ||| Search Attendees ||| Clear ||| Add ||| Log in to save progress ||| location pin in schedulable cardview footer ||| banner switcher ||| add to schedule button#Add to Schedule ||| Change Image ||| Update ||| Rotate ||| Begin typing your question ||| Reset Player ||| Categories ||| Search ||| note icon in contactable cardview footer ||| Enter ||| Send ||| Duplicate All ||| Toggle Smart Networking ||| bookmark icon in contactable cardview footer ||| Learn More ||| user status ||| Display Sync Timestamps ||| Submit ||| Export All ||| send message icon in contactable cardview footer ||| Trigger ||| Email Results ||| Rule Actions;50
+326;BG: previewer activity send debug notification;50
+1086;BG: share activity twitter connect click;50
+1710;GUI: Details ||| Rating ||| Popularity ||| Write Review ||| Insert comment here;50
+1015;BG: news detail activity;50
+327;BG: live detail activity invoke;50
+667;BG: android launcher create main;50
+672;BG: auth activity;50
+1140;BG: app starter activity c main;50
+1470;BG: article activity click;50
+382;BG: browser activity contact get contact;50
+909;BG: main activity ad close main;50
+908;BG: article detail classic activity page select;50
+1331;BG: activity pre entry ro click;50
+421;BG: c search poi activity activity result;50
+517;BG: video player;50
+524;BG: coupon activity handle message;50
+1571;GUI: The Local;50
+822;BG: share manager activity start activity view;50
+553;BG: spread activity reader page;50
+782;BG: fr receive net conn connectivity change;50
+590;BG: location changed;50
+698;BG: conversation detail activity;50
+632;BG: prospect people show click;50
+1441;BG: main activity click manual;50
+1666;GUI: Got it#Get Tunneling ||| Yes ||| No ||| Got it;50
+70;BG: setting receive;50
+1226;BG: discography preview item click;50
+1357;BG: write review activity click;50
+1215;BG: browser activity create;50
+1076;BG: save photo activity create;50
+1219;BG: im browser activity expand;50
+1278;BG: query dynamic layout item activity click;50
+1593;GUI: Search;50
+1253;BG: index short cut location activity click;50
+1449;BG: play activity click;50
+173;BG: full screen ad view handle offer action;50
+1764;GUI: PlanetRomeo Foundation ||| LGBT ||| Welcome Tour ||| Advertise ||| About us ||| Terms of Use ||| Privacy Statement ||| Acknowledgements;49
+1602;GUI: CPU2 onoff ||| Governor ||| SD Tweaks ||| Voltage ||| Misc Tweaks ||| Thermal ||| System Info;49
+1583;GUI: Find My Car;49
+1567;GUI: Tap here to try again;49
+1676;GUI: High Quality ||| Normal Quality;48
+1814;GUI: RETRY ||| Resend Code ||| To view advertiser contactKindly verify your phone number via OTP or give missed call on Toll Free ||| VERIFY;48
+1684;GUI: Add;48
+1828;GUI: Show us some love#Ask me later ||| Contact us#Ask me later#Show us some love ||| GO TO APP ||| LOG OUT;48
+1688;GUI: More live wallpaper ||| Share this wallpaper ||| Setting wallpaper ||| Choose wallpaper;48
+1655;GUI: mmyy;48
+1563;GUI: VS ||| Category;48
+1572;GUI: See all reviews;47
+1671;GUI: Add Items ||| Home;47
+1589;GUI: Set Location ||| Routes ||| Stops;47
+1605;GUI: Delete Listing;47
+1757;GUI: Additional Features#Open House ||| OK ||| SAVE ||| EDIT NAME ||| IMPOWER;47
+1819;GUI: Scan ||| Cancel ||| Review Details;47
+1606;GUI: START;47
+1801;GUI: Ishto ||| Category;47
+1609;GUI: Save ||| OK;47
+1816;GUI: RETRY ||| Load;47
+1578;GUI: Switch to Web View ||| Privacy Policy ||| Terms of Use;46
+1558;GUI: Go Home ||| address;46
+1832;GUI: Refresh ||| L7J ||| User Account ||| Done ||| Log out;46
+1858;GUI: Cancel;46
+1855;GUI: Login ||| Password ||| Forgot password ||| Sign Up ||| Reset my password ||| Save ||| Create password ||| Manage Social;45
+1798;GUI: Distance is from the specified location;45
+1629;GUI: ub9acuc2a4ud2b8ub97c ubd88ub7ecuc62c uc218 uc5c6uc5c8uc2b5ub2c8ub2e4 uc774uc720 ub0b4uc5ed uc5c6uc74c ||| Add ||| ud478uc2dc uc54cub78c ub4f1ub85d;45
+1871;GUI: Don't have an account#Already have an account#Login ||| Sign up with Email;45
+1601;GUI: Prothom Alo ||| Magazine Dhaka Courier ||| Janakantha ||| Magazine Natunpata ||| Financial Express ||| Bhorer Kagoj ||| The Independent BD ||| Magazine Ananda alo ||| DSEMonitor ||| Magazine Shaptahik ||| Ittefaq ||| Manab Zamin ||| Helpful Techtunes ||| Sangram ||| Daily Sun ||| New Age ||| Helpful Tunerpage ||| Magazine Unmad ||| Manobkantha ||| The Daily Star ||| Destiny ||| Sangbad ||| Magazine Parabaas ||| Magazine Weekly Blitz ||| Inqilab ||| The Bangladesh Today ||| Nayadiganta ||| Amar Desh ||| News Today ||| Magazine EBiz Magazine ||| Samakal ||| Jai Jai Din ||| CSE ||| Jugantor ||| Magazine Computer barta ||| Helpful Bd Droid ||| Bangladesh Protidin ||| DSE ||| Magazine The Star ||| Amader Shomoy ||| Helpful Android Kothon;45
+1573;GUI: Upgrade To Pro Version;44
+1641;GUI: Log In ||| SIGN IN ||| Write comment ||| Get Started;44
+1580;GUI: En Grammar ||| Cancel ||| Download ||| Word of the day;44
+1732;GUI: Delete ||| Back ||| Edit ||| Done;44
+1631;GUI: WiFi only;43
+1686;GUI: Rate App ||| Set Wallpaper ||| Apply theme ||| More Themes;43
+1803;GUI: Select category ||| Your Commentsquestions ||| HELP ||| Done for now ||| Undo ||| IndiaProperty ||| To view advertiser contactKindly verify your phone number via OTP or give missed call on Toll Free ||| VERIFY ||| RETRY ||| Enter Your Email ||| Name ||| START SEARCH ||| Resend Code ||| LATER#UPDATE ||| Email ||| SHARE ||| CANCEL ||| UPDATE ||| FEEDBACK ||| Load ||| REQUEST IMAGES ||| APPLY ||| Submit ||| supportindiapropertycom ||| YES ||| Now you can shoot videos too Switch to the video tab to shoot and upload videos Your files will be auto-saved Good quality tmages will help you get move responses;43
+1636;GUI: Date Test;43
+1584;GUI: Home ||| Schedule ||| Locations ||| Away ||| Events;43
+1786;GUI: Sign in;43
+1670;GUI: Buy It Now;43
+1834;GUI: Register ||| Title ||| Username or ||| Set Location;43
+1574;GUI: Description;42
+1582;GUI: Delete ||| Update ||| Previous ||| Voice ||| Directions;42
+1825;GUI: SHARE YOUR CHECK-IN ||| REMOVE THIS CARD ||| ADD ANOTHER CARD;42
+1789;GUI: Done#signup;42
+1773;GUI: Register invitation code ||| Purchase Triposo Pro ||| Distance is from the specified location;42
+1650;GUI: Delete;42
+1862;GUI: Save ||| New List ||| OK;42
+1634;GUI: All Places;41
+1805;GUI: Create Photo Center Account ||| Landscape Mode ||| Email Address ||| Please fill in the required fields below ||| Take Picture ||| Crop ||| 8x10 Print ||| My Albums;41
+1751;GUI: Progressing ||| Novice ||| Good ||| Excellent ||| Pro;41
+1774;GUI: Get Triposo Pro ||| Sync ||| Distance is from the specified location;41
+1663;GUI: Title ||| Add new file;41
+1588;GUI: Set Notification Bar;41
+1575;GUI: My Photo Play ||| New Picture;41
+1759;GUI: Download#Upgrade;41
+1680;GUI: Plan Itinerary;41
+1709;GUI: Details ||| SUBMIT ||| Submit ||| Review ||| Insert comment here ||| Write Review;41
+1869;GUI: Don't have an account#Already have an account#Login ||| Login or Sign up#Version ||| Sign up with Email ||| RESEND CODE ||| Verify ||| CONFIRM RESCHEDULE#This amount will be refunded#Fetching Address;40
+1560;GUI: Favorites;40
+1781;GUI: Options;40
+1594;GUI: Save;40
+1812;GUI: CANCEL ||| City ||| Retry Now ||| Select category ||| Project Name ||| OK ||| SUBMIT ||| Locality ||| Street;39
+1874;GUI: Sign Up ||| Log In ||| SIGN UP;39
+1649;GUI: Chicken;39
+1648;GUI: add to schedule button#Add to Schedule ||| Achievements ||| Reset Player ||| Open Bluetooth Settings ||| Toggle Smart Networking ||| user avatar ||| Duplicate All ||| checkin or attended button#Check In ||| Return to Event Directory ||| Export All ||| Clear ||| Add ||| subtitle of the organization ||| camera icon in schedulable cardview footer ||| add-contact in locatable cardview footer ||| bookmark icon in mappable cardview footer ||| Learn more ||| Cancel ||| Submit ||| Rotate ||| Update ||| Send ||| note icon in mappable cardview footer ||| Search ||| location pin in mappable cardview footer ||| user status ||| Categories ||| reminder button in shareable cardview footer ||| Log in to save progress ||| banner switcher ||| Game Info ||| Search Attendees ||| Begin typing your question ||| Crop ||| location of the organization ||| Remove from Schedule#remvoe from schedule button ||| Skip All ||| Enter ||| send message icon in contactable cardview footer ||| Change Image ||| Rule Actions;38
+1642;GUI: Today ||| Delete#Okay#Done#reload#Next#Edit#Save#Remove;38
+1777;GUI: Sign in;38
+1673;GUI: View previous records ||| Search;38
+1718;GUI: Dead Animal ||| Small Animals DogPig ||| Resend OTP ||| Large Animals CowBuffaloCattles ||| Submit ||| Street Light;38
+1616;GUI: Yr Get spend on Bring Get to spend on pour trip Brin Il ri on Get to spend on your trip ||| on Wis oy Friends friends char with them mr Frierc ||| AS wish ro Log out ore if you wish to AN Ag Log Ignore if you wish to stay ||| we itp Cor raare Ose fn Contacts Co nract Infor rs USE or fr cy ||| Cor raare Ose fn Contacts in on ry CU Useful contact ||| This week aly fe Tris four weer ||| wy al on Pulse se of Feel the pi ation OF aestt you oo PL reel tne pulse of your cl ||| Student Vowr Student 2D ID nt LD Your Student ||| vy Ton Connect Discovering ople;38
+1701;GUI: Login ||| Dropoff address ||| Locate ||| My account ||| Bla Bla ||| Adresa comanda Access your favorite addresses Scoalel Unicredit Spitalul de Suveran Reumatologie al Cavalentor Casa de Malta Petit Pans Sport Virus Scoala Florian Club Que Pasa dia Vintage Kitchen Asoc Decembrie Biserica ka MARSHAL Ofetari Studio Tempo Neg se Str Jean Luis Calderon Bucuresti SPA Actor Find your address or nearby points of interest Oper Petrom Stoma-Urgent In Ter ala Club ARO Motoare Laptana Art Photo hui Enache Studio ul pulev ard Rosetti Universitate Caminul de ASTRA TNB ta Biserica Scaune os The Legend New options available directly from the start screen OK GOT IT Adresa comanda hrada Scoalel Unicredit Acceseaza rapid adresele tale favorite Suveran al Cavalentor de Malta Petit Pans Casa coala Sport Virus Num rul Florian ge Club Que asa Universitatea Media intage Kitchen Decembrie Asociatia os Biserica ka MARSHAL Ofetari Studio empo Ps ay Str Jean Luis Calderon Cafeneaua SPA Bucuresti bul Foloseste lupa pentru gasi rapid adresa cautata sau pentru vedea locatiile de interes din jurul tau In Art Photo Enache Laptana Studio Caminul de Rosetti ae arcul TNB ASTRA iserica ne caune Ai noi optiuni pe care le poti face direct din ecranul de start OK AM INTELES ||| Cancel ||| Order taxi ||| Pickup address ||| Radar ||| Nespecificat;38
+1799;GUI: Next ||| Distance is from the specified location ||| Previous;38
+1821;GUI: Geo ||| Back ||| Invite people ||| Create new group ||| Group ||| Later ||| Personal ||| People ||| Favourites;38
+1836;GUI: Cancel ||| Need help logging in;38
+1800;GUI: Next ||| Distance is from the specified location ||| Previous;37
+1835;GUI: Register ||| Title ||| Username or ||| Set Location;37
+1656;GUI: Try Again;37
+1690;GUI: More live wallpaper ||| Setting wallpaper ||| Choose wallpaper ||| Share this wallpaper ||| More free apps;37
+1591;GUI: Refresh ||| Search;37
+1850;GUI: Go Back ||| Sign Up ||| Buy More ||| New user SiGNUP;36
+1713;GUI: wwwsomedomaincom ||| contact name ||| Send Message ||| country ||| Map Directions ||| someemailsomedomaincom ||| zip ||| address ||| city state ||| Visit Site ||| Call Us;36
+1756;GUI: OK;36
+1689;GUI: More live wallpaper ||| Setting wallpaper ||| Choose wallpaper ||| Share this wallpaper ||| More free apps;36
+1599;GUI: Mic Boost ||| Join Call ||| Enable Bluetooth Mic ||| Hang-Up Call ||| Toggle Mic On Off#ON the AIR#Tap to Talk;36
+1577;GUI: image ||| Yes ||| Subscribe now;36
+1698;GUI: Get next days availability ||| Get seat availability;36
+1586;GUI: Drink ||| Eat ||| Get City;36
+1865;GUI: Send New Password ||| RentalDeals#About RentalDeals ||| Login ||| Search Deal#Deal ||| Send ||| Country ||| Modify ||| Signup ||| Terms and Conditions ||| Car Details#Pay now;35
+1873;GUI: Forgot password;35
+1607;GUI: Edi es ||| Mais tarde ||| obrigado;35
+1838;GUI: Retry;35
+1610;GUI: Insert video ||| Post body;35
+1652;GUI: ot PAR ot PART oe PART;35
+1849;GUI: Login with OTP ||| RETRY ||| Don't have an account Sign up ||| Enter Your Email ||| NEXT;35
+1841;GUI: Cancel#Apply ||| Cancel#OK ||| Cancel#Next ||| Done#Cancel ||| View ||| Cancel#Save ||| Blocked Friends#Members ||| Post ||| Delete#Cancel ||| Prev#Skip ||| Edit ||| Close ||| Accept;35
+1831;GUI: Refresh ||| L7J ||| User Account ||| Done ||| Log out;35
+1752;GUI: delivery ||| hours ||| website;34
+1790;GUI: Distance is from the specified location;34
+1705;GUI: Review;34
+1667;GUI: Yes ||| Ok ||| Yes#OK ||| Buy Chips#Rate#Yes#OK#Ok#Get Chips;34
+1844;GUI: ng xs ||| Ch hi th Kanji ern ||| Ph ng ng nhi;34
+1613;GUI: Insert video ||| Post body;34
+1604;GUI: New ||| Change source ||| Ca;34
+1614;GUI: Insert video ||| Post body;34
+1758;GUI: Enter;34
+1653;GUI: Review ||| No ||| GPS Anywhere ||| Cancel ||| Yes;34
+1845;GUI: Check the connection;33
+1783;GUI: Back to the guide;33
+1829;GUI: Title ||| Username or;33
+1813;GUI: My Events;33
+1785;GUI: Open;33
+1566;GUI: logo selected spots;33
+1846;GUI: Check the connection;33
+1668;GUI: Forgot Password ||| Beverly AESTHETIC DENTISTRY ||| Sign in ||| Sign Up;33
+1595;GUI: MyPage ||| To the list;33
+1737;GUI: Delete;33
+1658;GUI: Login or Register ||| Logout;33
+1638;GUI: Search for Visible Devices ||| New Device Pairing ||| Touble Pairing ||| Server Mode;33
+1736;GUI: Skip for now;33
+1596;GUI: Change Icon;33
+1598;GUI: Hide keypad ||| Decline ||| Answer ||| End;33
+1695;GUI: TOEVOEGEN ||| Scanner ||| ANNULEREN ||| UITLOGGEN;32
+1699;GUI: Select the categories missing then submit it;32
+1700;GUI: Get Tour;32
+1854;GUI: Home ||| Send;32
+1864;GUI: Don't have an account#Already have an account#Login ||| Sign up with Email;32
+1830;GUI: Upload;32
+1608;GUI: Continue in English;32
+1739;GUI: My Bariatric Solutions;32
+1724;GUI: Cloud Drive ||| New folder;32
+1863;GUI: OK;32
+1691;GUI: detalle del programa de puntos detalleoccactivity marcas adheridas lista hs no hay informacion disponible occ productslistactivity desc min accione expira dias mayoristas exhibicion messagesactivity listadoofertasdia lista occactivity no hay informacion disponible occ desc min accione expira dias mayoristas exhibicion lista occactivity no hay informacion disponible occ desc min accione expira dias mayoristas exhibicion;32
+1620;GUI: Share ||| Clear All;31
+1809;GUI: Yes ||| Accept;31
+1782;GUI: ChineseMenu ||| Submit;31
+1726;GUI: View My Notes ||| Home ||| Help ||| Add Note ||| My Briefcase ||| Search ||| Events;31
+1719;GUI: Register;31
+1550;GUI: COUPON ||| SUBSCRIBE NOW;31
+1590;GUI: Take Photo;31
+1678;GUI: Check In ||| Check In#Reedeem;31
+1793;GUI: Distance is from the specified location;31
+1744;GUI: View Similar Properties;31
+1755;GUI: No email available ||| No phone number available;31
+1796;GUI: Search by locations;31
+1748;GUI: Start Game;31
+1741;GUI: Riwayat;30
+1552;GUI: Published by O1digitalcombr ||| ia filminhos;30
+1769;GUI: Terms of Use ||| Save my teams ||| Privacy Policy ||| Contact Us;30
+1760;GUI: Online map ||| Change City ||| Directory ||| Offline map ||| More cities;30
+1654;GUI: Yes ||| No ||| GPS Anywhere;30
+1714;GUI: Plan Itinerary ||| Remind me later;30
+1716;GUI: Next;30
+1674;GUI: Action Alerts ||| LOGOUT OF ATA ||| Daily Reminders;30
+1747;GUI: RECENT;30
+1820;GUI: Subscribe Now ||| Confirm ||| Cancel Purchase ||| Edit Payment Info ||| Select Different Location;30
+1725;GUI: View My Notes ||| Home ||| Help ||| Add Note ||| My Briefcase ||| Search ||| Open App ||| Events;30
+1824;GUI: ADD MEMBERSHIP CARD;30
+1815;GUI: RETRY;30
+1870;GUI: Don't have an account#Already have an account#Login ||| Forgot Password ||| Saved Cards ||| Name as on Driving License ||| Sign Up ||| Password ||| OK ||| Sign up with Email ||| VERIFIED ||| RESEND OTP ||| Save ||| Skip ||| CHANGE NUMBER ||| Email Address ||| Mobile Number;30
+1728;GUI: Log Out ||| About ||| Services ||| Dashboard ||| Free Readings ||| Settings ||| Sign In ||| All Advisors ||| Add Funds ||| Customer support ||| Coupons ||| Horoscopes ||| My Favorites ||| Register ||| Transactions;30
+1615;GUI: delete;29
+1808;GUI: NY;29
+1765;GUI: Privacy Policy ||| Terms Of Service ||| Terms Privacy;29
+1860;GUI: Forgot Password ||| Login ||| Birthday ||| Gender ||| Join Us ||| Register it's Free ||| Conditions ||| Login Now;29
+1603;GUI: Correct answers ||| Share ||| Play ||| altro;29
+1742;GUI: No email available ||| Visit website ||| Search from current location ||| No phone number available;29
+1859;GUI: Forgot Password ||| Login ||| Birthday ||| Gender ||| Join Us ||| Register it's Free ||| Conditions ||| Login Now;29
+1562;GUI: Upload;29
+1651;GUI: Save ||| Cancel ||| Delete;29
+1637;GUI: Default settings ||| OK ||| Set the location;29
+1730;GUI: SIGN IN;29
+1768;GUI: Terms of Use ||| Privacy Policy ||| Contact Us ||| Edit;29
+1712;GUI: Remind me later;29
+1867;GUI: Choose your Terminal ||| Sign up with Email ||| Don't have an account#Already have an account#Login;28
+1553;GUI: Football Match HD;28
+1866;GUI: Register;28
+1685;GUI: NEXT;28
+1720;GUI: dw#dmo ||| Tweet;28
+1579;GUI: Image AIA ||| Image Continue ||| Image ||| Image G2;28
+1811;GUI: Facebook ||| Email ||| Whatsapp ||| LINE;28
+1570;GUI: Choose Country;28
+1630;GUI: ub9acuc2a4ud2b8ub97c ubd88ub7ecuc62c uc218 uc5c6uc5c8uc2b5ub2c8ub2e4 uc774uc720 ub0b4uc5ed uc5c6uc74c ||| Add ||| ud478uc2dc uc54cub78c ub4f1ub85d;28
+1792;GUI: Forgot your ||| Create an Account ||| Already have an account Log in ||| Send Me Information;28
+1660;GUI: Private Feedback ||| Review;27
+1872;GUI: Don't have an account#Already have an account#Login ||| Sign up with Email;27
+1861;GUI: OK;27
+1569;GUI: SZ ||| Summary ||| Save;27
+1692;GUI: Enregistrer;27
+1621;GUI: Share on Facebook;27
+1639;GUI: Previous theme ||| Homee ||| Choose other themes ||| Try again ||| choose themes ||| Help;27
+1791;GUI: Distance is from the specified location ||| Book now;27
+1711;GUI: BackButton ||| Disagree ||| Agree;27
+1826;GUI: NEXT ||| SHARE YOUR CHECK-IN ||| ADD ANOTHER CARD ||| Skip and go to app ||| SIGN IN WITHOUT CARD ||| REMOVE THIS CARD ||| Get One Month Membership;27
+1619;GUI: Report;27
+1787;GUI: Register;26
+1794;GUI: Forword ||| Copy ||| Delete ||| Button ||| Create My Account;26
+1585;GUI: Refresh ||| doapp;26
+1745;GUI: Browse Categories ||| Update;26
+1677;GUI: Send password;26
+1807;GUI: Local ||| Sign In ||| Select ||| Cloud Album ||| Cancel ||| Sign Up;26
+1622;GUI: SHARE;26
+1640;GUI: More ||| Try again;26
+1776;GUI: Sign in ||| Distance is from the specified location;26
+1635;GUI: OK ||| Later ||| Set Now;26
+1564;GUI: Arabic ||| Saihat Saudi Arabia ||| English ||| Silent and vibration ||| Alarms;26
+1839;GUI: Edit Registry ||| Scan Barcode;26
+1623;GUI: Play ||| Replace ||| Remove;25
+1551;GUI: TOEIC;25
+1743;GUI: Visit website;25
+1548;GUI: BR;25
+1659;GUI: DONE;25
+1840;GUI: Edit Registry ||| Store Info ||| In-Store Map ||| Scan Barcode;25
+1555;GUI: PTT;25
+1766;GUI: Map ||| Zip Cty State or Address ||| Details ||| IMPOWER ||| Version Logging in#Loading IMPOWER Powered By Smarter Agent Mobile Powered By Smarter Agent Mobile;25

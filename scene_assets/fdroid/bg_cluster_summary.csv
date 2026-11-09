@@ -1,0 +1,238 @@
+cluster_id;scenario_label;count
+215;main activity create main;652
+216;main activity create main;623
+189;main activity home main;607
+188;main activity home main;606
+105;main activity lambda create main activity main;287
+185;main activity window starting action mode main;261
+186;list widget config activity create configure;260
+169;settings activity set content view;259
+184;main activity window starting action mode main;251
+21;media playback service medium browse mediabrowserservice;249
+191;activity create;248
+132;splash activity create main;247
+133;splash activity create main;246
+229;activity click;224
+235;main activity click main;224
+190;activity create;222
+194;main activity main;222
+195;main activity main;218
+230;activity click view;207
+47;main activity request permissions result main;202
+236;main activity click main;202
+168;main activity h main;189
+136;main activity apply window inset main;187
+149;login activity webview;184
+48;set usb device usb iso start auto detection hardware usb usb device attach android hardware usb usb device detach;183
+144;web view activity;173
+227;main activity options item select main;173
+137;main activity apply window inset main;165
+145;web view activity;162
+226;main activity options item select main;161
+157;main activity dispatch key event main;159
+7;receive;157
+108;widget provider update widget update;155
+71;crop image activity crop image;150
+127;main activity show notification main;149
+158;main activity dispatch key event main;146
+30;message list activity lambda bind contact list adapter read contact holder;143
+117;edit activity;143
+10;h j receive;142
+25;sms receive receiver receive provider telephony sms deliver;142
+207;setting activity create;142
+8;receive;141
+42;change list activity start;141
+218;main activity item select main;138
+6;text speech api text speech service receive;136
+122;tile service click service qs tile;135
+165;edit activity click;130
+234;main activity item click main;126
+198;main activity panel closed main;124
+208;setting activity create;123
+202;main activity open main;121
+203;main activity open main;121
+164;main activity dispatch key shortcut event main;120
+153;setting activity start result;117
+163;main activity dispatch key shortcut event main;117
+128;main activity add notification main;117
+77;crash report activity exception;114
+28;job service start job;113
+161;main activity main android view;110
+178;main activity activity paused main;110
+217;main activity item select main;109
+210;main activity create view;109
+79;libs activity create;109
+118;main activity create service qs tile preference;108
+112;app browser activity start app browser activity;105
+69;u crop activity;105
+140;main activity destroy main;104
+114;app browser activity show;103
+146;main activity resume main;103
+228;preference activity click;102
+224;setting activity options item select main;102
+179;main activity run;102
+39;candy bar wallpaper activity click;101
+37;boot receiver receive boot complete;101
+81;launcher activity launch application send multiple android send;99
+197;main activity panel closed main;99
+147;main activity resume main;98
+56;tutorial activity launch home screen;98
+211;main activity create view;95
+120;quick settings tile service click service qs tile;95
+152;setting activity;94
+113;app browser activity start app browser activity;93
+64;watch pairing activity create;92
+0;water purification cancel receiver;92
+97;activity bind view holder lambda;91
+89;scan activity scan;91
+213;main activity view;91
+104;profile activity lambda create view app fragment;91
+44;activity error create;89
+9;k receive;89
+106;data management activity lambda create view;88
+101;widget dispatch update intent update;87
+103;settings activity lambda create preferences configuration fragment;87
+43;update service show schedule update notification main;87
+139;music manager activity preference click;86
+1;message list shortcut intent account view;86
+12;api receiver work;86
+4;main k send;85
+134;app settings dialog holder activity create show dialog intent;85
+31;notification listener notification post service notification notificationlistenerservice;84
+82;count activity count;83
+200;main activity start main;82
+80;post creation activity intent send multiple android send;81
+172;main activity create options main;81
+75;session details activity create intent;81
+171;message enc activity click;80
+34;network monitor auto detect destroy;80
+110;widget update update;80
+111;browser activity view;80
+88;launcher activity create main;80
+92;activity setting show notification application preference;80
+212;main activity view;79
+232;setting activity click;79
+107;main activity init view;79
+14;share location activity get fetch intent;78
+155;main activity dispatch key event view;77
+196;main activity open view;77
+233;main activity click send;76
+209;activity summary detail click;76
+38;boot receiver receive boot complete android;76
+115;app browser activity show;76
+192;main activity options item select main android view;75
+17;video activity;74
+116;main activity configuration change;74
+100;license activity license;74
+135;main activity apply window inset view;73
+46;main activity create dialog chan handle uri;73
+16;call integration connection service create outgoing connection telecom connectionservice;72
+231;setting activity click;71
+2;ep mobile h main;71
+180;main activity stop main;71
+222;setting activity options item select;71
+148;password vault activity click;71
+24;easy onboarding invite activity launch;71
+66;show location activity create geo intents message;71
+126;main activity notify main;71
+173;main activity create options main;71
+159;main activity create launch intent main;71
+201;main activity activity start main;71
+73;alarm activity start;70
+83;activity aboutactivity;70
+94;main activity invoke main;69
+143;web view activity c;69
+67;preference activity shared preference changed;69
+129;main activity update notification main;69
+84;activity create show map intent;68
+156;main activity new intent main;68
+223;setting activity options item select;68
+125;setting activity create application preference;67
+51;main web view activity u web search;66
+74;main activity animation end main;66
+174;activity window starting action mode;66
+35;receive timezone change android time set android time tick android power save mode change;66
+22;application preferences activity k view;65
+52;main web view activity u web search;65
+5;main k send;65
+214;python activity item click main;64
+199;main activity create send;64
+72;crop image activity create intent;64
+41;receive net conn connectivity change;64
+167;library activity activity result main;64
+166;splash activity window starting action mode main;64
+27;main activity build content intent medium medium play search;64
+170;main activity activity result main;63
+183;help activity create;63
+160;main activity create launch intent main;63
+40;receive net conn connectivity change;63
+76;new conversation activity view;62
+61;camera activity check directory exist;62
+123;tile service video click service qs tile;62
+141;main activity create shortcuts;62
+45;uri handler activity scan;61
+205;main activity send;61
+65;import backup activity start;61
+95;main activity invoke suspend main;61
+109;main activity update widget main;60
+121;intra tile service click service qs tile;59
+225;activity summaries filter click;59
+138;main item select main;59
+29;run command controls provider service get intent service control controlsproviderservice;59
+130;splash activity main;59
+53;contact details activity switch contact detail;59
+204;main activity send;59
+175;setting activity window starting action mode;59
+62;python activity start foreground main;58
+181;main activity frame main;58
+13;create;58
+59;conference details activity open;58
+96;main activity init lambda main;58
+3;dialog helper show dialog view;58
+131;splash screen activity create main;58
+18;application lock service accessibility event accessibilityservice accessibilityservice;57
+58;details activity open detail;56
+102;edit profile activity view create lambda;56
+91;main get notification main;56
+20;edit entry activity abort orphan;56
+162;main activity dispatch key shortcut event view;56
+150;login activity lambda sign login activity main;56
+23;schedule notification receiver repeat notification;56
+193;main activity panel closed view;56
+124;notification intent activity;55
+55;discovery activity v create view;55
+50;start conversation activity create launcher intent view;55
+119;dns filter tile service click service qs tile;55
+57;details activity open detail;54
+142;shortcut activity create create shortcut;54
+176;main activity window starting action mode view;54
+151;setting activity show setting;54
+90;main activity send text pick android view android send;54
+26;main activity build content intent medium medium play search;54
+19;tv home override service service connected accessibilityservice accessibilityservice;54
+219;message list activity item click;53
+93;main activity invoke send;53
+99;license activity create;53
+177;main activity window starting action mode view;53
+60;conference details activity open;53
+87;create profile activity c;53
+86;main activity dismiss main;53
+220;search activity action item click send;53
+63;main activity abort orphan send multiple android send;53
+33;activity main poi add poi;53
+70;u crop activity get intent;52
+187;main activity rufus home main;52
+15;customization activity commons share theme activate org common shared theme update;52
+182;help activity create;52
+85;setup activity show restart notification;52
+98;view user detail activity lambda set base view;52
+36;power receiver receive power connect;51
+49;message list activity show friend;51
+68;widget close start click stop click pause click update android update;51
+32;activity main poi add poi;51
+154;activity dispatch key event;50
+221;activity options item select;50
+11;b receive;50
+206;main activity start view;50
+54;map activity invoke;50
+78;default prefs activity start default prefs activity persistent defaultsprefsactivity;50

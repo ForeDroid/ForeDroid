@@ -1,0 +1,6 @@
+{
+  "training_input_apks": 2436,
+  "fused_apks": 1912,
+  "reference_apks": 1458,
+  "model_training_apks": 1438
+}

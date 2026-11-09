@@ -1,0 +1,323 @@
+cluster;name;count
+-1;cluster_-1;42560
+215;BG: main activity create main;652
+216;BG: main activity create main;623
+189;BG: main activity home main;607
+188;BG: main activity home main;606
+105;BG: main activity lambda create main activity main;287
+185;BG: main activity window starting action mode main;261
+186;BG: list widget config activity create configure;260
+169;BG: settings activity set content view;259
+184;BG: main activity window starting action mode main;251
+21;BG: media playback service medium browse mediabrowserservice;249
+191;BG: activity create;248
+132;BG: splash activity create main;247
+133;BG: splash activity create main;246
+235;BG: main activity click main;224
+229;BG: activity click;224
+190;BG: activity create;222
+194;BG: main activity main;222
+195;BG: main activity main;218
+230;BG: activity click view;207
+265;GUI: Deny;206
+47;BG: main activity request permissions result main;202
+236;BG: main activity click main;202
+168;BG: main activity h main;189
+136;BG: main activity apply window inset main;187
+149;BG: login activity webview;184
+48;BG: set usb device usb iso start auto detection hardware usb usb device attach android hardware usb usb device detach;183
+269;GUI: Authenticate;178
+227;BG: main activity options item select main;173
+144;BG: web view activity;173
+137;BG: main activity apply window inset main;165
+145;BG: web view activity;162
+226;BG: main activity options item select main;161
+251;GUI: write status;159
+157;BG: main activity dispatch key event main;159
+7;BG: receive;157
+108;BG: widget provider update widget update;155
+71;BG: crop image activity crop image;150
+127;BG: main activity show notification main;149
+158;BG: main activity dispatch key event main;146
+30;BG: message list activity lambda bind contact list adapter read contact holder;143
+117;BG: edit activity;143
+10;BG: h j receive;142
+25;BG: sms receive receiver receive provider telephony sms deliver;142
+207;BG: setting activity create;142
+42;BG: change list activity start;141
+8;BG: receive;141
+218;BG: main activity item select main;138
+6;BG: text speech api text speech service receive;136
+122;BG: tile service click service qs tile;135
+165;BG: edit activity click;130
+234;BG: main activity item click main;126
+198;BG: main activity panel closed main;124
+208;BG: setting activity create;123
+203;BG: main activity open main;121
+202;BG: main activity open main;121
+164;BG: main activity dispatch key shortcut event main;120
+163;BG: main activity dispatch key shortcut event main;117
+153;BG: setting activity start result;117
+128;BG: main activity add notification main;117
+77;BG: crash report activity exception;114
+28;BG: job service start job;113
+178;BG: main activity activity paused main;110
+161;BG: main activity main android view;110
+79;BG: libs activity create;109
+217;BG: main activity item select main;109
+210;BG: main activity create view;109
+118;BG: main activity create service qs tile preference;108
+112;BG: app browser activity start app browser activity;105
+69;BG: u crop activity;105
+140;BG: main activity destroy main;104
+114;BG: app browser activity show;103
+146;BG: main activity resume main;103
+179;BG: main activity run;102
+228;BG: preference activity click;102
+224;BG: setting activity options item select main;102
+39;BG: candy bar wallpaper activity click;101
+37;BG: boot receiver receive boot complete;101
+197;BG: main activity panel closed main;99
+81;BG: launcher activity launch application send multiple android send;99
+147;BG: main activity resume main;98
+56;BG: tutorial activity launch home screen;98
+319;GUI: Clear ||| Close;96
+211;BG: main activity create view;95
+284;GUI: Get currently played track ||| Search by artist ||| Search for text in lyrics ||| Search inside lyrics ||| Look for artist's tracks ||| Search by track name ||| Look for track name;95
+120;BG: quick settings tile service click service qs tile;95
+152;BG: setting activity;94
+113;BG: app browser activity start app browser activity;93
+0;BG: water purification cancel receiver;92
+64;BG: watch pairing activity create;92
+89;BG: scan activity scan;91
+213;BG: main activity view;91
+277;GUI: Add ||| UDP#TCP#SOCKS#HTTP ||| Refresh ||| Set Password ||| Automatic Refresh ||| Recycle Memory ||| Clear Log ||| Details ||| Reset SmokeStack ||| Reset Fields ||| Save;91
+104;BG: profile activity lambda create view app fragment;91
+97;BG: activity bind view holder lambda;91
+44;BG: activity error create;89
+9;BG: k receive;89
+106;BG: data management activity lambda create view;88
+101;BG: widget dispatch update intent update;87
+43;BG: update service show schedule update notification main;87
+103;BG: settings activity lambda create preferences configuration fragment;87
+12;BG: api receiver work;86
+139;BG: music manager activity preference click;86
+1;BG: message list shortcut intent account view;86
+4;BG: main k send;85
+134;BG: app settings dialog holder activity create show dialog intent;85
+31;BG: notification listener notification post service notification notificationlistenerservice;84
+82;BG: count activity count;83
+318;GUI: Settings;83
+200;BG: main activity start main;82
+80;BG: post creation activity intent send multiple android send;81
+172;BG: main activity create options main;81
+75;BG: session details activity create intent;81
+34;BG: network monitor auto detect destroy;80
+88;BG: launcher activity create main;80
+111;BG: browser activity view;80
+171;BG: message enc activity click;80
+110;BG: widget update update;80
+92;BG: activity setting show notification application preference;80
+212;BG: main activity view;79
+107;BG: main activity init view;79
+232;BG: setting activity click;79
+14;BG: share location activity get fetch intent;78
+242;GUI: Next ||| Previous ||| Copy URI;77
+155;BG: main activity dispatch key event view;77
+196;BG: main activity open view;77
+38;BG: boot receiver receive boot complete android;76
+209;BG: activity summary detail click;76
+115;BG: app browser activity show;76
+233;BG: main activity click send;76
+192;BG: main activity options item select main android view;75
+278;GUI: Search or type URL;75
+100;BG: license activity license;74
+116;BG: main activity configuration change;74
+17;BG: video activity;74
+135;BG: main activity apply window inset view;73
+46;BG: main activity create dialog chan handle uri;73
+16;BG: call integration connection service create outgoing connection telecom connectionservice;72
+24;BG: easy onboarding invite activity launch;71
+180;BG: main activity stop main;71
+285;GUI: Open ||| Cancel;71
+173;BG: main activity create options main;71
+126;BG: main activity notify main;71
+66;BG: show location activity create geo intents message;71
+222;BG: setting activity options item select;71
+159;BG: main activity create launch intent main;71
+2;BG: ep mobile h main;71
+201;BG: main activity activity start main;71
+231;BG: setting activity click;71
+148;BG: password vault activity click;71
+73;BG: alarm activity start;70
+83;BG: activity aboutactivity;70
+67;BG: preference activity shared preference changed;69
+129;BG: main activity update notification main;69
+94;BG: main activity invoke main;69
+143;BG: web view activity c;69
+156;BG: main activity new intent main;68
+84;BG: activity create show map intent;68
+223;BG: setting activity options item select;68
+125;BG: setting activity create application preference;67
+291;GUI: Player;67
+174;BG: activity window starting action mode;66
+35;BG: receive timezone change android time set android time tick android power save mode change;66
+74;BG: main activity animation end main;66
+51;BG: main web view activity u web search;66
+52;BG: main web view activity u web search;65
+22;BG: application preferences activity k view;65
+5;BG: main k send;65
+166;BG: splash activity window starting action mode main;64
+167;BG: library activity activity result main;64
+199;BG: main activity create send;64
+41;BG: receive net conn connectivity change;64
+214;BG: python activity item click main;64
+243;GUI: New Project;64
+27;BG: main activity build content intent medium medium play search;64
+72;BG: crop image activity create intent;64
+307;GUI: none ||| Share key via clipboard ||| Upload To Keyserver ||| Try again ||| Back ||| Cancel ||| Encrypt files ||| Encrypt text ||| Share key;63
+274;GUI: accept call;63
+183;BG: help activity create;63
+160;BG: main activity create launch intent main;63
+40;BG: receive net conn connectivity change;63
+170;BG: main activity activity result main;63
+123;BG: tile service video click service qs tile;62
+61;BG: camera activity check directory exist;62
+76;BG: new conversation activity view;62
+266;GUI: Open ||| Pick from contacts ||| Share;62
+141;BG: main activity create shortcuts;62
+95;BG: main activity invoke suspend main;61
+65;BG: import backup activity start;61
+256;GUI: Settings ||| Sudoku Lists ||| Resume;61
+258;GUI: Add widget command;61
+299;GUI: Start Full Test ||| Delete Calibration ||| Instructions ||| Add simple calibration ||| Calibration ||| Test single frequency ||| Add full calibration;61
+205;BG: main activity send;61
+45;BG: uri handler activity scan;61
+109;BG: main activity update widget main;60
+304;GUI: restart app ||| Settings;60
+130;BG: splash activity main;59
+53;BG: contact details activity switch contact detail;59
+138;BG: main item select main;59
+121;BG: intra tile service click service qs tile;59
+255;GUI: Hide Show ||| Type your answer here ||| Next ||| Back;59
+175;BG: setting activity window starting action mode;59
+204;BG: main activity send;59
+29;BG: run command controls provider service get intent service control controlsproviderservice;59
+225;BG: activity summaries filter click;59
+303;GUI: Import;58
+3;BG: dialog helper show dialog view;58
+131;BG: splash screen activity create main;58
+62;BG: python activity start foreground main;58
+272;GUI: Write data on tag ||| Edit;58
+96;BG: main activity init lambda main;58
+13;BG: create;58
+59;BG: conference details activity open;58
+181;BG: main activity frame main;58
+296;GUI: Grant Permissions;58
+18;BG: application lock service accessibility event accessibilityservice accessibilityservice;57
+295;GUI: New Game;57
+58;BG: details activity open detail;56
+162;BG: main activity dispatch key shortcut event view;56
+193;BG: main activity panel closed view;56
+20;BG: edit entry activity abort orphan;56
+23;BG: schedule notification receiver repeat notification;56
+91;BG: main get notification main;56
+150;BG: login activity lambda sign login activity main;56
+102;BG: edit profile activity view create lambda;56
+239;GUI: Run;55
+50;BG: start conversation activity create launcher intent view;55
+124;BG: notification intent activity;55
+119;BG: dns filter tile service click service qs tile;55
+55;BG: discovery activity v create view;55
+176;BG: main activity window starting action mode view;54
+57;BG: details activity open detail;54
+19;BG: tv home override service service connected accessibilityservice accessibilityservice;54
+142;BG: shortcut activity create create shortcut;54
+90;BG: main activity send text pick android view android send;54
+151;BG: setting activity show setting;54
+26;BG: main activity build content intent medium medium play search;54
+33;BG: activity main poi add poi;53
+177;BG: main activity window starting action mode view;53
+93;BG: main activity invoke send;53
+60;BG: conference details activity open;53
+87;BG: create profile activity c;53
+86;BG: main activity dismiss main;53
+219;BG: message list activity item click;53
+220;BG: search activity action item click send;53
+63;BG: main activity abort orphan send multiple android send;53
+99;BG: license activity create;53
+85;BG: setup activity show restart notification;52
+70;BG: u crop activity get intent;52
+98;BG: view user detail activity lambda set base view;52
+15;BG: customization activity commons share theme activate org common shared theme update;52
+252;GUI: Measure ||| Acknowledge;52
+187;BG: main activity rufus home main;52
+279;GUI: Grant Permission;52
+286;GUI: Upload ||| Keep#Share#Open ||| Delete ||| Keep#Share;52
+182;BG: help activity create;52
+68;BG: widget close start click stop click pause click update android update;51
+36;BG: power receiver receive power connect;51
+49;BG: message list activity show friend;51
+32;BG: activity main poi add poi;51
+221;BG: activity options item select;50
+154;BG: activity dispatch key event;50
+78;BG: default prefs activity start default prefs activity persistent defaultsprefsactivity;50
+206;BG: main activity start view;50
+54;BG: map activity invoke;50
+314;GUI: New Game ||| Continue Game;50
+11;BG: b receive;50
+287;GUI: Continue ||| telephone number;46
+283;GUI: Next;46
+292;GUI: Settings ||| Refresh;46
+270;GUI: Screen Rotation ||| Player next ||| Unlock controls ||| Navigate up ||| Video zoom ||| Lock controls ||| Select playback speed ||| Player previous ||| Select audio track ||| Select subtitle track;45
+247;GUI: Progress;45
+254;GUI: Start;44
+308;GUI: Settings;44
+276;GUI: Restore Wallet ||| Create New Wallet;44
+312;GUI: The service has to be running for that#Select connection option;43
+309;GUI: Next ||| Auto Zoom ||| Filename ||| Enter password ||| Password protect backup file ||| Exit ||| Cancel ||| Find GPS location ||| Restore ||| Prev ||| OK ||| Create;42
+281;GUI: Batch add ||| Search ||| Add Metalink ||| WebView ||| Add URI ||| Add Torrent;42
+271;GUI: Start sharing ||| Create new sharing link;41
+289;GUI: Folder ||| Icon;41
+246;GUI: Send;41
+260;GUI: Resume Session ||| Start new Session;40
+249;GUI: Open ||| Partial file opening ||| Recently opened;40
+300;GUI: ALLOW PERMISSION AND START SENSOR FIX;40
+313;GUI: Start;39
+250;GUI: Profile image ||| write status ||| Banner Image;39
+320;GUI: Clear ||| Close ||| Other Non-Smoke;39
+261;GUI: BEEPER ||| DETECT ||| INSTRUCTIONS;38
+262;GUI: GPS fix status;36
+310;GUI: Show SSIDs Matching regex;36
+315;GUI: Complete Scan ||| Incremental Scan;35
+273;GUI: Read Tag;34
+293;GUI: Image;34
+241;GUI: Send inventory;34
+237;GUI: Addition#Multiplication#Miscellaneous#Subtraction#Simplification#Division#Addition Series#Simplification Advance ||| Starts Now;34
+267;GUI: RETOURNER SUR 'INTERFACE PAR FAUT ||| Envoyer un SMS ||| APPEL ||| CONTACTS ||| SMS;34
+306;GUI: Jump to Store ||| Copy error message ||| Send email ||| Turn off recovery mode ||| Send Telegram;33
+290;GUI: biometrics ||| Unlock;33
+301;GUI: Monitoring Enabled ||| Auto-Restart Monitoring After Alert ||| Add SMS Emergency Contact;33
+294;GUI: Add ||| Time;32
+245;GUI: Instance banner image;32
+238;GUI: Size ||| Delete ||| Copy;32
+257;GUI: Add Domain;32
+288;GUI: Tap this button and speak;31
+264;GUI: Calibrate;31
+305;GUI: Report this error via telegram ||| Report on GitHub ||| Report this error via e-mail ||| Copy formatted report;30
+298;GUI: Scroll to top;30
+244;GUI: About;30
+317;GUI: Next month;29
+240;GUI: Apply Changes;28
+297;GUI: 0x;28
+316;GUI: Play audio content ||| Scroll to top;28
+282;GUI: Settings;27
+311;GUI: Control center;27
+280;GUI: Add custom URL or search engine;27
+275;GUI: Log in;26
+259;GUI: 1KB ||| 80KB ||| Auto start on boot ||| Interpolate notice battery life ||| 50KB ||| 100KB ||| Logarithm bar ||| Hide when in fullscreen ||| 20KB;26
+248;GUI: Save;25
+253;GUI: About ||| Continue;25
+302;GUI: Import Contacts ||| Import Call Log ||| Wipe Messages ||| Export Messages ||| Export Contacts ||| Export Call Log ||| Import Messages ||| Set default SMS app;25
+263;GUI: Offline;25
+268;GUI: Licensing information ||| Retry ||| Digital Speedometer fullscreen ||| Grant location permission ||| Change;25
